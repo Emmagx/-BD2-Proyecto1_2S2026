@@ -1,2555 +1,2555 @@
 ID,NOMBRE,ID_PAIS
-1,Gironde,1
-2,Yvelines,1
-3,Pyrénées-Atlantiques,1
-4,Paris,1
-5,England,2
-6,Somme,1
-7,Essonne,1
-8,Rhône,1
-9,Gard,1
-10,Cher,1
-11,Calvados,1
-12,Casablanca-Settat,63
-13,Allier,1
-14,Hauts-de-Seine,1
-15,Pas-de-Calais,1
-16,Doubs,1
-17,Manche,1
+1,Gironde,72
+2,Yvelines,72
+3,Pyrénées-Atlantiques,72
+4,Paris,72
+5,England,77
+6,Somme,72
+7,Essonne,72
+8,Rhône,72
+9,Gard,72
+10,Cher,72
+11,Calvados,72
+12,Casablanca-Settat,128
+13,Allier,72
+14,Hauts-de-Seine,72
+15,Pas-de-Calais,72
+16,Doubs,72
+17,Manche,72
 18,Îles du Vent,231
-19,Oise,1
-20,Baghdad,47
-21,California,34
-22,Wales,2
-23,KwaZulu-Natal,102
-24,Dublin,46
-25,Western Cape,102
-26,West Bengal,15
-27,Fujian,24
-28,Kingston,51
-29,Victoria,17
-30,Scotland,2
-31,Karnataka,15
-32,Monaghan,46
-33,Québec,23
-34,Baden-Württemberg,4
-35,Bayern,4
-36,Saarland,4
-37,Sachsen,4
-38,Mureș,101
-39,Nordrhein-Westfalen,4
-40,Rheinland-Pfalz,4
-41,Niedersachsen,4
-42,Hebei,24
-43,Hamburg,4
-44,Bihor,101
-45,Bas-Rhin,1
-46,Rio de Janeiro,21
-47,Hessen,4
-48,Olomoucký kraj,88
-49,Mecklenburg-Vorpommern,4
-50,Moskva,103
-51,Schleswig-Holstein,4
-52,Moselle,1
-53,Attiki,6
-54,Bistrița-Năsăud,101
-55,Cluj,101
-56,Al-Iskanderiya,79
-57,Rabat-Salé-Kénitra,63
-58,Vas,10
-59,Somogy,10
-60,Budapest,10
-61,Hajdú-Bihar,10
-62,Szabolcs-Szatmár-Bereg,10
-63,Borsod-Abaúj-Zemplén,10
-64,Pest,10
-65,Podkarpackie,74
-66,Baranya,10
-67,Ciudad de México,66
-68,Južna Bačka,129
-69,Prešov,120
-70,Daerah Istimewa Yogyakarta,12
-71,Jawa Barat,12
-72,Jawa Tengah,12
-73,Jawa Timur,12
-74,Sulawesi Selatan,12
-75,Daerah Khusus Ibukota Jakarta,12
-76,Kalimantan Timur,12
-77,Sulawesi Utara,12
-78,Maluku Utara,12
-79,Sulawesi Tenggara,12
-80,Uttar Pradesh,15
-81,Tamil Nadu,15
-82,Maharashtra,15
-83,Andhra Pradesh,15
-84,Himachal Pradesh,15
-85,Basnahira,117
-86,Punjab,70
-87,Pontevedra,29
-88,Western Australia,17
-89,New South Wales,17
-90,South Australia,17
-91,Oberösterreich,13
-92,Wien,13
-93,Vlaams Brabant,18
-94,Antwerpen,18
-95,West-Vlaanderen,18
-96,Oost-Vlaanderen,18
-97,Région de Bruxelles-Capitale,18
-98,Hainaut,18
-99,Vitebsk,20
-100,Minsk,20
-101,Rio Grande do Sul,21
-102,Gabrovo,22
-103,British Columbia,23
-104,Ontario,23
-105,Nova Scotia,23
-106,Jilin,24
-107,Shandong,24
-108,Shanxi,24
-109,San José,26
-110,Hovedstaden,28
-111,Midtjylland,28
-112,Nordjylland,28
-113,Asturias,29
-114,Madrid,29
-115,Tarragona,29
-116,Ciudad Real,29
-117,Huelva,29
-118,Barcelona,29
-119,Raplamaa,30
-120,Satakunta,31
-121,Uusimaa,31
-122,Pirkanmaa,31
-123,Kanta-Häme,31
-124,Kainuu,31
-125,Pohjanmaa,31
-126,Lappi,31
-127,Pohjois-Karjala,31
-128,Etelä-Pohjanmaa,31
-129,Pohjois-Pohjanmaa,31
-130,Vaucluse,1
-131,Hérault,1
-132,Basel-Stadt,107
-133,Val-de-Marne,1
-134,Seine-et-Marne,1
-135,Meuse,1
-136,Meurthe-et-Moselle,1
-137,Seine-Saint-Denis,1
-138,Finistère,1
-139,Haute-Saône,1
-140,Nord,1
-141,Eure-et-Loir,1
-142,Pyrénées-Orientales,1
-143,Aisne,1
-144,Puy-de-Dôme,1
-145,Tbilisi,33
-146,Warmińsko-Mazurskie,74
-147,Plzeňský kraj,88
-148,Ústecký kraj,88
-149,Salzburg,13
-150,Dolnośląskie,74
-151,Thüringen,4
-152,Louth,46
-153,Ciudad Autónoma de Buenos Aires,16
-154,Yerevan,36
-155,Guangdong,24
-156,Queensland,17
-157,Jiangsu,24
-158,Beijing,24
-159,Tasmania,17
-160,Steiermark,13
-161,Kärnten,13
-162,Shanghai,24
-163,Hlavní město Praha,88
-164,Niederösterreich,13
-165,New Providence,37
-166,City of Freeport,37
-167,Liège,18
-168,Altay Kray,103
-169,Hrodna,20
-170,Jihočeský kraj,88
-171,Distrito Federal,21
-172,São Paulo,21
-173,Paraná,21
-174,Kardzhali,22
-175,Sofia Grad,22
-176,Plovdiv,22
-177,Pazardzhik,22
-178,Phnom Penh,77
-179,Uttarakhand,15
-180,Saskatchewan,23
-181,Genève,107
-182,Beograd,129
-183,Santiago Metropolitan,43
-184,Hubei,24
-185,Hunan,24
-186,Henan,24
-187,Guangxi,24
-188,Tel Aviv,49
-189,Heifa,49
-190,Toshkent Viloyati,125
-191,Parma,50
-192,Torino,50
-193,Bologna,50
-194,Milano,50
-195,Napoli,50
-196,Mantova,50
-197,Ravenna,50
-198,Modena,50
-199,Genova,50
-200,Pavia,50
-201,Alessandria,50
-202,La Spezia,50
-203,Ancona,50
-204,Treviso,50
-205,Frosinone,50
-206,Roma,50
-207,Kyoto,53
-208,Hiroshima,53
-209,Gunma,53
-210,Tokyo,53
-211,Kumamoto,53
-212,Nara,53
-213,Chiba,53
-214,Osaka,53
-215,Miyagi,53
-216,Hyogo,53
-217,Kanagawa,53
-218,Fukuoka,53
-219,Aichi,53
-220,Ehime,53
-221,Yamagata,53
-222,Hokkaido,53
-223,Kagoshima,53
-224,Seoul,54
-225,Busan,54
-226,Gangwon,54
-227,Jeollanam,54
-228,Ulsan,54
-229,Gyeongsangbuk,54
-230,Gyeongsangnam,54
-231,Chungcheongnam,54
-232,Rīga,57
-233,Lviv,111
-234,Kaunas,60
-235,Luxembourg,61
-236,Analamanga,62
-237,Perak,64
-238,Pulau Pinang,64
-239,Selangor,64
-240,Johor,64
-241,Puebla,66
-242,Baja California,66
-243,Querétaro,66
-244,Jalisco,66
-245,Plaines Wilhems,65
-246,Overijssel,14
-247,Gelderland,14
-248,Noord-Holland,14
-249,Noord-Brabant,14
-250,Zuid-Holland,14
-251,Dolj,101
-252,Utrecht,14
-253,Friesland,14
-254,Lagos,67
-255,Plateau,67
-256,Enugu,67
-257,Kwara,67
-258,Trøndelag,68
-259,İstanbul,110
-260,Oslo,68
-261,Vestfold og Telemark,68
-262,Viken,68
-263,Wellington,69
-264,Northland,69
-265,Auckland,69
-266,Gisborne,69
-267,Southland,69
-268,Manawatu-Wanganui,69
-269,Sindh,70
-270,Asunción,71
-271,Misiones,16
-272,Lima,72
-273,Córdoba,16
-274,Opolskie,74
-275,Wielkopolskie,74
-276,Pomorskie,74
-277,Łódzkie,74
-278,Śląskie,74
-279,Mazowieckie,74
-280,Zachodniopomorskie,74
-281,Varna,22
-282,Burgas,22
-283,Sliven,22
-284,Kyustendil,22
-285,Dobrich,22
-286,Lovech,22
-287,Pernik,22
-288,Saint Michael,162
-289,Northwest Territories,23
-290,Manitoba,23
-291,Alberta,23
-292,Delta,67
-293,Hong Kong,9
-294,Essequibo Islands-West Demerara,137
-295,Campobasso,50
-296,Demerara-Mahaica,137
-297,Ohio,34
-298,Pool,78
-299,Kinshasa,159
-300,Likouala,78
-301,Al-Qahira,79
-302,Los Ríos,43
-303,Los Lagos,43
-304,Valparaíso,43
-305,Tarapacá,43
-306,Antofagasta,43
-307,Biobío,43
-308,Araucanía,43
-309,Heilongjiang,24
-310,Northwest,82
-311,Littoral,82
-312,Centre,82
-313,Caquetá,25
-314,Bolívar,25
-315,Casanare,25
-316,Sucre,25
-317,Magdalena,25
-318,Antioquia,25
-319,Atlántico,25
-320,Australian Capital Territory,17
-321,Northern Territory,17
-322,Puerto Rico,84
-323,Taiwan,44
-324,Delaware,34
-325,Tianjin,24
-326,Thành phố Hồ Chí Minh,179
-327,Florida,34
-328,Aomori,53
-329,New Jersey,34
-330,Tainan,44
-331,Texas,34
-332,Taichung,44
-333,Pinar del Río,85
-334,Villa Clara,85
-335,Ciego de Ávila,85
-336,Sancti Spíritus,85
-337,Guantánamo,85
-338,Matanzas,85
-339,Holguín,85
-340,Ciudad de La Habana,85
-341,Santiago de Cuba,85
-342,Camagüey,85
-343,Las Tunas,85
-344,Distrito Nacional,86
-345,Espaillat,86
-346,Navarra,29
-347,Vizcaya,29
-348,Álava,29
-349,Vicenza,50
-350,Vaud,107
-351,Rimini,50
-352,Macerata,50
-353,Novara,50
-354,Foggia,50
-355,Grosseto,50
-356,Imperia,50
-357,Pisa,50
-358,Wakayama,53
-359,Saitama,53
-360,Shizuoka,53
-361,Kochi,53
-362,Akita,53
-363,Miyazaki,53
-364,Gifu,53
-365,Splitsko-dalmatinska županija,87
-366,Granma,85
-367,Cienfuegos,85
-368,Mayabeque,85
-369,Karlovarský kraj,88
-370,Košice,120
-371,Trnava,120
-372,Sivas,110
-373,Sjælland,28
-374,Syddanmark,28
-375,La Romana,86
-376,Santiago,86
-377,La Vega,86
-378,Monte Cristi,86
-379,Sánchez Ramírez,86
-380,San Pedro de Macorís,86
-381,Guayas,90
-382,Esmeraldas,90
-383,Imbabura,90
-384,Al-Gharbiyah,79
-385,Al-Jizah,79
-386,Al-Buhayrah,79
-387,Al-Sharqiyah,79
-388,San Salvador,92
-389,Santa Cruz de Tenerife,29
-390,Las Palmas,29
-391,Zaragoza,29
-392,Guipúzcoa,29
-393,Komárom-Esztergom,10
-394,Sumatera Utara,12
-395,Rajasthan,15
-396,Bihar,15
-397,Tipperary,46
-398,Venezia,50
-399,Padova,50
-400,Belluno,50
-401,Agrigento,50
-402,Verona,50
-403,Trieste,50
-404,Gorizia,50
-405,Varese,50
-406,Perugia,50
-407,Samarqand,125
-408,Grevenmacher,61
-409,Transnistria,95
-410,Illinois,34
-411,Zavkhan,96
-412,Ulaanbaatar,96
-413,Limburg,14
-414,Vestland,68
-415,Canterbury,69
-416,Bulawayo,113
-417,Manila,73
-418,Świętokrzyskie,74
-419,Kujawsko-Pomorskie,74
-420,Małopolskie,74
-421,Distrito de Lisboa,99
-422,Alba,101
-423,Gauteng,102
-424,Northern Cape,102
-425,Zabaykalsky Kray,103
-426,Respublika Dagestan,103
-427,Respublika Tyva,103
-428,Respublika Buryatiya,103
-429,Maribor,104
-430,Kamnik,104
-431,Ljubljana,104
-432,Skåne,108
-433,Västra Götaland,108
-434,Värmland,108
-435,Västernorrland,108
-436,Stockholm,108
-437,Zlínský kraj,88
-438,Banská Bystrica,120
-439,Isparta,110
-440,Trabzon,110
-441,Ankara,110
-442,Chernivtsi,111
-443,Kyiv,111
-444,Kharkiv,111
-445,Moskva Oblast,103
-446,Kirovohrad,111
-447,Imereti,33
-448,Donetsk,111
-449,Nohijahoi Tobei Çumhuri,176
-450,Brest,20
-451,Chuvashkaya Respublika,103
-452,Pärnumaa,30
-453,Arizona,34
-454,Colorado,34
-455,Pennsylvania,34
-456,Indiana,34
-457,West Virginia,34
-458,Michigan,34
-459,Utah,34
-460,Iowa,34
-461,Massachusetts,34
-462,Washington,34
-463,Kansas,34
-464,New York,34
-465,Georgia,34
-466,Maine,34
-467,Varaždinska županija,87
-468,Provincia de Buenos Aires,16
-469,Tucumán,16
-470,Santa Fe,16
-471,Hainan,24
-472,Zhejiang,24
-473,Sichuan,24
-474,Liaoning,24
-475,Lagunes,81
-476,Foča,39
-477,Severni Banat,129
-478,Grad Zagreb,87
-479,Zadarska županija,87
-480,Jihomoravský kraj,88
-481,Moravskoslezský kraj,88
-482,Středočeský kraj,88
-483,Krung Thep Maha Nakhon,109
-484,Pichincha,90
-485,Gerona,29
-486,Huesca,29
-487,Málaga,29
-488,Granada,29
-489,Lérida,29
-490,Chelyabinsk,103
-491,Var,1
-492,Ille-et-Vilaine,1
-493,Bangui,76
-494,Bouches-du-Rhône,1
-495,Béjaïa,114
-496,Distrito da Guarda,99
-497,Região Autónoma da Madeira,99
-498,Distrito de Leiria,99
-499,Pyeongyang,100
-500,București,101
-501,Timiș,101
-502,Olt,101
-503,Argeș,101
-504,Galați,101
-505,Vaslui,101
-506,Constanța,101
-507,Free State,102
-508,Eastern Cape,102
-509,Almaty,93
-510,Omsk,103
-511,Nizhny Novgorod,103
-512,Krym,111
-513,Udmurtskaya Respublika,103
-514,Dnipropetrovsk,111
-515,Medvode,104
-516,Ticino,107
-517,Alpes-Maritimes,1
-518,Zürich,107
-519,Trenčín,120
-520,Bratislava,120
-521,Jönköping,108
-522,Dalarna,108
-523,Kalmar,108
-524,Western,123
-525,Uppsala,108
-526,Halland,108
-527,Gävleborg,108
-528,Blekinge,108
-529,Kronoberg,108
-530,Vysočina,88
-531,Chiang Mai,109
-532,Nakhon Pathom,109
-533,Surin,109
-534,Kanchanaburi,109
-535,Couva-Tabaquite-Talparo,121
-536,Sidi Bouzid,122
-537,Bryansk,103
-538,Sumqayıt,193
-539,Odesa,111
-540,Respublika Bashkortostan,103
-541,Kaliningrad,103
-542,Montevideo,124
-543,Nevada,34
-544,Maryland,34
-545,Pampanga,73
-546,Missouri,34
-547,Mississippi,34
-548,Wisconsin,34
-549,Yangon,150
-550,District of Columbia,34
-551,Minnesota,34
-552,Alabama,34
-553,Connecticut,34
-554,Toshkent Shahri,125
-555,Zulia,126
-556,Aragua,126
-557,Salto,124
-558,Distrito Capital,126
-559,Vukovarsko-srijemska županija,87
-560,Severna Bačka,129
-561,Srednji Banat,129
-562,Harare,113
-563,Tuzlanski kanton,39
-564,Bakı,193
-565,Zamora,29
-566,Almería,29
-567,Castellón,29
-568,Cantabria,29
-569,Burgos,29
-570,Alicante,29
-571,Murcia,29
-572,Melilla,29
-573,Sevilla,29
-574,Valencia,29
-575,Badajoz,29
-576,León,29
-577,Lääne-Virumaa,30
-578,Ida-Virumaa,30
-579,Addis Ababa,130
-580,Oromiya,130
-581,Rewa,131
-582,Lau,131
-583,Ba,131
-584,Leningrad,103
-585,Keski-Suomi,31
-586,Päijät-Häme,31
-587,Kymenlaakso,31
-588,Pohjois-Savo,31
-589,Varsinais-Suomi,31
-590,Etelä-Karjala,31
-591,Respublika Kareliya,103
-592,Oran,114
-593,Charente,1
-594,Haute-Garonne,1
-595,Haute-Vienne,1
-596,Tunis,122
-597,Maine-et-Loire,1
-598,Guadeloupe,1
-599,Territoire de Belfort,1
-600,Haute-Savoie,1
-601,Loiret,1
-602,Haute-Marne,1
-603,Loir-et-Cher,1
-604,Saône-et-Loire,1
-605,Eure,1
-606,Gers,1
-607,Seine-Maritime,1
-608,Dakar,160
-609,Charente-Maritime,1
-610,Loire-Atlantique,1
-611,Tlemcen,114
-612,Loire,1
-613,Marne,1
-614,Aude,1
-615,Lot-et-Garonne,1
-616,Ardennes,1
-617,Martinique,1
-618,Segovia,29
-619,Isère,1
-620,Savoie,1
-621,Orne,1
-622,Constantine,114
-623,Annaba,114
-624,Az-Zawiyah,58
-625,Moyen-Ogooué,132
-626,Oita,53
-627,Incheon,54
-628,Jeollabuk,54
-629,Chinandega,133
-630,Matagalpa,133
-631,Rivas,133
-632,Managua,133
+19,Oise,72
+20,Baghdad,99
+21,California,217
+22,Wales,77
+23,KwaZulu-Natal,172
+24,Dublin,98
+25,Western Cape,172
+26,West Bengal,95
+27,Fujian,42
+28,Kingston,105
+29,Victoria,13
+30,Scotland,77
+31,Karnataka,95
+32,Monaghan,98
+33,Québec,37
+34,Baden-Württemberg,82
+35,Bayern,82
+36,Saarland,82
+37,Sachsen,82
+38,Mureș,171
+39,Nordrhein-Westfalen,82
+40,Rheinland-Pfalz,82
+41,Niedersachsen,82
+42,Hebei,42
+43,Hamburg,82
+44,Bihor,171
+45,Bas-Rhin,72
+46,Rio de Janeiro,30
+47,Hessen,82
+48,Olomoucký kraj,56
+49,Mecklenburg-Vorpommern,82
+50,Moskva,173
+51,Schleswig-Holstein,82
+52,Moselle,72
+53,Attiki,84
+54,Bistrița-Năsăud,171
+55,Cluj,171
+56,Al-Iskanderiya,62
+57,Rabat-Salé-Kénitra,128
+58,Vas,93
+59,Somogy,93
+60,Budapest,93
+61,Hajdú-Bihar,93
+62,Szabolcs-Szatmár-Bereg,93
+63,Borsod-Abaúj-Zemplén,93
+64,Pest,93
+65,Podkarpackie,164
+66,Baranya,93
+67,Ciudad de México,133
+68,Južna Bačka,187
+69,Prešov,194
+70,Daerah Istimewa Yogyakarta,94
+71,Jawa Barat,94
+72,Jawa Tengah,94
+73,Jawa Timur,94
+74,Sulawesi Selatan,94
+75,Daerah Khusus Ibukota Jakarta,94
+76,Kalimantan Timur,94
+77,Sulawesi Utara,94
+78,Maluku Utara,94
+79,Sulawesi Tenggara,94
+80,Uttar Pradesh,95
+81,Tamil Nadu,95
+82,Maharashtra,95
+83,Andhra Pradesh,95
+84,Himachal Pradesh,95
+85,Basnahira,188
+86,Punjab,156
+87,Pontevedra,66
+88,Western Australia,13
+89,New South Wales,13
+90,South Australia,13
+91,Oberösterreich,14
+92,Wien,14
+93,Vlaams Brabant,20
+94,Antwerpen,20
+95,West-Vlaanderen,20
+96,Oost-Vlaanderen,20
+97,Région de Bruxelles-Capitale,20
+98,Hainaut,20
+99,Vitebsk,26
+100,Minsk,26
+101,Rio Grande do Sul,30
+102,Gabrovo,33
+103,British Columbia,37
+104,Ontario,37
+105,Nova Scotia,37
+106,Jilin,42
+107,Shandong,42
+108,Shanxi,42
+109,San José,51
+110,Hovedstaden,57
+111,Midtjylland,57
+112,Nordjylland,57
+113,Asturias,66
+114,Madrid,66
+115,Tarragona,66
+116,Ciudad Real,66
+117,Huelva,66
+118,Barcelona,66
+119,Raplamaa,67
+120,Satakunta,71
+121,Uusimaa,71
+122,Pirkanmaa,71
+123,Kanta-Häme,71
+124,Kainuu,71
+125,Pohjanmaa,71
+126,Lappi,71
+127,Pohjois-Karjala,71
+128,Etelä-Pohjanmaa,71
+129,Pohjois-Pohjanmaa,71
+130,Vaucluse,72
+131,Hérault,72
+132,Basel-Stadt,192
+133,Val-de-Marne,72
+134,Seine-et-Marne,72
+135,Meuse,72
+136,Meurthe-et-Moselle,72
+137,Seine-Saint-Denis,72
+138,Finistère,72
+139,Haute-Saône,72
+140,Nord,72
+141,Eure-et-Loir,72
+142,Pyrénées-Orientales,72
+143,Aisne,72
+144,Puy-de-Dôme,72
+145,Tbilisi,80
+146,Warmińsko-Mazurskie,164
+147,Plzeňský kraj,56
+148,Ústecký kraj,56
+149,Salzburg,14
+150,Dolnośląskie,164
+151,Thüringen,82
+152,Louth,98
+153,Ciudad Autónoma de Buenos Aires,9
+154,Yerevan,10
+155,Guangdong,42
+156,Queensland,13
+157,Jiangsu,42
+158,Beijing,42
+159,Tasmania,13
+160,Steiermark,14
+161,Kärnten,14
+162,Shanghai,42
+163,Hlavní město Praha,56
+164,Niederösterreich,14
+165,New Providence,16
+166,City of Freeport,16
+167,Liège,20
+168,Altay Kray,173
+169,Hrodna,26
+170,Jihočeský kraj,56
+171,Distrito Federal,30
+172,São Paulo,30
+173,Paraná,30
+174,Kardzhali,33
+175,Sofia Grad,33
+176,Plovdiv,33
+177,Pazardzhik,33
+178,Phnom Penh,36
+179,Uttarakhand,95
+180,Saskatchewan,37
+181,Genève,192
+182,Beograd,187
+183,Santiago Metropolitan,41
+184,Hubei,42
+185,Hunan,42
+186,Henan,42
+187,Guangxi,42
+188,Tel Aviv,101
+189,Heifa,101
+190,Toshkent Viloyati,218
+191,Parma,103
+192,Torino,103
+193,Bologna,103
+194,Milano,103
+195,Napoli,103
+196,Mantova,103
+197,Ravenna,103
+198,Modena,103
+199,Genova,103
+200,Pavia,103
+201,Alessandria,103
+202,La Spezia,103
+203,Ancona,103
+204,Treviso,103
+205,Frosinone,103
+206,Roma,103
+207,Kyoto,107
+208,Hiroshima,107
+209,Gunma,107
+210,Tokyo,107
+211,Kumamoto,107
+212,Nara,107
+213,Chiba,107
+214,Osaka,107
+215,Miyagi,107
+216,Hyogo,107
+217,Kanagawa,107
+218,Fukuoka,107
+219,Aichi,107
+220,Ehime,107
+221,Yamagata,107
+222,Hokkaido,107
+223,Kagoshima,107
+224,Seoul,112
+225,Busan,112
+226,Gangwon,112
+227,Jeollanam,112
+228,Ulsan,112
+229,Gyeongsangbuk,112
+230,Gyeongsangnam,112
+231,Chungcheongnam,112
+232,Rīga,117
+233,Lviv,214
+234,Kaunas,124
+235,Luxembourg,125
+236,Analamanga,126
+237,Perak,129
+238,Pulau Pinang,129
+239,Selangor,129
+240,Johor,129
+241,Puebla,133
+242,Baja California,133
+243,Querétaro,133
+244,Jalisco,133
+245,Plaines Wilhems,142
+246,Overijssel,148
+247,Gelderland,148
+248,Noord-Holland,148
+249,Noord-Brabant,148
+250,Zuid-Holland,148
+251,Dolj,171
+252,Utrecht,148
+253,Friesland,148
+254,Lagos,150
+255,Plateau,150
+256,Enugu,150
+257,Kwara,150
+258,Trøndelag,152
+259,İstanbul,209
+260,Oslo,152
+261,Vestfold og Telemark,152
+262,Viken,152
+263,Wellington,154
+264,Northland,154
+265,Auckland,154
+266,Gisborne,154
+267,Southland,154
+268,Manawatu-Wanganui,154
+269,Sindh,156
+270,Asunción,158
+271,Misiones,9
+272,Lima,159
+273,Córdoba,9
+274,Opolskie,164
+275,Wielkopolskie,164
+276,Pomorskie,164
+277,Łódzkie,164
+278,Śląskie,164
+279,Mazowieckie,164
+280,Zachodniopomorskie,164
+281,Varna,33
+282,Burgas,33
+283,Sliven,33
+284,Kyustendil,33
+285,Dobrich,33
+286,Lovech,33
+287,Pernik,33
+288,Saint Michael,18
+289,Northwest Territories,37
+290,Manitoba,37
+291,Alberta,37
+292,Delta,150
+293,Hong Kong,91
+294,Essequibo Islands-West Demerara,89
+295,Campobasso,103
+296,Demerara-Mahaica,89
+297,Ohio,217
+298,Pool,39
+299,Kinshasa,45
+300,Likouala,39
+301,Al-Qahira,62
+302,Los Ríos,41
+303,Los Lagos,41
+304,Valparaíso,41
+305,Tarapacá,41
+306,Antofagasta,41
+307,Biobío,41
+308,Araucanía,41
+309,Heilongjiang,42
+310,Northwest,44
+311,Littoral,44
+312,Centre,44
+313,Caquetá,47
+314,Bolívar,47
+315,Casanare,47
+316,Sucre,47
+317,Magdalena,47
+318,Antioquia,47
+319,Atlántico,47
+320,Australian Capital Territory,13
+321,Northern Territory,13
+322,Puerto Rico,167
+323,Taiwan,206
+324,Delaware,217
+325,Tianjin,42
+326,Thành phố Hồ Chí Minh,221
+327,Florida,217
+328,Aomori,107
+329,New Jersey,217
+330,Tainan,206
+331,Texas,217
+332,Taichung,206
+333,Pinar del Río,54
+334,Villa Clara,54
+335,Ciego de Ávila,54
+336,Sancti Spíritus,54
+337,Guantánamo,54
+338,Matanzas,54
+339,Holguín,54
+340,Ciudad de La Habana,54
+341,Santiago de Cuba,54
+342,Camagüey,54
+343,Las Tunas,54
+344,Distrito Nacional,60
+345,Espaillat,60
+346,Navarra,66
+347,Vizcaya,66
+348,Álava,66
+349,Vicenza,103
+350,Vaud,192
+351,Rimini,103
+352,Macerata,103
+353,Novara,103
+354,Foggia,103
+355,Grosseto,103
+356,Imperia,103
+357,Pisa,103
+358,Wakayama,107
+359,Saitama,107
+360,Shizuoka,107
+361,Kochi,107
+362,Akita,107
+363,Miyazaki,107
+364,Gifu,107
+365,Splitsko-dalmatinska županija,52
+366,Granma,54
+367,Cienfuegos,54
+368,Mayabeque,54
+369,Karlovarský kraj,56
+370,Košice,194
+371,Trnava,194
+372,Sivas,209
+373,Sjælland,57
+374,Syddanmark,57
+375,La Romana,60
+376,Santiago,60
+377,La Vega,60
+378,Monte Cristi,60
+379,Sánchez Ramírez,60
+380,San Pedro de Macorís,60
+381,Guayas,61
+382,Esmeraldas,61
+383,Imbabura,61
+384,Al-Gharbiyah,62
+385,Al-Jizah,62
+386,Al-Buhayrah,62
+387,Al-Sharqiyah,62
+388,San Salvador,65
+389,Santa Cruz de Tenerife,66
+390,Las Palmas,66
+391,Zaragoza,66
+392,Guipúzcoa,66
+393,Komárom-Esztergom,93
+394,Sumatera Utara,94
+395,Rajasthan,95
+396,Bihar,95
+397,Tipperary,98
+398,Venezia,103
+399,Padova,103
+400,Belluno,103
+401,Agrigento,103
+402,Verona,103
+403,Trieste,103
+404,Gorizia,103
+405,Varese,103
+406,Perugia,103
+407,Samarqand,218
+408,Grevenmacher,125
+409,Transnistria,131
+410,Illinois,217
+411,Zavkhan,134
+412,Ulaanbaatar,134
+413,Limburg,148
+414,Vestland,152
+415,Canterbury,154
+416,Bulawayo,230
+417,Manila,160
+418,Świętokrzyskie,164
+419,Kujawsko-Pomorskie,164
+420,Małopolskie,164
+421,Distrito de Lisboa,165
+422,Alba,171
+423,Gauteng,172
+424,Northern Cape,172
+425,Zabaykalsky Kray,173
+426,Respublika Dagestan,173
+427,Respublika Tyva,173
+428,Respublika Buryatiya,173
+429,Maribor,183
+430,Kamnik,183
+431,Ljubljana,183
+432,Skåne,195
+433,Västra Götaland,195
+434,Värmland,195
+435,Västernorrland,195
+436,Stockholm,195
+437,Zlínský kraj,56
+438,Banská Bystrica,194
+439,Isparta,209
+440,Trabzon,209
+441,Ankara,209
+442,Chernivtsi,214
+443,Kyiv,214
+444,Kharkiv,214
+445,Moskva Oblast,173
+446,Kirovohrad,214
+447,Imereti,80
+448,Donetsk,214
+449,Nohijahoi Tobei Çumhuri,202
+450,Brest,26
+451,Chuvashkaya Respublika,173
+452,Pärnumaa,67
+453,Arizona,217
+454,Colorado,217
+455,Pennsylvania,217
+456,Indiana,217
+457,West Virginia,217
+458,Michigan,217
+459,Utah,217
+460,Iowa,217
+461,Massachusetts,217
+462,Washington,217
+463,Kansas,217
+464,New York,217
+465,Georgia,217
+466,Maine,217
+467,Varaždinska županija,52
+468,Provincia de Buenos Aires,9
+469,Tucumán,9
+470,Santa Fe,9
+471,Hainan,42
+472,Zhejiang,42
+473,Sichuan,42
+474,Liaoning,42
+475,Lagunes,43
+476,Foča,24
+477,Severni Banat,187
+478,Grad Zagreb,52
+479,Zadarska županija,52
+480,Jihomoravský kraj,56
+481,Moravskoslezský kraj,56
+482,Středočeský kraj,56
+483,Krung Thep Maha Nakhon,201
+484,Pichincha,61
+485,Gerona,66
+486,Huesca,66
+487,Málaga,66
+488,Granada,66
+489,Lérida,66
+490,Chelyabinsk,173
+491,Var,72
+492,Ille-et-Vilaine,72
+493,Bangui,35
+494,Bouches-du-Rhône,72
+495,Béjaïa,4
+496,Distrito da Guarda,165
+497,Região Autónoma da Madeira,165
+498,Distrito de Leiria,165
+499,Pyeongyang,166
+500,București,171
+501,Timiș,171
+502,Olt,171
+503,Argeș,171
+504,Galați,171
+505,Vaslui,171
+506,Constanța,171
+507,Free State,172
+508,Eastern Cape,172
+509,Almaty,108
+510,Omsk,173
+511,Nizhny Novgorod,173
+512,Krym,214
+513,Udmurtskaya Respublika,173
+514,Dnipropetrovsk,214
+515,Medvode,183
+516,Ticino,192
+517,Alpes-Maritimes,72
+518,Zürich,192
+519,Trenčín,194
+520,Bratislava,194
+521,Jönköping,195
+522,Dalarna,195
+523,Kalmar,195
+524,Western,213
+525,Uppsala,195
+526,Halland,195
+527,Gävleborg,195
+528,Blekinge,195
+529,Kronoberg,195
+530,Vysočina,56
+531,Chiang Mai,201
+532,Nakhon Pathom,201
+533,Surin,201
+534,Kanchanaburi,201
+535,Couva-Tabaquite-Talparo,207
+536,Sidi Bouzid,208
+537,Bryansk,173
+538,Sumqayıt,15
+539,Odesa,214
+540,Respublika Bashkortostan,173
+541,Kaliningrad,173
+542,Montevideo,216
+543,Nevada,217
+544,Maryland,217
+545,Pampanga,160
+546,Missouri,217
+547,Mississippi,217
+548,Wisconsin,217
+549,Yangon,144
+550,District of Columbia,217
+551,Minnesota,217
+552,Alabama,217
+553,Connecticut,217
+554,Toshkent Shahri,218
+555,Zulia,220
+556,Aragua,220
+557,Salto,216
+558,Distrito Capital,220
+559,Vukovarsko-srijemska županija,52
+560,Severna Bačka,187
+561,Srednji Banat,187
+562,Harare,230
+563,Tuzlanski kanton,24
+564,Bakı,15
+565,Zamora,66
+566,Almería,66
+567,Castellón,66
+568,Cantabria,66
+569,Burgos,66
+570,Alicante,66
+571,Murcia,66
+572,Melilla,66
+573,Sevilla,66
+574,Valencia,66
+575,Badajoz,66
+576,León,66
+577,Lääne-Virumaa,67
+578,Ida-Virumaa,67
+579,Addis Ababa,68
+580,Oromiya,68
+581,Rewa,70
+582,Lau,70
+583,Ba,70
+584,Leningrad,173
+585,Keski-Suomi,71
+586,Päijät-Häme,71
+587,Kymenlaakso,71
+588,Pohjois-Savo,71
+589,Varsinais-Suomi,71
+590,Etelä-Karjala,71
+591,Respublika Kareliya,173
+592,Oran,4
+593,Charente,72
+594,Haute-Garonne,72
+595,Haute-Vienne,72
+596,Tunis,208
+597,Maine-et-Loire,72
+598,Guadeloupe,72
+599,Territoire de Belfort,72
+600,Haute-Savoie,72
+601,Loiret,72
+602,Haute-Marne,72
+603,Loir-et-Cher,72
+604,Saône-et-Loire,72
+605,Eure,72
+606,Gers,72
+607,Seine-Maritime,72
+608,Dakar,178
+609,Charente-Maritime,72
+610,Loire-Atlantique,72
+611,Tlemcen,4
+612,Loire,72
+613,Marne,72
+614,Aude,72
+615,Lot-et-Garonne,72
+616,Ardennes,72
+617,Martinique,72
+618,Segovia,66
+619,Isère,72
+620,Savoie,72
+621,Orne,72
+622,Constantine,4
+623,Annaba,4
+624,Az-Zawiyah,118
+625,Moyen-Ogooué,75
+626,Oita,107
+627,Incheon,112
+628,Jeollabuk,112
+629,Chinandega,147
+630,Matagalpa,147
+631,Rivas,147
+632,Managua,147
 633,Curaçao,232
-634,Aruba,157
-635,Taoyuan,44
-636,New Mexico,34
-637,Tennessee,34
-638,Kentucky,34
-639,South Carolina,34
-640,Oklahoma,34
-641,South Dakota,34
-642,Louisiana,34
-643,Pleven,22
-644,Stara Zagora,22
-645,Tartumaa,30
-646,Boumerdès,114
-647,Cuanza Sul,135
-648,Mendoza,16
-649,Chaco,16
-650,San Juan,16
-651,Entre Ríos,16
-652,Chubut,16
-653,La Pampa,16
-654,Ogooué-Maritime,132
-655,Northern Ireland,2
-656,Clarendon,51
-657,Berlin,4
-658,Suceava,101
-659,Brandenburg,4
-660,Sachsen-Anhalt,4
-661,Lubuskie,74
+634,Aruba,11
+635,Taoyuan,206
+636,New Mexico,217
+637,Tennessee,217
+638,Kentucky,217
+639,South Carolina,217
+640,Oklahoma,217
+641,South Dakota,217
+642,Louisiana,217
+643,Pleven,33
+644,Stara Zagora,33
+645,Tartumaa,67
+646,Boumerdès,4
+647,Cuanza Sul,6
+648,Mendoza,9
+649,Chaco,9
+650,San Juan,9
+651,Entre Ríos,9
+652,Chubut,9
+653,La Pampa,9
+654,Ogooué-Maritime,75
+655,Northern Ireland,77
+656,Clarendon,105
+657,Berlin,82
+658,Suceava,171
+659,Brandenburg,82
+660,Sachsen-Anhalt,82
+661,Lubuskie,164
 662,Köln,
-663,Žilina,120
-664,Pardubický kraj,88
-665,Gjakova,227
-666,Podlaskie,74
-667,Greater Accra,5
-668,Volta,5
-669,Eastern,5
-670,Sterea Ellada,6
-671,Dutiki Ellada,6
-672,Thessalia,6
-673,Apkhazeti,33
-674,Ionia Nesia,6
-675,Guatemala,7
-676,Békes,10
-677,Jász-Nagykun-Szolnok,10
-678,Nógrád,10
-679,Győr-Moson-Sopron,10
-680,Csongrád,10
-681,Tolna,10
-682,Bács-Kiskun,10
-683,Veszprém,10
-684,Bali,12
-685,Maluku,12
-686,Nusa Tenggara Timur,12
-687,Viqueque,220
-688,Kepulauan Riau,12
-689,Gandaki,152
-690,Haryana,15
-691,Madhyama,117
-692,Madhya Pradesh,15
-693,National Capital Territory of Delhi,15
-694,Azarbaijan Gharbi,45
-695,Tehran,45
-696,Khuzestan,45
-697,Galway,46
-698,Limerick,46
-699,Waterford,46
-700,Kilkenny,46
-701,Cork,46
-702,Kildare,46
-703,Mayo,46
-704,Offaly,46
-705,Oristano,50
-706,Latina,50
-707,Izola,104
-708,Como,50
-709,Firenze,50
-710,Sassari,50
-711,Crotone,50
-712,Caserta,50
-713,Viterbo,50
-714,Brescia,50
-715,Monza e Brianza,50
-716,Bergamo,50
-717,Palermo,50
-718,Rovigo,50
-719,Lecco,50
-720,Lucca,50
-721,Salerno,50
-722,Trapani,50
-723,Enna,50
-724,Bari,50
-725,Piacenza,50
-726,Pesaro e Urbino,50
-727,Cagliari,50
-728,Livorno,50
-729,Vibo Valentia,50
-730,Cremona,50
-731,Primorsko-goranska županija,87
-732,Brindisi,50
-733,Manchester,51
-734,Okinawa,53
-735,Fukushima,53
-736,Niigata,53
-737,Iwate,53
-738,Saga,53
-739,Zhambyl,93
-740,Almaty Oblysy,93
-741,Quaraghandy,93
-742,Ongutsik Qazaqstan,93
-743,Nairobi,94
-744,Nakuru,94
-745,Busia,94
-746,Kitui,94
-747,Bishkek,143
-748,Hamgyeongnam,100
-749,Chungcheongbuk,54
-750,Jeju,54
-751,Limbažu novads,57
-752,Jelgava,57
-753,Montserrado,145
-754,Panevėžys,60
-755,Vilnius,60
-756,Liepāja,57
-757,Šiauliai,60
-758,Oriental,63
-759,Fès-Meknès,63
-760,Tanger-Tetouan-Al Hoceima,63
-761,Souss-Massa,63
-762,Marrakesh-Safi,63
-763,Lilongwe,147
-764,Iași,101
-765,Sonora,66
-766,Veracruz,66
-767,Nuevo León,66
-768,Sinaloa,66
-769,Michoacán,66
-770,Durango,66
-771,Guerrero,66
-772,Tamaulipas,66
-773,Guanajuato,66
-774,San Luis Potosí,66
-775,Bulgan,96
-776,Bamako,148
-777,Mandalay,150
-778,Ayeyarwady,150
-779,Mizoram,15
-780,Erongo,151
-781,Atlántico Norte,133
-782,Groningen,14
-783,Kayseri,110
-784,Sal,210
-785,Paramaribo,119
-786,Bagmati,152
-787,Ondo,67
-788,Oyo,67
-789,Rivers,67
-790,Edo,67
-791,Abia,67
-792,Tillabéri,153
-793,Nordland,68
-794,Innlandet,68
-795,Rogaland,68
-796,Agder,68
-797,Møre og Romsdal,68
-798,Troms og Finnmark,68
-799,Otago,69
-800,West Coast,69
-801,Taranaki,69
-802,Nelson,69
-803,Balochistan,70
-804,Khyber-Pukhtunkhwa,70
-805,Colón,156
-806,Panamá,156
-807,Caaguazú,71
-808,La Libertad,72
-809,Loreto,72
-810,Ica,72
-811,Tarlac,73
-812,Palawan,73
-813,Cebu City,73
-814,San Luis,16
-815,Corrientes,16
-816,Río Negro,16
-817,Lori,36
-818,Tuamasaga,168
-819,Reggio Calabria,50
-820,Celje,104
-821,Královéhradecký kraj,88
-822,Jablanica,129
-823,Šibensko-kninska županija,87
-824,Prizren,227
-825,Cuenca,29
-826,Nagano,53
-827,Kanton Sarajevo,39
-828,Kostroma,103
-829,Sverdlovsk,103
-830,Unsko-sanski kanton,39
-831,Savona,50
-832,Tshopo,159
-833,Oregon,34
-834,Mary,11
-835,La Rioja,29
-836,Ningxia,24
-837,Montana,34
-838,Respublika Mary El,103
-839,Haskovo,22
-840,Šumadija,129
-841,Dubrovačko-neretvanska županija,87
-842,Trbovlje,104
-843,Liberecký kraj,88
-844,New Brunswick,23
-845,Respublika Komi,103
-846,Shiga,53
-847,Pavlodar,93
-848,Blagoevgrad,22
-849,Banja Luka,39
-850,Mostaganem,114
-851,Yamaguchi,53
-852,Haut-Katanga,159
-853,Nitra,120
-854,Kyiv Oblast,111
-855,Khabarovsk Kray,103
-856,Aqmola,93
-857,Zeničko-dobojski kanton,39
-858,Gyeonggi,54
-859,Stavropol Kray,103
-860,Idaho,34
-861,Kasaï central,159
-862,Raška,129
-863,Novosibirsk,103
-864,Belgorod,103
-865,Minas Gerais,21
-866,Prince Edward Island,23
-867,Sud-Kivu,159
-868,Kabardino-Balkarskaya Respublika,103
-869,Forlì-Cesena,50
-870,Sevastopol,111
-871,Daugavpils novads,57
-872,Mato Grosso,21
-873,Ruse,22
-874,Krasnodar Kray,103
-875,Zakarpattia,111
-876,Ličko-senjska županija,87
-877,Skopje,182
-878,Pskov,103
-879,Cherkasy,111
-880,Udine,50
-881,Bur Said,79
-882,Chihuahua,66
-883,Xinjiang,24
-884,Arequipa,72
-885,Harjumaa,30
-886,Västmanland,108
-887,Bahia,21
-888,Astrakhan,103
-889,Iloilo,73
-890,Albay,73
-891,Zacatecas,66
-892,Volgograd,103
-893,Espírito Santo,21
-894,Haut-Rhin,1
-895,Osječko-baranjska županija,87
-896,Arkansas,34
-897,Pangasinan,73
-898,North Carolina,34
-899,Tomsk,103
-900,Tarn,1
-901,Istarska županija,87
-902,Nebraska,34
-903,Klaipėda,60
-904,Ardèche,1
-905,Negros Oriental,73
-906,Paysandú,124
-907,Luanda,135
-908,Virginia,34
-909,Fejér,10
-910,Mačva,129
-911,Abidjan,81
-912,Hercegovačko-neretvanski kanton,39
-913,Callao,72
-914,Lara,126
-915,Zlatibor,129
-916,Volyn,111
-917,Junín,72
-918,Piura,72
-919,Veraguas,156
-920,Lambayeque,72
-921,Sulu,73
-922,Pernambuco,21
-923,New Hampshire,34
-924,Zapadna Bačka,129
-925,Kherson,111
-926,Marijampolė,60
-927,Moravica,129
-928,Vologda,103
-929,Drôme,1
-930,Satu Mare,101
-931,Cádiz,29
-932,Çanakkale,110
-933,Singapore,116
-934,Jõgevamaa,30
-935,Roscommon,46
-936,Benguet,73
-937,Mato Grosso do Sul,21
-938,Utena,60
-939,Södermanland,108
-940,Lubelskie,74
-941,Võrumaa,30
-942,Podgorica,201
-943,Sisačko-moslavačka županija,87
-944,Zala,10
-945,Cēsu novads,57
-946,Santiago del Estero,16
-947,Valladolid,29
-948,Occidental Mindoro,73
-949,Wexford,46
-950,Rizal,73
-951,Zamboanga del Sur,73
-952,Leyte,73
-953,Pistoia,50
-954,Fukui,53
-955,Canelones,124
-956,Homs,173
-957,Beni Suef,79
-958,Bohol,73
-959,Thiès,160
-960,Kerry,46
-961,Capiz,73
-962,Treinta y Tres,124
-963,Alytus,60
-964,Ryazan,103
-965,Pljevlja,201
-966,Teramo,50
-967,Koper,104
-968,Monaco,98
-969,Nikšić,201
-970,Braničevo,129
-971,Salamanca,29
-972,Pčinja,129
-973,Cavite,73
-974,Tacuarembó,124
-975,Southern Leyte,73
-976,La Coruña,29
-977,Bulacan,73
-978,Ayacucho,72
-979,Islas Baleares,29
-980,Aïn Témouchent,114
-981,Rio Grande do Norte,21
-982,Rostov,103
-983,San Cristóbal,86
-984,Ternopil,111
-985,Telšiai,60
-986,Sughd,176
-987,Alpes-de-Haute-Provence,1
-988,Veliko Tarnovo,22
-989,Messina,50
-990,Ventspils,57
-991,Moquegua,72
-992,Yukon,23
-993,Sidi Bel Abbès,114
-994,Blida,114
-995,Tipasa,114
-996,Tizi Ouzou,114
-997,Morobe,166
-998,Tirol,13
-999,Vorarlberg,13
-1000,Namur,18
-1001,Brabant Wallon,18
-1002,Homel,20
-1003,Mahilyow,20
-1004,Pará,21
-1005,Vidin,22
-1006,Negros Occidental,73
-1007,Quezon,73
-1008,Misamis Oriental,73
-1009,Laguna,73
-1010,Copperbelt,154
-1011,Prahova,101
-1012,Maramureș,101
-1013,Mehedinți,101
-1014,Harghita,101
-1015,Brăila,101
-1016,Caraș-Severin,101
-1017,Buzău,101
-1018,Teleorman,101
-1019,Brașov,101
-1020,Sibiu,101
-1021,Ialomița,101
-1022,Mpumalanga,102
-1023,North West,102
-1024,Limpopo,102
-1025,Orenburg,103
-1026,Irkutsk,103
-1027,Samara,103
-1028,Puttalam,117
-1029,Sabaragamuwa,117
-1030,Al-Khartum,118
-1031,Upper Nile,229
-1032,Janub Kurdufan,118
-1033,Al-Jazirah,118
-1034,Thurgau,107
-1035,Aargau,107
-1036,Bern,107
-1037,Neuchâtel,107
-1038,Sankt Gallen,107
-1039,Basel-Landschaft,107
-1040,Örebro,108
-1041,Östergötland,108
-1042,Susa,122
-1043,Norrbotten,108
-1044,Bujumbura Mairie,208
-1045,Mara,174
-1046,Tanga,174
-1047,Khon Kaen,109
-1048,Samut Prakan,109
-1049,Maha Sarakham,109
-1050,Prachuap Khiri Khan,109
-1051,Samut Sakhon,109
-1052,Kaohsiung,44
-1053,San Juan-Laventille,121
-1054,Kairouan,122
-1055,Jendouba,122
-1056,Kef,122
-1057,Adana,110
-1058,Konya,110
-1059,Yozgat,110
-1060,Artvin,110
-1061,Mersin,110
-1062,Central,123
-1063,Northern,123
-1064,Mykolaïv,111
-1065,Respublika Sakha,103
-1066,Voronezh,103
-1067,Shirak,36
-1068,Oryol,103
-1069,Zaporizhzhia,111
-1070,Kostanay,93
-1071,Magadan,103
-1072,Tula,103
-1073,Fargona,125
-1074,Chechenskaya Respublika,103
-1075,Bălți,95
-1076,Ivanovo,103
-1077,Perm Kray,103
-1078,Lipetsk,103
-1079,Soriano,124
-1080,Rocha,124
-1081,Durazno,124
-1082,Hawaiʻi,34
-1083,Andijon,125
-1084,Xorazm,125
-1085,Tafea,178
-1086,Miranda,126
-1087,Carabobo,126
-1088,Monagas,126
-1089,Podunavlje,129
-1090,Berane,201
-1091,Srednjobosanski kanton,39
-1092,Kolubara,129
-1093,Nišava,129
-1094,Cetinje,201
-1095,Kumanovo,182
-1096,Toplica,129
-1097,Prishtinë,227
-1098,Požeško-slavonska županija,87
-1099,Manicaland,113
-1100,Neuquén,16
-1101,Doboj,39
-1102,Minsk Voblast,20
-1103,La Paz,164
-1104,Vratsa,22
-1105,Waikato,69
-1106,Comoé,81
-1107,Cartago,26
-1108,Alajuela,26
-1109,Lugo,29
-1110,Ceuta,29
-1111,Teruel,29
-1112,Orense,29
-1113,Etelä-Savo,31
-1114,Morbihan,1
-1115,Nièvre,1
-1116,Hautes-Pyrénées,1
-1117,Ain,1
-1118,Jura,1
-1119,Vosges,1
-1120,Landes,1
-1121,Tarn-et-Garonne,1
-1122,Deux-Sèvres,1
-1123,Vienne,1
-1124,Indre-et-Loire,1
-1125,Imtarfa,97
-1126,Heves,10
-1127,HaDarom,49
-1128,Verbano-Cusio-Ossola,50
-1129,Pordenone,50
-1130,Sud Sardegna,50
-1131,Catania,50
-1132,Bolzano-Bozen,50
-1133,Siracusa,50
-1134,Trento,50
-1135,Atyrau,93
-1136,Valmiera,57
-1137,Krustpils novads,57
-1138,Diekirch,61
-1139,Drenthe,14
-1140,Cusco,72
-1141,Distrito de Aveiro,99
-1142,Cabinda,135
-1143,Distrito do Porto,99
-1144,Tulcea,101
-1145,Ilfov,101
-1146,Călărași,101
-1147,Botoșani,101
-1148,Respublika Tatarstan,103
-1149,Primorsky Kray,103
-1150,Nova Gorica,104
-1151,Ivančna Gorica,104
-1152,Schaffhausen,107
-1153,Zug,107
-1154,Jämtland,108
-1155,Rivne,111
-1156,Vinnytsia,111
-1157,Novgorod,103
-1158,Poltava,111
-1159,Tver,103
-1160,Respublika Mordoviya,103
-1161,Krasnoyarsk Kray,103
-1162,Khmelnytskyi,111
-1163,Tambov,103
-1164,Chernihiv,111
-1165,Arkhangelsk,103
-1166,Põlvamaa,30
-1167,Balkan,11
-1168,Luhansk,111
-1169,Saratov,103
-1170,Basarabeasca,95
-1171,Sumy,111
-1172,Amur,103
-1173,Tauragė,60
-1174,Căușeni,95
-1175,Sarthe,1
-1176,Rhode Island,34
-1177,Vermont,34
-1178,Karlovačka županija,87
-1179,Srem,129
-1180,Kuala Lumpur,64
+663,Žilina,194
+664,Pardubický kraj,56
+665,Gjakova,113
+666,Podlaskie,164
+667,Greater Accra,83
+668,Volta,83
+669,Eastern,83
+670,Sterea Ellada,84
+671,Dutiki Ellada,84
+672,Thessalia,84
+673,Apkhazeti,80
+674,Ionia Nesia,84
+675,Guatemala,86
+676,Békes,93
+677,Jász-Nagykun-Szolnok,93
+678,Nógrád,93
+679,Győr-Moson-Sopron,93
+680,Csongrád,93
+681,Tolna,93
+682,Bács-Kiskun,93
+683,Veszprém,93
+684,Bali,94
+685,Maluku,94
+686,Nusa Tenggara Timur,94
+687,Viqueque,204
+688,Kepulauan Riau,94
+689,Gandaki,149
+690,Haryana,95
+691,Madhyama,188
+692,Madhya Pradesh,95
+693,National Capital Territory of Delhi,95
+694,Azarbaijan Gharbi,97
+695,Tehran,97
+696,Khuzestan,97
+697,Galway,98
+698,Limerick,98
+699,Waterford,98
+700,Kilkenny,98
+701,Cork,98
+702,Kildare,98
+703,Mayo,98
+704,Offaly,98
+705,Oristano,103
+706,Latina,103
+707,Izola,183
+708,Como,103
+709,Firenze,103
+710,Sassari,103
+711,Crotone,103
+712,Caserta,103
+713,Viterbo,103
+714,Brescia,103
+715,Monza e Brianza,103
+716,Bergamo,103
+717,Palermo,103
+718,Rovigo,103
+719,Lecco,103
+720,Lucca,103
+721,Salerno,103
+722,Trapani,103
+723,Enna,103
+724,Bari,103
+725,Piacenza,103
+726,Pesaro e Urbino,103
+727,Cagliari,103
+728,Livorno,103
+729,Vibo Valentia,103
+730,Cremona,103
+731,Primorsko-goranska županija,52
+732,Brindisi,103
+733,Manchester,105
+734,Okinawa,107
+735,Fukushima,107
+736,Niigata,107
+737,Iwate,107
+738,Saga,107
+739,Zhambyl,108
+740,Almaty Oblysy,108
+741,Quaraghandy,108
+742,Ongutsik Qazaqstan,108
+743,Nairobi,109
+744,Nakuru,109
+745,Busia,109
+746,Kitui,109
+747,Bishkek,110
+748,Hamgyeongnam,166
+749,Chungcheongbuk,112
+750,Jeju,112
+751,Limbažu novads,117
+752,Jelgava,117
+753,Montserrado,120
+754,Panevėžys,124
+755,Vilnius,124
+756,Liepāja,117
+757,Šiauliai,124
+758,Oriental,128
+759,Fès-Meknès,128
+760,Tanger-Tetouan-Al Hoceima,128
+761,Souss-Massa,128
+762,Marrakesh-Safi,128
+763,Lilongwe,130
+764,Iași,171
+765,Sonora,133
+766,Veracruz,133
+767,Nuevo León,133
+768,Sinaloa,133
+769,Michoacán,133
+770,Durango,133
+771,Guerrero,133
+772,Tamaulipas,133
+773,Guanajuato,133
+774,San Luis Potosí,133
+775,Bulgan,134
+776,Bamako,137
+777,Mandalay,144
+778,Ayeyarwady,144
+779,Mizoram,95
+780,Erongo,145
+781,Atlántico Norte,147
+782,Groningen,148
+783,Kayseri,209
+784,Sal,50
+785,Paramaribo,193
+786,Bagmati,149
+787,Ondo,150
+788,Oyo,150
+789,Rivers,150
+790,Edo,150
+791,Abia,150
+792,Tillabéri,151
+793,Nordland,152
+794,Innlandet,152
+795,Rogaland,152
+796,Agder,152
+797,Møre og Romsdal,152
+798,Troms og Finnmark,152
+799,Otago,154
+800,West Coast,154
+801,Taranaki,154
+802,Nelson,154
+803,Balochistan,156
+804,Khyber-Pukhtunkhwa,156
+805,Colón,157
+806,Panamá,157
+807,Caaguazú,158
+808,La Libertad,159
+809,Loreto,159
+810,Ica,159
+811,Tarlac,160
+812,Palawan,160
+813,Cebu City,160
+814,San Luis,9
+815,Corrientes,9
+816,Río Negro,9
+817,Lori,10
+818,Tuamasaga,176
+819,Reggio Calabria,103
+820,Celje,183
+821,Královéhradecký kraj,56
+822,Jablanica,187
+823,Šibensko-kninska županija,52
+824,Prizren,113
+825,Cuenca,66
+826,Nagano,107
+827,Kanton Sarajevo,24
+828,Kostroma,173
+829,Sverdlovsk,173
+830,Unsko-sanski kanton,24
+831,Savona,103
+832,Tshopo,45
+833,Oregon,217
+834,Mary,203
+835,La Rioja,66
+836,Ningxia,42
+837,Montana,217
+838,Respublika Mary El,173
+839,Haskovo,33
+840,Šumadija,187
+841,Dubrovačko-neretvanska županija,52
+842,Trbovlje,183
+843,Liberecký kraj,56
+844,New Brunswick,37
+845,Respublika Komi,173
+846,Shiga,107
+847,Pavlodar,108
+848,Blagoevgrad,33
+849,Banja Luka,24
+850,Mostaganem,4
+851,Yamaguchi,107
+852,Haut-Katanga,45
+853,Nitra,194
+854,Kyiv Oblast,214
+855,Khabarovsk Kray,173
+856,Aqmola,108
+857,Zeničko-dobojski kanton,24
+858,Gyeonggi,112
+859,Stavropol Kray,173
+860,Idaho,217
+861,Kasaï central,45
+862,Raška,187
+863,Novosibirsk,173
+864,Belgorod,173
+865,Minas Gerais,30
+866,Prince Edward Island,37
+867,Sud-Kivu,45
+868,Kabardino-Balkarskaya Respublika,173
+869,Forlì-Cesena,103
+870,Sevastopol,214
+871,Daugavpils novads,117
+872,Mato Grosso,30
+873,Ruse,33
+874,Krasnodar Kray,173
+875,Zakarpattia,214
+876,Ličko-senjska županija,52
+877,Skopje,136
+878,Pskov,173
+879,Cherkasy,214
+880,Udine,103
+881,Bur Said,62
+882,Chihuahua,133
+883,Xinjiang,42
+884,Arequipa,159
+885,Harjumaa,67
+886,Västmanland,195
+887,Bahia,30
+888,Astrakhan,173
+889,Iloilo,160
+890,Albay,160
+891,Zacatecas,133
+892,Volgograd,173
+893,Espírito Santo,30
+894,Haut-Rhin,72
+895,Osječko-baranjska županija,52
+896,Arkansas,217
+897,Pangasinan,160
+898,North Carolina,217
+899,Tomsk,173
+900,Tarn,72
+901,Istarska županija,52
+902,Nebraska,217
+903,Klaipėda,124
+904,Ardèche,72
+905,Negros Oriental,160
+906,Paysandú,216
+907,Luanda,6
+908,Virginia,217
+909,Fejér,93
+910,Mačva,187
+911,Abidjan,43
+912,Hercegovačko-neretvanski kanton,24
+913,Callao,159
+914,Lara,220
+915,Zlatibor,187
+916,Volyn,214
+917,Junín,159
+918,Piura,159
+919,Veraguas,157
+920,Lambayeque,159
+921,Sulu,160
+922,Pernambuco,30
+923,New Hampshire,217
+924,Zapadna Bačka,187
+925,Kherson,214
+926,Marijampolė,124
+927,Moravica,187
+928,Vologda,173
+929,Drôme,72
+930,Satu Mare,171
+931,Cádiz,66
+932,Çanakkale,209
+933,Singapore,180
+934,Jõgevamaa,67
+935,Roscommon,98
+936,Benguet,160
+937,Mato Grosso do Sul,30
+938,Utena,124
+939,Södermanland,195
+940,Lubelskie,164
+941,Võrumaa,67
+942,Podgorica,139
+943,Sisačko-moslavačka županija,52
+944,Zala,93
+945,Cēsu novads,117
+946,Santiago del Estero,9
+947,Valladolid,66
+948,Occidental Mindoro,160
+949,Wexford,98
+950,Rizal,160
+951,Zamboanga del Sur,160
+952,Leyte,160
+953,Pistoia,103
+954,Fukui,107
+955,Canelones,216
+956,Homs,197
+957,Beni Suef,62
+958,Bohol,160
+959,Thiès,178
+960,Kerry,98
+961,Capiz,160
+962,Treinta y Tres,216
+963,Alytus,124
+964,Ryazan,173
+965,Pljevlja,139
+966,Teramo,103
+967,Koper,183
+968,Monaco,140
+969,Nikšić,139
+970,Braničevo,187
+971,Salamanca,66
+972,Pčinja,187
+973,Cavite,160
+974,Tacuarembó,216
+975,Southern Leyte,160
+976,La Coruña,66
+977,Bulacan,160
+978,Ayacucho,159
+979,Islas Baleares,66
+980,Aïn Témouchent,4
+981,Rio Grande do Norte,30
+982,Rostov,173
+983,San Cristóbal,60
+984,Ternopil,214
+985,Telšiai,124
+986,Sughd,202
+987,Alpes-de-Haute-Provence,72
+988,Veliko Tarnovo,33
+989,Messina,103
+990,Ventspils,117
+991,Moquegua,159
+992,Yukon,37
+993,Sidi Bel Abbès,4
+994,Blida,4
+995,Tipasa,4
+996,Tizi Ouzou,4
+997,Morobe,163
+998,Tirol,14
+999,Vorarlberg,14
+1000,Namur,20
+1001,Brabant Wallon,20
+1002,Homel,26
+1003,Mahilyow,26
+1004,Pará,30
+1005,Vidin,33
+1006,Negros Occidental,160
+1007,Quezon,160
+1008,Misamis Oriental,160
+1009,Laguna,160
+1010,Copperbelt,229
+1011,Prahova,171
+1012,Maramureș,171
+1013,Mehedinți,171
+1014,Harghita,171
+1015,Brăila,171
+1016,Caraș-Severin,171
+1017,Buzău,171
+1018,Teleorman,171
+1019,Brașov,171
+1020,Sibiu,171
+1021,Ialomița,171
+1022,Mpumalanga,172
+1023,North West,172
+1024,Limpopo,172
+1025,Orenburg,173
+1026,Irkutsk,173
+1027,Samara,173
+1028,Puttalam,188
+1029,Sabaragamuwa,188
+1030,Al-Khartum,191
+1031,Upper Nile,189
+1032,Janub Kurdufan,191
+1033,Al-Jazirah,191
+1034,Thurgau,192
+1035,Aargau,192
+1036,Bern,192
+1037,Neuchâtel,192
+1038,Sankt Gallen,192
+1039,Basel-Landschaft,192
+1040,Örebro,195
+1041,Östergötland,195
+1042,Susa,208
+1043,Norrbotten,195
+1044,Bujumbura Mairie,19
+1045,Mara,198
+1046,Tanga,198
+1047,Khon Kaen,201
+1048,Samut Prakan,201
+1049,Maha Sarakham,201
+1050,Prachuap Khiri Khan,201
+1051,Samut Sakhon,201
+1052,Kaohsiung,206
+1053,San Juan-Laventille,207
+1054,Kairouan,208
+1055,Jendouba,208
+1056,Kef,208
+1057,Adana,209
+1058,Konya,209
+1059,Yozgat,209
+1060,Artvin,209
+1061,Mersin,209
+1062,Central,213
+1063,Northern,213
+1064,Mykolaïv,214
+1065,Respublika Sakha,173
+1066,Voronezh,173
+1067,Shirak,10
+1068,Oryol,173
+1069,Zaporizhzhia,214
+1070,Kostanay,108
+1071,Magadan,173
+1072,Tula,173
+1073,Fargona,218
+1074,Chechenskaya Respublika,173
+1075,Bălți,131
+1076,Ivanovo,173
+1077,Perm Kray,173
+1078,Lipetsk,173
+1079,Soriano,216
+1080,Rocha,216
+1081,Durazno,216
+1082,Hawaiʻi,217
+1083,Andijon,218
+1084,Xorazm,218
+1085,Tafea,219
+1086,Miranda,220
+1087,Carabobo,220
+1088,Monagas,220
+1089,Podunavlje,187
+1090,Berane,139
+1091,Srednjobosanski kanton,24
+1092,Kolubara,187
+1093,Nišava,187
+1094,Cetinje,139
+1095,Kumanovo,136
+1096,Toplica,187
+1097,Prishtinë,113
+1098,Požeško-slavonska županija,52
+1099,Manicaland,230
+1100,Neuquén,9
+1101,Doboj,24
+1102,Minsk Voblast,26
+1103,La Paz,28
+1104,Vratsa,33
+1105,Waikato,154
+1106,Comoé,43
+1107,Cartago,51
+1108,Alajuela,51
+1109,Lugo,66
+1110,Ceuta,66
+1111,Teruel,66
+1112,Orense,66
+1113,Etelä-Savo,71
+1114,Morbihan,72
+1115,Nièvre,72
+1116,Hautes-Pyrénées,72
+1117,Ain,72
+1118,Jura,72
+1119,Vosges,72
+1120,Landes,72
+1121,Tarn-et-Garonne,72
+1122,Deux-Sèvres,72
+1123,Vienne,72
+1124,Indre-et-Loire,72
+1125,Imtarfa,138
+1126,Heves,93
+1127,HaDarom,101
+1128,Verbano-Cusio-Ossola,103
+1129,Pordenone,103
+1130,Sud Sardegna,103
+1131,Catania,103
+1132,Bolzano-Bozen,103
+1133,Siracusa,103
+1134,Trento,103
+1135,Atyrau,108
+1136,Valmiera,117
+1137,Krustpils novads,117
+1138,Diekirch,125
+1139,Drenthe,148
+1140,Cusco,159
+1141,Distrito de Aveiro,165
+1142,Cabinda,6
+1143,Distrito do Porto,165
+1144,Tulcea,171
+1145,Ilfov,171
+1146,Călărași,171
+1147,Botoșani,171
+1148,Respublika Tatarstan,173
+1149,Primorsky Kray,173
+1150,Nova Gorica,183
+1151,Ivančna Gorica,183
+1152,Schaffhausen,192
+1153,Zug,192
+1154,Jämtland,195
+1155,Rivne,214
+1156,Vinnytsia,214
+1157,Novgorod,173
+1158,Poltava,214
+1159,Tver,173
+1160,Respublika Mordoviya,173
+1161,Krasnoyarsk Kray,173
+1162,Khmelnytskyi,214
+1163,Tambov,173
+1164,Chernihiv,214
+1165,Arkhangelsk,173
+1166,Põlvamaa,67
+1167,Balkan,203
+1168,Luhansk,214
+1169,Saratov,173
+1170,Basarabeasca,131
+1171,Sumy,214
+1172,Amur,173
+1173,Tauragė,124
+1174,Căușeni,131
+1175,Sarthe,72
+1176,Rhode Island,217
+1177,Vermont,217
+1178,Karlovačka županija,52
+1179,Srem,187
+1180,Kuala Lumpur,129
 1181,Jersey,233
-1182,Solothurn,107
-1183,Meath,46
-1184,Ar-Riyad,55
-1185,Dâmbovița,101
-1186,Oaxaca,66
-1187,Graubünden,107
-1188,México,66
-1189,Coahuila,66
-1190,Dordogne,1
-1191,Aube,1
-1192,Distrito de Portalegre,99
-1193,East Berbice-Corentyne,137
-1194,Covasna,101
-1195,Nayarit,66
-1196,Distrito de Santarém,99
-1197,Guadalajara,29
-1198,Caltanissetta,50
-1199,Maputo,149
-1200,Yonne,1
-1201,Cantal,1
-1202,Rieti,50
-1203,Distrito de Évora,99
-1204,Bogotá,25
-1205,Al-Minufiyya,79
-1206,Paget,38
-1207,Balıkesir,110
-1208,İzmir,110
-1209,Sežana,104
-1210,Cuneo,50
-1211,Longford,46
-1212,Chișinău,95
-1213,Jaén,29
-1214,Van,110
-1215,Distrito de Coimbra,99
-1216,Malatya,110
-1217,Sergipe,21
-1218,Mayenne,1
-1219,Tovuz,193
-1220,Kaluga,103
-1221,Yaroslavl,103
-1222,Targovishte,22
-1223,Gotland,108
-1224,Neamț,101
-1225,Asti,50
-1226,Hidalgo,66
-1227,Vâlcea,101
-1228,Corrèze,1
-1229,Fribourg,107
-1230,Guimaras,73
-1231,Zhytomyr,111
-1232,Vendée,1
-1233,Distrito de Viana do Castelo,99
-1234,Flevoland,14
-1235,Boyacá,25
-1236,Zeeland,14
-1237,Appenzell Innerrhoden,107
+1182,Solothurn,192
+1183,Meath,98
+1184,Ar-Riyad,114
+1185,Dâmbovița,171
+1186,Oaxaca,133
+1187,Graubünden,192
+1188,México,133
+1189,Coahuila,133
+1190,Dordogne,72
+1191,Aube,72
+1192,Distrito de Portalegre,165
+1193,East Berbice-Corentyne,89
+1194,Covasna,171
+1195,Nayarit,133
+1196,Distrito de Santarém,165
+1197,Guadalajara,66
+1198,Caltanissetta,103
+1199,Maputo,141
+1200,Yonne,72
+1201,Cantal,72
+1202,Rieti,103
+1203,Distrito de Évora,165
+1204,Bogotá,47
+1205,Al-Minufiyya,62
+1206,Paget,22
+1207,Balıkesir,209
+1208,İzmir,209
+1209,Sežana,183
+1210,Cuneo,103
+1211,Longford,98
+1212,Chișinău,131
+1213,Jaén,66
+1214,Van,209
+1215,Distrito de Coimbra,165
+1216,Malatya,209
+1217,Sergipe,30
+1218,Mayenne,72
+1219,Tovuz,15
+1220,Kaluga,173
+1221,Yaroslavl,173
+1222,Targovishte,33
+1223,Gotland,195
+1224,Neamț,171
+1225,Asti,103
+1226,Hidalgo,133
+1227,Vâlcea,171
+1228,Corrèze,72
+1229,Fribourg,192
+1230,Guimaras,160
+1231,Zhytomyr,214
+1232,Vendée,72
+1233,Distrito de Viana do Castelo,165
+1234,Flevoland,148
+1235,Boyacá,47
+1236,Zeeland,148
+1237,Appenzell Innerrhoden,192
 1238,Avannaata,234
-1239,Reggio Emilia,50
-1240,Uasin Gishu,94
-1241,Tukuma novads,57
-1242,Uri,107
-1243,Beirut,59
-1244,Luzern,107
-1245,Lefkosia,27
-1246,Saint Lucy,162
-1247,Ariège,1
-1248,Ogres novads,57
-1249,Ferrara,50
-1250,Risaralda,25
-1251,Maule,43
-1252,Flores,124
-1253,Aveyron,1
-1254,Vipava,104
-1255,Koprivničko-križevačka županija,87
-1256,Colonia,124
-1257,Santa Cruz,164
-1258,Valais,107
-1259,Lodi,50
-1260,Santa Catarina,21
-1261,Arezzo,50
-1262,Demerara,137
-1263,Santander,25
-1264,Valle del Cauca,25
-1265,Chieti,50
-1266,Città di San Marino,105
-1267,Avellino,50
-1268,Ascoli Piceno,50
-1269,Kobarid,104
-1270,San Fernando,121
-1271,Terni,50
-1272,Carchi,90
-1273,Tacna,72
-1274,Chanthaburi,109
-1275,Jujuy,16
-1276,Kranj,104
-1277,Creuse,1
-1278,Vercelli,50
-1279,Razgrad,22
-1280,Maldonado,124
-1281,Aguascalientes,66
-1282,Wicklow,46
-1283,Sondrio,50
-1284,Tyumen,103
-1285,Zou,89
-1286,Železniki,104
-1287,Port of Spain,121
-1288,Soria,29
-1289,Ararat,36
-1290,Maekel,219
-1291,Cauca,25
-1292,Misamis Occidental,73
-1293,Eschen,184
-1294,Ruggell,184
-1295,Cundinamarca,25
-1296,Schaan,184
-1297,An Giang,179
-1298,Notio Aigaio,6
-1299,Quetzaltenango,7
-1300,Chimborazo,90
-1301,Toledo,29
-1302,Tochigi,53
-1303,Keski-Pohjanmaa,31
-1304,Bremen,4
-1305,Kursk,103
-1306,Ishikawa,53
-1307,Burgenland,13
-1308,Rasina,129
-1309,Saaremaa,30
-1310,Trujillo,126
-1311,Cần Thơ,179
-1312,Goiás,21
-1313,Kagawa,53
-1314,Guam,35
-1315,Jelgavas novads,57
-1316,Tungurahua,90
-1317,Schwyz,107
-1318,Táchira,126
-1319,Amhara,130
-1320,Cayman Islands,186
-1321,Marlborough,69
-1322,Santa Ana,92
-1323,Portuguesa,126
-1324,Tirana,190
-1325,Mongala,159
-1326,Smiltenes novads,57
-1327,Novo mesto,104
-1328,Escaldes-Engordany,134
-1329,Vlasenica,39
-1330,Dobeles novads,57
-1331,Jaunjelgavas novads,57
-1332,Zagrebačka županija,87
-1333,Sofia Oblast,22
-1334,Isfahan,45
-1335,Brežice,104
-1336,Azarbaijan Sharqi,45
-1337,Siparia,121
-1338,Vakinankaratra,62
-1339,Appenzell Ausserrhoden,107
-1340,Catanzaro,50
-1341,Caldas,25
-1342,Tolima,25
-1343,Arad,101
-1344,Mérida,126
-1345,Krāslavas novads,57
-1346,Krapinsko-zagorska županija,87
+1239,Reggio Emilia,103
+1240,Uasin Gishu,109
+1241,Tukuma novads,117
+1242,Uri,192
+1243,Beirut,119
+1244,Luzern,192
+1245,Lefkosia,55
+1246,Saint Lucy,18
+1247,Ariège,72
+1248,Ogres novads,117
+1249,Ferrara,103
+1250,Risaralda,47
+1251,Maule,41
+1252,Flores,216
+1253,Aveyron,72
+1254,Vipava,183
+1255,Koprivničko-križevačka županija,52
+1256,Colonia,216
+1257,Santa Cruz,28
+1258,Valais,192
+1259,Lodi,103
+1260,Santa Catarina,30
+1261,Arezzo,103
+1262,Demerara,89
+1263,Santander,47
+1264,Valle del Cauca,47
+1265,Chieti,103
+1266,Città di San Marino,184
+1267,Avellino,103
+1268,Ascoli Piceno,103
+1269,Kobarid,183
+1270,San Fernando,207
+1271,Terni,103
+1272,Carchi,61
+1273,Tacna,159
+1274,Chanthaburi,201
+1275,Jujuy,9
+1276,Kranj,183
+1277,Creuse,72
+1278,Vercelli,103
+1279,Razgrad,33
+1280,Maldonado,216
+1281,Aguascalientes,133
+1282,Wicklow,98
+1283,Sondrio,103
+1284,Tyumen,173
+1285,Zou,21
+1286,Železniki,183
+1287,Port of Spain,207
+1288,Soria,66
+1289,Ararat,10
+1290,Maekel,64
+1291,Cauca,47
+1292,Misamis Occidental,160
+1293,Eschen,123
+1294,Ruggell,123
+1295,Cundinamarca,47
+1296,Schaan,123
+1297,An Giang,221
+1298,Notio Aigaio,84
+1299,Quetzaltenango,86
+1300,Chimborazo,61
+1301,Toledo,66
+1302,Tochigi,107
+1303,Keski-Pohjanmaa,71
+1304,Bremen,82
+1305,Kursk,173
+1306,Ishikawa,107
+1307,Burgenland,14
+1308,Rasina,187
+1309,Saaremaa,67
+1310,Trujillo,220
+1311,Cần Thơ,221
+1312,Goiás,30
+1313,Kagawa,107
+1314,Guam,88
+1315,Jelgavas novads,117
+1316,Tungurahua,61
+1317,Schwyz,192
+1318,Táchira,220
+1319,Amhara,68
+1320,Cayman Islands,38
+1321,Marlborough,154
+1322,Santa Ana,65
+1323,Portuguesa,220
+1324,Tirana,3
+1325,Mongala,45
+1326,Smiltenes novads,117
+1327,Novo mesto,183
+1328,Escaldes-Engordany,5
+1329,Vlasenica,24
+1330,Dobeles novads,117
+1331,Jaunjelgavas novads,117
+1332,Zagrebačka županija,52
+1333,Sofia Oblast,33
+1334,Isfahan,97
+1335,Brežice,183
+1336,Azarbaijan Sharqi,97
+1337,Siparia,207
+1338,Vakinankaratra,126
+1339,Appenzell Ausserrhoden,192
+1340,Catanzaro,103
+1341,Caldas,47
+1342,Tolima,47
+1343,Arad,171
+1344,Mérida,220
+1345,Krāslavas novads,117
+1346,Krapinsko-zagorska županija,52
 1347,Burg,
-1348,Sakarya,110
-1349,Rondônia,21
-1350,Belize,163
-1351,Smolensk,103
-1352,Astana,93
-1353,Nagasaki,53
-1354,Kalimantan Barat,12
-1355,Khövsgöl,96
-1356,Talsu novads,57
-1357,Madonas novads,57
-1358,Lavalleja,124
-1359,Samar,73
-1360,Soltustyk Qazaqstan,93
-1361,Glarus,107
-1362,National Capital District,166
-1363,Saint Catherine,51
-1364,Jabal Libnan,59
-1365,Bago,150
-1366,Benevento,50
+1348,Sakarya,209
+1349,Rondônia,30
+1350,Belize,25
+1351,Smolensk,173
+1352,Astana,108
+1353,Nagasaki,107
+1354,Kalimantan Barat,94
+1355,Khövsgöl,134
+1356,Talsu novads,117
+1357,Madonas novads,117
+1358,Lavalleja,216
+1359,Samar,160
+1360,Soltustyk Qazaqstan,108
+1361,Glarus,192
+1362,National Capital District,163
+1363,Saint Catherine,105
+1364,Jabal Libnan,119
+1365,Bago,144
+1366,Benevento,103
 1367,Montserrat,235
-1368,Hà Nội,179
-1369,Nord-Ouest,8
+1368,Hà Nội,221
+1369,Nord-Ouest,90
 1370,Isle of Man,236
-1371,Puducherry,15
-1372,Kagera,174
+1371,Puducherry,95
+1372,Kagera,198
 1373,Falkland Islands,237
-1374,Chhattisgarh,15
-1375,Jharkhand,15
-1376,Gujarat,15
-1377,Chandigarh,15
-1378,Manipur,15
-1379,Kisumu,94
-1380,Goa,15
-1381,Mombasa,94
-1382,Nyeri,94
-1383,Kajiado,94
-1384,Mwanza,174
-1385,Daegu,54
-1386,Daejeon,54
-1387,Negeri Sembilan,64
-1388,Kedah,64
-1389,Melaka,64
-1390,Sumatera Selatan,12
-1391,Kadavu,131
-1392,Islamabad,70
-1393,Kerala,15
-1394,As-Suways,79
-1395,Blantyre,147
-1396,Midlands,113
-1397,Artemisa,85
-1398,Läänemaa,30
-1399,HaTzafons,49
-1400,Siena,50
-1401,Respublika Severnaya Osetiya-Alaniya,103
-1402,Eskişehir,110
-1403,Vargas,126
-1404,Salta,16
-1405,Divača,104
-1406,Kočevje,104
-1407,Équateur,159
-1408,Sankuru,159
-1409,Aisén,43
-1410,Sud,8
-1411,Južni Banat,129
-1412,Indre,1
-1413,Dhaka,197
-1414,Tas-Sliema,97
-1415,Peloponnesos,6
-1416,Dutiki Makedonia,6
-1417,Bijeljina,39
-1418,Kotor,201
-1419,Aceh,12
-1420,Kermanshah,45
-1421,Corse-du-Sud,1
-1422,Kriti,6
-1423,Barletta-Andria-Trani,50
-1424,Beqaa,59
-1425,Ash-Shamal,59
-1426,Nabatiye,59
-1427,Al-Janub,59
-1428,Yucatán,66
-1429,Sulawesi Tengah,12
-1430,Sumatera Barat,12
-1431,Distrito de Setúbal,99
-1432,Distrito de Beja,99
-1433,Distrito de Castelo Branco,99
-1434,Distrito de Faro,99
-1435,Västerbotten,108
-1436,Kvemo Kartli,33
-1437,Aktobe,93
-1438,Vladimir,103
-1439,Sakhalin,103
-1440,Chuy,143
-1441,Kemerovo,103
-1442,Khánh Hòa,179
-1443,Brodsko-posavska županija,87
-1444,Virovitičko-podravska županija,87
-1445,Mascara,114
-1446,El Bayadh,114
-1447,Ohrid,182
-1448,Ivano-Frankivsk,111
-1449,Paraíba,21
-1450,Acre,21
-1451,Maranhão,21
-1452,Ceará,21
-1453,Piauí,21
-1454,Amazonas,21
-1455,Yambol,22
-1456,Kratovo,182
-1457,Kentriki Makedonia,6
-1458,Coquimbo,43
-1459,Quindío,25
-1460,Chocó,25
-1461,Nariño,25
-1462,Norte de Santander,25
-1463,Heredia,26
-1464,Limón,26
-1465,Puntarenas,26
-1466,Guanacaste,26
-1467,Ad-Daqahliyah,79
-1468,Asyut,79
-1469,Al-Ismailiyah,79
-1470,Dumyat,79
-1471,Shamal Kurdufan,118
-1472,Al-Minya,79
-1473,Aswan,79
-1474,Cabañas,92
-1475,Usulután,92
-1476,San Miguel,92
-1477,Sonsonate,92
-1478,La Unión,92
-1479,Albacete,29
-1480,Cáceres,29
-1481,Järvamaa,30
-1482,Chlef,114
+1374,Chhattisgarh,95
+1375,Jharkhand,95
+1376,Gujarat,95
+1377,Chandigarh,95
+1378,Manipur,95
+1379,Kisumu,109
+1380,Goa,95
+1381,Mombasa,109
+1382,Nyeri,109
+1383,Kajiado,109
+1384,Mwanza,198
+1385,Daegu,112
+1386,Daejeon,112
+1387,Negeri Sembilan,129
+1388,Kedah,129
+1389,Melaka,129
+1390,Sumatera Selatan,94
+1391,Kadavu,70
+1392,Islamabad,156
+1393,Kerala,95
+1394,As-Suways,62
+1395,Blantyre,130
+1396,Midlands,230
+1397,Artemisa,54
+1398,Läänemaa,67
+1399,HaTzafons,101
+1400,Siena,103
+1401,Respublika Severnaya Osetiya-Alaniya,173
+1402,Eskişehir,209
+1403,Vargas,220
+1404,Salta,9
+1405,Divača,183
+1406,Kočevje,183
+1407,Équateur,45
+1408,Sankuru,45
+1409,Aisén,41
+1410,Sud,90
+1411,Južni Banat,187
+1412,Indre,72
+1413,Dhaka,17
+1414,Tas-Sliema,138
+1415,Peloponnesos,84
+1416,Dutiki Makedonia,84
+1417,Bijeljina,24
+1418,Kotor,139
+1419,Aceh,94
+1420,Kermanshah,97
+1421,Corse-du-Sud,72
+1422,Kriti,84
+1423,Barletta-Andria-Trani,103
+1424,Beqaa,119
+1425,Ash-Shamal,119
+1426,Nabatiye,119
+1427,Al-Janub,119
+1428,Yucatán,133
+1429,Sulawesi Tengah,94
+1430,Sumatera Barat,94
+1431,Distrito de Setúbal,165
+1432,Distrito de Beja,165
+1433,Distrito de Castelo Branco,165
+1434,Distrito de Faro,165
+1435,Västerbotten,195
+1436,Kvemo Kartli,80
+1437,Aktobe,108
+1438,Vladimir,173
+1439,Sakhalin,173
+1440,Chuy,110
+1441,Kemerovo,173
+1442,Khánh Hòa,221
+1443,Brodsko-posavska županija,52
+1444,Virovitičko-podravska županija,52
+1445,Mascara,4
+1446,El Bayadh,4
+1447,Ohrid,136
+1448,Ivano-Frankivsk,214
+1449,Paraíba,30
+1450,Acre,30
+1451,Maranhão,30
+1452,Ceará,30
+1453,Piauí,30
+1454,Amazonas,30
+1455,Yambol,33
+1456,Kratovo,136
+1457,Kentriki Makedonia,84
+1458,Coquimbo,41
+1459,Quindío,47
+1460,Chocó,47
+1461,Nariño,47
+1462,Norte de Santander,47
+1463,Heredia,51
+1464,Limón,51
+1465,Puntarenas,51
+1466,Guanacaste,51
+1467,Ad-Daqahliyah,62
+1468,Asyut,62
+1469,Al-Ismailiyah,62
+1470,Dumyat,62
+1471,Shamal Kurdufan,191
+1472,Al-Minya,62
+1473,Aswan,62
+1474,Cabañas,65
+1475,Usulután,65
+1476,San Miguel,65
+1477,Sonsonate,65
+1478,La Unión,65
+1479,Albacete,66
+1480,Cáceres,66
+1481,Järvamaa,67
+1482,Chlef,4
 1483,New Caledonia,238
-1484,Gôh-Djiboua,81
-1485,Skikda,114
-1486,Haute-Loire,1
-1487,Ashanti,5
-1488,Escuintla,7
-1489,Petén,7
-1490,Suchitepéquez,7
-1491,Izabal,7
-1492,Alta Verapaz,7
-1493,San Marcos,7
-1494,Conakry,140
-1495,Faranah,140
-1496,Kindia,140
-1497,Nagaland,15
-1498,Lorestan,45
-1499,Khorasan Razavi,45
-1500,Hamadan,45
-1501,Kerman,45
-1502,Gilan,45
-1503,Kurdistan,45
-1504,Sligo,46
-1505,Westmeath,46
-1506,Donegal,46
-1507,Salah ad-Din,47
-1508,Al-Basrah,47
-1509,Arbil,47
-1510,Maysan,47
-1511,HaMerkaz,49
-1512,Massa-Carrara,50
-1513,Biella,50
-1514,Tottori,53
-1515,Ibaraki,53
-1516,Yamanashi,53
-1517,Pyeonganbuk,100
-1518,Hwanghaenam,100
-1519,Gwangju,54
-1520,Makkah,55
-1521,Al-Madinah,55
-1522,Al-Asimah,56
-1523,Béni Mellal-Khénifra,63
-1524,Kelantan,64
-1525,Tabasco,66
-1526,Morelos,66
-1527,Tlaxcala,66
-1528,Bengkulu,12
-1529,Southwest,82
-1530,Osun,67
-1531,Kaduna,67
-1532,Abuja,67
-1533,Benue,67
-1534,Imo,67
-1535,Ogun,67
-1536,Kano,67
-1537,Cross River,67
-1538,Paraguarí,71
-1539,Cordillera,71
-1540,Huancavelica,72
-1541,Distrito de Vila Real,99
-1542,Distrito de Braga,99
-1543,São Tomé,216
-1544,Bissau,204
-1545,Huíla,135
-1546,Ad-Dawhah,115
-1547,Togdheer,215
-1548,Bacău,101
-1549,Hunedoara,101
-1550,Sălaj,101
-1551,Giurgiu,101
-1552,Maritime,177
-1553,Halab,173
-1554,Dimashq,173
-1555,Latakia,173
-1556,Nong Khai,109
-1557,Ubon Ratchathani,109
-1558,Ayutthaya,109
-1559,Phitsanulok,109
-1560,Lopburi,109
-1561,Songkhla,109
-1562,Roi Et,109
-1563,Sfax,122
-1564,Bizerte,122
-1565,Gabès,122
-1566,Monastir,122
-1567,Ariana,122
-1568,Ben Arous,122
-1569,Mahdia,122
-1570,Afyonkarahisar,110
-1571,Manisa,110
-1572,Silistra,22
-1573,Aydın,110
-1574,Diyarbakır,110
-1575,Elazığ,110
-1576,Ulyanovsk,103
-1577,Armavir,36
-1578,Adjara,33
-1579,Karachayevo-Cherkesskaya Respublika,103
-1580,North Dakota,34
-1581,Barinas,126
-1582,Tetovo,182
-1583,Kanton 10,39
-1584,Berovo,182
-1585,Pomoravlje,129
-1586,Bjelovarsko-bilogorska županija,87
-1587,Bitola,182
-1588,Brčko Distrikt,39
-1589,Štip,182
-1590,Pejë,227
-1591,Mitrovicë,227
-1592,Dobrova-Polhov Gradec,104
-1593,Trebinje,39
-1594,Luapula,154
-1595,Yunnan,24
-1596,Niamey,153
-1597,Yerushalayim,49
-1598,Prato,50
-1599,Papua Barat,12
-1600,Vrancea,101
-1601,Penza,103
-1602,Respublika Khakasiya,103
-1603,Buxoro,125
-1604,Jesenice,104
-1605,Ptuj,104
-1606,Vuzenica,104
-1607,Jiangxi,24
+1484,Gôh-Djiboua,43
+1485,Skikda,4
+1486,Haute-Loire,72
+1487,Ashanti,83
+1488,Escuintla,86
+1489,Petén,86
+1490,Suchitepéquez,86
+1491,Izabal,86
+1492,Alta Verapaz,86
+1493,San Marcos,86
+1494,Conakry,87
+1495,Faranah,87
+1496,Kindia,87
+1497,Nagaland,95
+1498,Lorestan,97
+1499,Khorasan Razavi,97
+1500,Hamadan,97
+1501,Kerman,97
+1502,Gilan,97
+1503,Kurdistan,97
+1504,Sligo,98
+1505,Westmeath,98
+1506,Donegal,98
+1507,Salah ad-Din,99
+1508,Al-Basrah,99
+1509,Arbil,99
+1510,Maysan,99
+1511,HaMerkaz,101
+1512,Massa-Carrara,103
+1513,Biella,103
+1514,Tottori,107
+1515,Ibaraki,107
+1516,Yamanashi,107
+1517,Pyeonganbuk,166
+1518,Hwanghaenam,166
+1519,Gwangju,112
+1520,Makkah,114
+1521,Al-Madinah,114
+1522,Al-Asimah,115
+1523,Béni Mellal-Khénifra,128
+1524,Kelantan,129
+1525,Tabasco,133
+1526,Morelos,133
+1527,Tlaxcala,133
+1528,Bengkulu,94
+1529,Southwest,44
+1530,Osun,150
+1531,Kaduna,150
+1532,Abuja,150
+1533,Benue,150
+1534,Imo,150
+1535,Ogun,150
+1536,Kano,150
+1537,Cross River,150
+1538,Paraguarí,158
+1539,Cordillera,158
+1540,Huancavelica,159
+1541,Distrito de Vila Real,165
+1542,Distrito de Braga,165
+1543,São Tomé,190
+1544,Bissau,78
+1545,Huíla,6
+1546,Ad-Dawhah,168
+1547,Togdheer,186
+1548,Bacău,171
+1549,Hunedoara,171
+1550,Sălaj,171
+1551,Giurgiu,171
+1552,Maritime,205
+1553,Halab,197
+1554,Dimashq,197
+1555,Latakia,197
+1556,Nong Khai,201
+1557,Ubon Ratchathani,201
+1558,Ayutthaya,201
+1559,Phitsanulok,201
+1560,Lopburi,201
+1561,Songkhla,201
+1562,Roi Et,201
+1563,Sfax,208
+1564,Bizerte,208
+1565,Gabès,208
+1566,Monastir,208
+1567,Ariana,208
+1568,Ben Arous,208
+1569,Mahdia,208
+1570,Afyonkarahisar,209
+1571,Manisa,209
+1572,Silistra,33
+1573,Aydın,209
+1574,Diyarbakır,209
+1575,Elazığ,209
+1576,Ulyanovsk,173
+1577,Armavir,10
+1578,Adjara,80
+1579,Karachayevo-Cherkesskaya Respublika,173
+1580,North Dakota,217
+1581,Barinas,220
+1582,Tetovo,136
+1583,Kanton 10,24
+1584,Berovo,136
+1585,Pomoravlje,187
+1586,Bjelovarsko-bilogorska županija,52
+1587,Bitola,136
+1588,Brčko Distrikt,24
+1589,Štip,136
+1590,Pejë,113
+1591,Mitrovicë,113
+1592,Dobrova-Polhov Gradec,183
+1593,Trebinje,24
+1594,Luapula,229
+1595,Yunnan,42
+1596,Niamey,151
+1597,Yerushalayim,101
+1598,Prato,103
+1599,Papua Barat,94
+1600,Vrancea,171
+1601,Penza,173
+1602,Respublika Khakasiya,173
+1603,Buxoro,218
+1604,Jesenice,183
+1605,Ptuj,183
+1606,Vuzenica,183
+1607,Jiangxi,42
 1608,Sermersooq,234
-1609,Lot,1
-1610,Sétif,114
-1611,La Réunion,1
-1612,Fermo,50
-1613,Taranto,50
-1614,Mie,53
-1615,Okayama,53
-1616,Shimane,53
-1617,Göygöl,193
-1618,Obwalden,107
-1619,Gəncə,193
-1620,Ashgabat,11
-1621,Qaraqalpaqstan Respublikasi,125
-1622,Brezovica,104
-1623,Šenčur,104
-1624,Bohinj,104
-1625,Palencia,29
+1609,Lot,72
+1610,Sétif,4
+1611,La Réunion,72
+1612,Fermo,103
+1613,Taranto,103
+1614,Mie,107
+1615,Okayama,107
+1616,Shimane,107
+1617,Göygöl,15
+1618,Obwalden,192
+1619,Gəncə,15
+1620,Ashgabat,203
+1621,Qaraqalpaqstan Respublikasi,218
+1622,Brezovica,183
+1623,Šenčur,183
+1624,Bohinj,183
+1625,Palencia,66
 1626,Jessen,
-1627,Jijel,114
-1628,Brazzaville,78
-1629,Shaanxi,24
-1630,Sassandra-Marahoué,81
-1631,Slovenj Gradec,104
-1632,Norðurland eystra,48
-1633,Höfuðborgarsvæði,48
-1634,Gorj,101
-1635,Alūksnes novads,57
-1636,Alaska,34
-1637,Kičevo,182
-1638,Danilovgrad,201
-1639,Bosansko-podrinjski kanton,39
-1640,Pirot,129
-1641,Herceg Novi,201
-1642,Slovenska Bistrica,104
-1643,Woleu-Ntem,132
-1644,Darkhan-Uul,96
-1645,Beyləqan,193
-1646,Ordu,110
-1647,Uvs,96
-1648,Khentii,96
-1649,Bayankhongor,96
-1650,Bordj Bou Arréridj,114
-1651,Khovd,96
-1652,Ziguinchor,160
-1653,Tarabulus,58
-1654,Kakheti,33
-1655,Sîngerei,95
-1656,Respublika Adygeya,103
-1657,Shida Kartli,33
-1658,Samegrelo-Zemo Svaneti,33
-1659,Macuata,131
-1660,Sarajevo-Romanija,39
-1661,Região Autónoma dos Açores,99
-1662,Töv,96
-1663,Dajabón,86
-1664,Thừa Thiên-Huế,179
-1665,Sükhbaatar,96
-1666,Racha-Lechkhumi da Kvemo Svaneti,33
-1667,Guelmim-Oued Noun,63
-1668,Gafsa,122
-1669,Pembroke,38
-1670,Distrito de Viseu,99
-1671,Smolyan,22
-1672,Nei Mongol,24
-1673,Kafr As-Sayh,79
-1674,Viljandimaa,30
-1675,Saint-Louis,160
-1676,Belt Valletta,97
+1627,Jijel,4
+1628,Brazzaville,39
+1629,Shaanxi,42
+1630,Sassandra-Marahoué,43
+1631,Slovenj Gradec,183
+1632,Norðurland eystra,100
+1633,Höfuðborgarsvæði,100
+1634,Gorj,171
+1635,Alūksnes novads,117
+1636,Alaska,217
+1637,Kičevo,136
+1638,Danilovgrad,139
+1639,Bosansko-podrinjski kanton,24
+1640,Pirot,187
+1641,Herceg Novi,139
+1642,Slovenska Bistrica,183
+1643,Woleu-Ntem,75
+1644,Darkhan-Uul,134
+1645,Beyləqan,15
+1646,Ordu,209
+1647,Uvs,134
+1648,Khentii,134
+1649,Bayankhongor,134
+1650,Bordj Bou Arréridj,4
+1651,Khovd,134
+1652,Ziguinchor,178
+1653,Tarabulus,118
+1654,Kakheti,80
+1655,Sîngerei,131
+1656,Respublika Adygeya,173
+1657,Shida Kartli,80
+1658,Samegrelo-Zemo Svaneti,80
+1659,Macuata,70
+1660,Sarajevo-Romanija,24
+1661,Região Autónoma dos Açores,165
+1662,Töv,134
+1663,Dajabón,60
+1664,Thừa Thiên-Huế,221
+1665,Sükhbaatar,134
+1666,Racha-Lechkhumi da Kvemo Svaneti,80
+1667,Guelmim-Oued Noun,128
+1668,Gafsa,208
+1669,Pembroke,22
+1670,Distrito de Viseu,165
+1671,Smolyan,33
+1672,Nei Mongol,42
+1673,Kafr As-Sayh,62
+1674,Viljandimaa,67
+1675,Saint-Louis,178
+1676,Belt Valletta,138
 1677,Halle,
 1678,Kalbe,
-1679,Epeiros,6
-1680,Carlow,46
-1681,Cavan,46
-1682,Laois,46
-1683,Piran,104
-1684,Nuoro,50
-1685,Chiapas,66
+1679,Epeiros,84
+1680,Carlow,98
+1681,Cavan,98
+1682,Laois,98
+1683,Piran,183
+1684,Nuoro,103
+1685,Chiapas,133
 1686,Gibraltar,239
-1687,Bay of Plenty,69
-1688,Nidwalden,107
-1689,Skrundas novads,57
-1690,Daugavpils,57
-1691,Iecavas novads,57
-1692,Wyoming,34
-1693,Bled,104
-1694,Zaječar,129
-1695,Andorra la Vella,134
-1696,Cochabamba,164
-1697,Corozal,163
-1698,Anhui,24
-1699,Larnaka,27
-1700,Ammokhostos,27
-1701,Hato Mayor,86
-1702,Haute-Corse,1
-1703,Béja,122
-1704,Boeny,62
+1687,Bay of Plenty,154
+1688,Nidwalden,192
+1689,Skrundas novads,117
+1690,Daugavpils,117
+1691,Iecavas novads,117
+1692,Wyoming,217
+1693,Bled,183
+1694,Zaječar,187
+1695,Andorra la Vella,5
+1696,Cochabamba,28
+1697,Corozal,25
+1698,Anhui,42
+1699,Larnaka,55
+1700,Ammokhostos,55
+1701,Hato Mayor,60
+1702,Haute-Corse,72
+1703,Béja,208
+1704,Boeny,126
 1705,Guernsey,240
-1706,Lemesos,27
-1707,Voreio Aigaio,6
-1708,Santa Rosa,7
-1709,Chiquimula,7
-1710,Fars,45
-1711,Banaadir,215
-1712,Lecce,50
-1713,Mafraq,52
-1714,Machakos,94
-1715,Kangweon,100
-1716,Olaines novads,57
-1717,Siguldas novads,57
-1718,Amatas novads,57
-1719,Mauren,184
-1720,Vaduz,184
-1721,Campeche,66
-1722,Colima,66
-1723,Övörkhangai,96
-1724,Mosta,97
-1725,Hardap,151
-1726,Lumbini,152
+1706,Lemesos,55
+1707,Voreio Aigaio,84
+1708,Santa Rosa,86
+1709,Chiquimula,86
+1710,Fars,97
+1711,Banaadir,186
+1712,Lecce,103
+1713,Mafraq,106
+1714,Machakos,109
+1715,Kangweon,166
+1716,Olaines novads,117
+1717,Siguldas novads,117
+1718,Amatas novads,117
+1719,Mauren,123
+1720,Vaduz,123
+1721,Campeche,133
+1722,Colima,133
+1723,Övörkhangai,134
+1724,Mosta,138
+1725,Hardap,145
+1726,Lumbini,149
 1727,Ad-Dakhiliyah,155
-1728,Ancash,72
-1729,Cajamarca,72
-1730,Nueva Ecija,73
-1731,Malabon,73
-1732,Mashonaland East,113
-1733,Briceni,95
-1734,Ardahan,110
-1735,Postojna,104
-1736,Borgo Maggiore,105
-1737,Jonglei,229
-1738,Prachinburi,109
-1739,Arima,121
-1740,Shyrgys Qazaqstan,93
-1741,Batys Qazaqstan,93
-1742,Anzoátegui,126
-1743,Bạc Liêu,179
+1728,Ancash,159
+1729,Cajamarca,159
+1730,Nueva Ecija,160
+1731,Malabon,160
+1732,Mashonaland East,230
+1733,Briceni,131
+1734,Ardahan,209
+1735,Postojna,183
+1736,Borgo Maggiore,184
+1737,Jonglei,189
+1738,Prachinburi,201
+1739,Arima,207
+1740,Shyrgys Qazaqstan,108
+1741,Batys Qazaqstan,108
+1742,Anzoátegui,220
+1743,Bạc Liêu,221
 1744,Norfolk Island,241
-1745,Upper Demerara-Berbice,137
-1746,Sandys,38
-1747,Beni,164
-1748,Al-Muharaq,188
-1749,Adan,194
-1750,Chongqing,24
-1751,Huila,25
-1752,Isla de la Juventud,85
-1753,Saint Paul,199
-1754,Manabí,90
-1755,Bioko Norte,211
-1756,Cortés,141
-1757,Vestfirðir,48
-1758,Pescara,50
-1759,Tokushima,53
-1760,Niassa,149
-1761,Kachin,150
-1762,Khomas,151
-1763,Falcón,126
-1764,Madang,166
-1765,Batangas,73
-1766,Ilocos Norte,73
-1767,Zambezia,149
-1768,Hhohho,172
-1769,Gaziantep,110
-1770,Kirov,103
-1771,Syunik,36
-1772,Kurgan,103
-1773,Bến Tre,179
-1774,Tivat,201
-1775,Papua,12
-1776,Nusa Tenggara Barat,12
-1777,Alagoas,21
+1745,Upper Demerara-Berbice,89
+1746,Sandys,22
+1747,Beni,28
+1748,Al-Muharaq,31
+1749,Adan,226
+1750,Chongqing,42
+1751,Huila,47
+1752,Isla de la Juventud,54
+1753,Saint Paul,59
+1754,Manabí,61
+1755,Bioko Norte,81
+1756,Cortés,92
+1757,Vestfirðir,100
+1758,Pescara,103
+1759,Tokushima,107
+1760,Niassa,141
+1761,Kachin,144
+1762,Khomas,145
+1763,Falcón,220
+1764,Madang,163
+1765,Batangas,160
+1766,Ilocos Norte,160
+1767,Zambezia,141
+1768,Hhohho,196
+1769,Gaziantep,209
+1770,Kirov,173
+1771,Syunik,10
+1772,Kurgan,173
+1773,Bến Tre,221
+1774,Tivat,139
+1775,Papua,94
+1776,Nusa Tenggara Barat,94
+1777,Alagoas,30
 1778,Groß Pankow,
-1779,Khatlon,176
-1780,Jalal-Abad,143
-1781,Găgăuzia,95
-1782,Bangka-Belitung,12
-1783,Saint Philip,136
-1784,Shkodër,190
-1785,Batna,114
-1786,Lənkəran Şəhər,193
-1787,İsmayıllı,193
-1788,Shumen,22
-1789,Guizhou,24
-1790,Valgamaa,30
-1791,Rotuma,131
-1792,Osh,143
-1793,Vlorë,190
-1794,Korçë,190
-1795,Sulawesi Barat,12
-1796,Lampung,12
-1797,Mazandaran,45
-1798,Ardabil,45
-1799,Benghazi,58
-1800,Gyeongsang,54
-1801,Pļaviņu novads,57
-1802,Valkas novads,57
-1803,Saldus novads,57
-1804,Cahul,95
-1805,Fălești,95
-1806,Tanintharyi,150
-1807,Buada,202
-1808,Coclé,156
-1809,Zambales,73
-1810,Namangan,125
-1811,Anetan,202
-1812,Hîncești,95
-1813,Kabul,161
-1814,Durrës,190
-1815,Samsun,110
-1816,Şirvan,193
-1817,Santo Domingo,86
-1818,Åland,31
-1819,Gabú,204
+1779,Khatlon,202
+1780,Jalal-Abad,110
+1781,Găgăuzia,131
+1782,Bangka-Belitung,94
+1783,Saint Philip,7
+1784,Shkodër,3
+1785,Batna,4
+1786,Lənkəran Şəhər,15
+1787,İsmayıllı,15
+1788,Shumen,33
+1789,Guizhou,42
+1790,Valgamaa,67
+1791,Rotuma,70
+1792,Osh,110
+1793,Vlorë,3
+1794,Korçë,3
+1795,Sulawesi Barat,94
+1796,Lampung,94
+1797,Mazandaran,97
+1798,Ardabil,97
+1799,Benghazi,118
+1800,Gyeongsang,112
+1801,Pļaviņu novads,117
+1802,Valkas novads,117
+1803,Saldus novads,117
+1804,Cahul,131
+1805,Fălești,131
+1806,Tanintharyi,144
+1807,Buada,153
+1808,Coclé,157
+1809,Zambales,160
+1810,Namangan,218
+1811,Anetan,153
+1812,Hîncești,131
+1813,Kabul,1
+1814,Durrës,3
+1815,Samsun,209
+1816,Şirvan,15
+1817,Santo Domingo,60
+1818,Åland,71
+1819,Gabú,78
 1820,Bismark,
-1821,Murska Sobota,104
-1822,Guria,33
+1821,Murska Sobota,183
+1822,Guria,80
 1823,München,
-1824,Kars,110
-1825,Zacapa,7
-1826,Labé,140
-1827,Markazi,45
-1828,Qazvin,45
-1829,Golestan,45
-1830,Toyama,53
-1831,Burtnieku novads,57
-1832,Rūjienas novads,57
-1833,Aizputes novads,57
-1834,Lielvārdes novads,57
-1835,Hatay,110
-1836,Criuleni,95
-1837,Arkhangai,96
-1838,Selenge,96
-1839,Lənkəran Rayon,193
-1840,Yalova,110
-1841,Kahramanmaraş,110
-1842,Tokat,110
-1843,Çorum,110
-1844,Rize,110
-1845,Gümüşhane,110
-1846,Kocaeli,110
-1847,Amasya,110
-1848,Erzincan,110
-1849,Giresun,110
-1850,Denizli,110
-1851,Erzurum,110
-1852,Antalya,110
-1853,Karabük,110
-1854,Düzce,110
-1855,Ağrı,110
-1856,Mtskheta-Mtianeti,33
-1857,Kamchatka Kray,103
-1858,Xocavənd,193
-1859,Gegharkunik,36
-1860,Cəbrayıl,193
-1861,Strumica,182
-1862,Zelenikovo,182
-1863,Rankovce,182
-1864,Petrovec,182
-1865,Biskra,114
-1866,Saulkrastu novads,57
-1867,Encamp,134
-1868,Uttaradit,109
-1869,Bengo,135
-1870,Leitrim,46
-1871,Tasman,69
-1872,Port Louis,65
-1873,Assam,15
-1874,Hiiumaa,30
-1875,El Oued,114
-1876,Sant Julià de Lòria,134
-1877,Itapúa,71
-1878,Auces novads,57
-1879,Trelawny,51
-1880,West Grand Bahama,37
-1881,Bimini,37
-1882,Tobago,121
-1883,Karuzi,208
-1884,Makamba,208
-1885,Bururi,208
-1886,Oruro,164
-1887,Francistown,165
-1888,Saint James,51
-1889,Rio Claro-Mayaro,121
-1890,Artibonite,8
-1891,Saint Andrew,51
-1892,Saint George,217
-1893,Newfoundland and Labrador,23
-1894,Saint George Basseterre,214
-1895,Hanover,51
-1896,Westmoreland,51
-1897,Niari,78
-1898,Lac,80
-1899,Magallanes and Antártica Chilena,43
-1900,Atacama,43
-1901,Qinghai,24
-1902,Savanes,81
-1903,Vallée du Bandama,81
-1904,Zanzan,81
-1905,Bas-Sassandra,81
-1906,Hauts-Bassins,75
-1907,Far North,82
-1908,Cesar,25
-1909,San Andrés and Providencia,25
-1910,Mohéli,209
-1911,Praia,210
-1912,Zapadnohercegovački kanton,39
-1913,Međimurska županija,87
-1914,Norðurland vestra,48
-1915,Ali Sabieh,195
-1916,Saint John,199
+1824,Kars,209
+1825,Zacapa,86
+1826,Labé,87
+1827,Markazi,97
+1828,Qazvin,97
+1829,Golestan,97
+1830,Toyama,107
+1831,Burtnieku novads,117
+1832,Rūjienas novads,117
+1833,Aizputes novads,117
+1834,Lielvārdes novads,117
+1835,Hatay,209
+1836,Criuleni,131
+1837,Arkhangai,134
+1838,Selenge,134
+1839,Lənkəran Rayon,15
+1840,Yalova,209
+1841,Kahramanmaraş,209
+1842,Tokat,209
+1843,Çorum,209
+1844,Rize,209
+1845,Gümüşhane,209
+1846,Kocaeli,209
+1847,Amasya,209
+1848,Erzincan,209
+1849,Giresun,209
+1850,Denizli,209
+1851,Erzurum,209
+1852,Antalya,209
+1853,Karabük,209
+1854,Düzce,209
+1855,Ağrı,209
+1856,Mtskheta-Mtianeti,80
+1857,Kamchatka Kray,173
+1858,Xocavənd,15
+1859,Gegharkunik,10
+1860,Cəbrayıl,15
+1861,Strumica,136
+1862,Zelenikovo,136
+1863,Rankovce,136
+1864,Petrovec,136
+1865,Biskra,4
+1866,Saulkrastu novads,117
+1867,Encamp,5
+1868,Uttaradit,201
+1869,Bengo,6
+1870,Leitrim,98
+1871,Tasman,154
+1872,Port Louis,142
+1873,Assam,95
+1874,Hiiumaa,67
+1875,El Oued,4
+1876,Sant Julià de Lòria,5
+1877,Itapúa,158
+1878,Auces novads,117
+1879,Trelawny,105
+1880,West Grand Bahama,16
+1881,Bimini,16
+1882,Tobago,207
+1883,Karuzi,19
+1884,Makamba,19
+1885,Bururi,19
+1886,Oruro,28
+1887,Francistown,29
+1888,Saint James,105
+1889,Rio Claro-Mayaro,207
+1890,Artibonite,90
+1891,Saint Andrew,105
+1892,Saint George,222
+1893,Newfoundland and Labrador,37
+1894,Saint George Basseterre,181
+1895,Hanover,105
+1896,Westmoreland,105
+1897,Niari,39
+1898,Lac,40
+1899,Magallanes and Antártica Chilena,41
+1900,Atacama,41
+1901,Qinghai,42
+1902,Savanes,43
+1903,Vallée du Bandama,43
+1904,Zanzan,43
+1905,Bas-Sassandra,43
+1906,Hauts-Bassins,34
+1907,Far North,44
+1908,Cesar,47
+1909,San Andrés and Providencia,47
+1910,Mohéli,48
+1911,Praia,50
+1912,Zapadnohercegovački kanton,24
+1913,Međimurska županija,52
+1914,Norðurland vestra,100
+1915,Ali Sabieh,58
+1916,Saint John,59
 1917,Saint-Martin,242
-1918,Azuay,90
-1919,Cotopaxi,90
-1920,Morazán,92
-1921,Ávila,29
-1922,Somali,130
-1923,Tigray,130
-1924,Nadroga-Navosa,131
-1925,Cakaudrove,131
-1926,Serua,131
-1927,Bua,131
-1928,Ouémé,89
-1929,Lozère,1
-1930,Distrito de Bragança,99
-1931,Moyen-Chari,80
-1932,Banjul,203
-1933,Iringa,174
-1934,Saint Elizabeth,51
+1918,Azuay,61
+1919,Cotopaxi,61
+1920,Morazán,65
+1921,Ávila,66
+1922,Somali,68
+1923,Tigray,68
+1924,Nadroga-Navosa,70
+1925,Cakaudrove,70
+1926,Serua,70
+1927,Bua,70
+1928,Ouémé,21
+1929,Lozère,72
+1930,Distrito de Bragança,165
+1931,Moyen-Chari,40
+1932,Banjul,76
+1933,Iringa,198
+1934,Saint Elizabeth,105
 1935,Anguilla,244
-1936,Les Mamelles,170
-1937,Clare,46
-1938,Khulna,197
-1939,Kirkuk,47
+1936,Les Mamelles,179
+1937,Clare,98
+1938,Khulna,17
+1939,Kirkuk,99
 1940,Werder,
 1941,Nienburg,
-1942,Litoral,211
+1942,Litoral,81
 1943,Wallendorf,
-1944,Brong-Ahafo,5
-1945,Upper East,5
-1946,Anatoliki Makedonia kai Thraki,6
-1947,Paphos,27
-1948,Jalapa,7
-1949,Ouest,8
-1950,Francisco Morazán,141
-1951,Kalimantan Selatan,12
-1952,Khorasan Jonubi,45
-1953,Ninawa,47
-1954,Suðurland,48
-1955,Vesturland,48
-1956,Gros Islet,207
-1957,Aosta,50
-1958,Potenza,50
-1959,Portland,51
-1960,Saint Ann,51
-1961,Saint Mary,51
-1962,Elgeyo-Marakwet,94
-1963,Nandi,94
-1964,Kericho,94
-1965,Laikipia,94
-1966,Kisii,94
-1967,Baringo,94
-1968,Trans-Nzoia,94
-1969,Bungoma,94
-1970,Kakamega,94
-1971,Narok,94
-1972,Nyamira,94
-1973,Jizan,55
-1974,Preiļu novads,57
-1975,Grand Kru,145
-1976,Castries,207
-1977,Balzers,184
-1978,Itasy,62
-1979,Alaotra Mangoro,62
-1980,Atsimo-Andrefana,62
-1981,Drâa-Tafilalet,63
-1982,Sarawak,64
-1983,Labuan,64
-1984,Sabah,64
-1985,Terengganu,64
-1986,Baja California Sur,66
-1987,Karnali,152
-1988,Adamawa,67
-1989,Anambra,67
-1990,South,82
-1991,Ekiti,67
-1992,Gongola,67
-1993,San Martín,72
-1994,Romblon,73
-1995,Sorsogon,73
-1996,Camarines Sur,73
-1997,Antique,73
-1998,Deir el-Balah,213
-1999,New Ireland,166
-2000,Bougainville,166
-2001,East New Britain,166
-2002,Milne Bay,166
-2003,Sandaun,166
-2004,Anenii Noi,95
-2005,Bolama,204
-2006,South East,165
-2007,Fatick,160
-2008,Saint Peter Basseterre,214
-2009,Makira-Ulawa,106
-2010,Guadalcanal,106
-2011,Sool,215
-2012,Gedo,215
-2013,Marowijne,119
-2014,Manzini,172
-2015,Hama,173
-2016,Singida,174
-2017,Arusha,174
-2018,Dodoma,174
-2019,Manyara,174
-2020,Buri Ram,109
-2021,Kara,177
-2022,Diego Martin,121
-2023,Penal-Debe,121
-2024,Chaguanas,121
-2025,Point Fortin,121
-2026,Tunapuna-Piarco,121
-2027,Kasserine,122
-2028,Tekirdağ,110
-2029,Bursa,110
-2030,Naxçıvan Şəhər,193
-2031,Ventspils novads,57
-2032,Respublika Altay,103
-2033,Talas,143
-2034,Viesītes novads,57
-2035,Astara,193
-2036,Kyzylorda,93
-2037,Jēkabpils,57
-2038,Rivera,124
-2039,Sanma,178
-2040,Shefa,178
-2041,Malampa,178
-2042,Yaracuy,126
-2043,Guárico,126
-2044,Ninh Thuận,179
-2045,Bloke,104
-2046,Šmarje pri Jelšah,104
-2047,Straža,104
-2048,Ulcinj,201
-2049,Žirovnica,104
-2050,Kozje,104
-2051,Lendava,104
-2052,Črnomelj,104
-2053,Southern,154
-2054,Mashonaland West,113
-2055,Trashigang,19
-2056,Arica and Parinacota,43
-2057,Hautes-Alpes,1
-2058,Škofja Loka,104
-2059,Domžale,104
-2060,Triesenberg,184
-2061,Pyeongannam,100
+1944,Brong-Ahafo,83
+1945,Upper East,83
+1946,Anatoliki Makedonia kai Thraki,84
+1947,Paphos,55
+1948,Jalapa,86
+1949,Ouest,90
+1950,Francisco Morazán,92
+1951,Kalimantan Selatan,94
+1952,Khorasan Jonubi,97
+1953,Ninawa,99
+1954,Suðurland,100
+1955,Vesturland,100
+1956,Gros Islet,121
+1957,Aosta,103
+1958,Potenza,103
+1959,Portland,105
+1960,Saint Ann,105
+1961,Saint Mary,105
+1962,Elgeyo-Marakwet,109
+1963,Nandi,109
+1964,Kericho,109
+1965,Laikipia,109
+1966,Kisii,109
+1967,Baringo,109
+1968,Trans-Nzoia,109
+1969,Bungoma,109
+1970,Kakamega,109
+1971,Narok,109
+1972,Nyamira,109
+1973,Jizan,114
+1974,Preiļu novads,117
+1975,Grand Kru,120
+1976,Castries,121
+1977,Balzers,123
+1978,Itasy,126
+1979,Alaotra Mangoro,126
+1980,Atsimo-Andrefana,126
+1981,Drâa-Tafilalet,128
+1982,Sarawak,129
+1983,Labuan,129
+1984,Sabah,129
+1985,Terengganu,129
+1986,Baja California Sur,133
+1987,Karnali,149
+1988,Adamawa,150
+1989,Anambra,150
+1990,South,44
+1991,Ekiti,150
+1992,Gongola,150
+1993,San Martín,159
+1994,Romblon,160
+1995,Sorsogon,160
+1996,Camarines Sur,160
+1997,Antique,160
+1998,Deir el-Balah,161
+1999,New Ireland,163
+2000,Bougainville,163
+2001,East New Britain,163
+2002,Milne Bay,163
+2003,Sandaun,163
+2004,Anenii Noi,131
+2005,Bolama,78
+2006,South East,29
+2007,Fatick,178
+2008,Saint Peter Basseterre,181
+2009,Makira-Ulawa,185
+2010,Guadalcanal,185
+2011,Sool,186
+2012,Gedo,186
+2013,Marowijne,193
+2014,Manzini,196
+2015,Hama,197
+2016,Singida,198
+2017,Arusha,198
+2018,Dodoma,198
+2019,Manyara,198
+2020,Buri Ram,201
+2021,Kara,205
+2022,Diego Martin,207
+2023,Penal-Debe,207
+2024,Chaguanas,207
+2025,Point Fortin,207
+2026,Tunapuna-Piarco,207
+2027,Kasserine,208
+2028,Tekirdağ,209
+2029,Bursa,209
+2030,Naxçıvan Şəhər,15
+2031,Ventspils novads,117
+2032,Respublika Altay,173
+2033,Talas,110
+2034,Viesītes novads,117
+2035,Astara,15
+2036,Kyzylorda,108
+2037,Jēkabpils,117
+2038,Rivera,216
+2039,Sanma,219
+2040,Shefa,219
+2041,Malampa,219
+2042,Yaracuy,220
+2043,Guárico,220
+2044,Ninh Thuận,221
+2045,Bloke,183
+2046,Šmarje pri Jelšah,183
+2047,Straža,183
+2048,Ulcinj,139
+2049,Žirovnica,183
+2050,Kozje,183
+2051,Lendava,183
+2052,Črnomelj,183
+2053,Southern,229
+2054,Mashonaland West,230
+2055,Trashigang,23
+2056,Arica and Parinacota,41
+2057,Hautes-Alpes,72
+2058,Škofja Loka,183
+2059,Domžale,183
+2060,Triesenberg,123
+2061,Pyeongannam,166
 2062,Willingen,
-2063,Hamgyeongbuk,100
-2064,Radovljica,104
-2065,Yamalo-Nenets Avtonomny Okrug,103
-2066,Nenets Avtonomny Okrug,103
-2067,Chagang,100
-2068,Murmansk,103
-2069,Črna na Koroškem,104
-2070,Kranjska Gora,104
-2071,Riau,12
-2072,Cosenza,50
-2073,Bijelo Polje,201
-2074,Kolašin,201
-2075,Samtskhe-Javakheti,33
+2063,Hamgyeongbuk,166
+2064,Radovljica,183
+2065,Yamalo-Nenets Avtonomny Okrug,173
+2066,Nenets Avtonomny Okrug,173
+2067,Chagang,166
+2068,Murmansk,173
+2069,Črna na Koroškem,183
+2070,Kranjska Gora,183
+2071,Riau,94
+2072,Cosenza,103
+2073,Bijelo Polje,139
+2074,Kolašin,139
+2075,Samtskhe-Javakheti,80
 2076,Sint Maarten,245
-2077,Acklins,37
-2078,North East,165
-2079,Bujumbura Rural,208
-2080,Vecpiebalgas novads,57
-2081,Bitlis,110
-2082,Žiri,104
-2083,Prevalje,104
-2084,On Cyprus,2
-2085,Brocēnu novads,57
-2086,Al-Janobiyah,188
-2087,Tržič,104
-2088,Braslovče,104
-2089,Ilūkstes novads,57
-2090,Logatec,104
-2091,Saint Patrick,199
-2092,Azua,86
-2093,Debub,219
-2094,Dili,220
-2095,El Quiché,7
-2096,Tripura,15
-2097,Dol pri Ljubljani,104
-2098,Balvu novads,57
-2099,Khanty-Mansi Avtonomny Okrug,103
-2100,Triesen,184
-2101,Vecumnieku novads,57
-2102,Bomet,94
-2103,Asir,55
-2104,Ash-Sharqiyah,55
-2105,Rēzekne,57
-2106,Aizkraukles novads,57
-2107,Bauskas novads,57
-2108,Prilep,182
-2109,Ungheni,95
-2110,South Cotabato,73
-2111,Cagayan,73
-2112,Koror,222
-2113,Benguela,135
-2114,Uíge,135
-2115,Huambo,135
-2116,Līvānu novads,57
-2117,Kaolack,160
-2118,Šempeter-Vrtojba,104
-2119,Velenje,104
-2120,Çankırı,110
-2121,Matabeleland South,113
-2122,Estuaire,132
-2123,Al-Wadi Al-Jadid,79
-2124,Bobonaro,220
-2125,Maseru,146
-2126,Oshana,151
-2127,Akwa Ibom,67
-2128,Cotabato,73
-2129,Cojedes,126
-2130,Mingəçevir,193
-2131,Borovnica,104
-2132,Gansu,24
-2133,Kuldīgas novads,57
-2134,Ajdovščina,104
-2135,Davao City,73
-2136,Amman,52
-2137,North,82
-2138,West,82
-2139,Comayagua,141
-2140,Ocotepeque,141
-2141,Atlántida,141
-2142,Yoro,141
-2143,Laghouat,114
-2144,Trebnje,104
-2145,Nabeul,122
-2146,Ordino,134
-2147,Lusaka,154
-2148,Ialoveni,95
-2149,Ștefan Vodă,95
-2150,Qalyubiyah,79
-2151,Sawhag,79
-2152,Chonburi,109
-2153,Kavadarci,182
+2077,Acklins,16
+2078,North East,29
+2079,Bujumbura Rural,19
+2080,Vecpiebalgas novads,117
+2081,Bitlis,209
+2082,Žiri,183
+2083,Prevalje,183
+2084,On Cyprus,77
+2085,Brocēnu novads,117
+2086,Al-Janobiyah,31
+2087,Tržič,183
+2088,Braslovče,183
+2089,Ilūkstes novads,117
+2090,Logatec,183
+2091,Saint Patrick,59
+2092,Azua,60
+2093,Debub,64
+2094,Dili,204
+2095,El Quiché,86
+2096,Tripura,95
+2097,Dol pri Ljubljani,183
+2098,Balvu novads,117
+2099,Khanty-Mansi Avtonomny Okrug,173
+2100,Triesen,123
+2101,Vecumnieku novads,117
+2102,Bomet,109
+2103,Asir,114
+2104,Ash-Sharqiyah,114
+2105,Rēzekne,117
+2106,Aizkraukles novads,117
+2107,Bauskas novads,117
+2108,Prilep,136
+2109,Ungheni,131
+2110,South Cotabato,160
+2111,Cagayan,160
+2112,Koror,162
+2113,Benguela,6
+2114,Uíge,6
+2115,Huambo,6
+2116,Līvānu novads,117
+2117,Kaolack,178
+2118,Šempeter-Vrtojba,183
+2119,Velenje,183
+2120,Çankırı,209
+2121,Matabeleland South,230
+2122,Estuaire,75
+2123,Al-Wadi Al-Jadid,62
+2124,Bobonaro,204
+2125,Maseru,122
+2126,Oshana,145
+2127,Akwa Ibom,150
+2128,Cotabato,160
+2129,Cojedes,220
+2130,Mingəçevir,15
+2131,Borovnica,183
+2132,Gansu,42
+2133,Kuldīgas novads,117
+2134,Ajdovščina,183
+2135,Davao City,160
+2136,Amman,106
+2137,North,44
+2138,West,44
+2139,Comayagua,92
+2140,Ocotepeque,92
+2141,Atlántida,92
+2142,Yoro,92
+2143,Laghouat,4
+2144,Trebnje,183
+2145,Nabeul,208
+2146,Ordino,5
+2147,Lusaka,229
+2148,Ialoveni,131
+2149,Ștefan Vodă,131
+2150,Qalyubiyah,62
+2151,Sawhag,62
+2152,Chonburi,201
+2153,Kavadarci,136
 2154,Masqat,155
-2155,Dubai,187
-2156,Saint David,199
-2157,Tal-Pietà,97
-2158,Phú Yên,179
-2159,Barahona,86
-2160,Lomaiviti,131
-2161,Daşoguz,11
-2162,Gədəbəy,193
-2163,Ludzas novads,57
-2164,Bayelsa,67
-2165,Lacs,81
-2166,Kırıkkale,110
-2167,Mangystau,93
-2168,La Massana,134
-2169,Loška Dolina,104
-2170,Tolmin,104
-2171,Mežica,104
-2172,Ravne na Koroškem,104
-2173,Jūrmala,57
+2155,Dubai,211
+2156,Saint David,59
+2157,Tal-Pietà,138
+2158,Phú Yên,221
+2159,Barahona,60
+2160,Lomaiviti,70
+2161,Daşoguz,203
+2162,Gədəbəy,15
+2163,Ludzas novads,117
+2164,Bayelsa,150
+2165,Lacs,43
+2166,Kırıkkale,209
+2167,Mangystau,108
+2168,La Massana,5
+2169,Loška Dolina,183
+2170,Tolmin,183
+2171,Mežica,183
+2172,Ravne na Koroškem,183
+2173,Jūrmala,117
 2174,Turks and Caicos Islands,246
-2175,Mambéré-Kadéï,76
-2176,Muş,110
-2177,Gorje,104
-2178,Yevreyskaya Avtonomnaya Oblast,103
-2179,Vrhnika,104
-2180,Radlje ob Dravi,104
-2181,Kotayk,36
-2182,Priekules novads,57
-2183,Naklo,104
-2184,Mālpils novads,57
-2185,Kruševo,182
-2186,Sinop,110
-2187,Miklavž na Dravskem polju,104
+2175,Mambéré-Kadéï,35
+2176,Muş,209
+2177,Gorje,183
+2178,Yevreyskaya Avtonomnaya Oblast,173
+2179,Vrhnika,183
+2180,Radlje ob Dravi,183
+2181,Kotayk,10
+2182,Priekules novads,117
+2183,Naklo,183
+2184,Mālpils novads,117
+2185,Kruševo,136
+2186,Sinop,209
+2187,Miklavž na Dravskem polju,183
 2188,Kujalleq,234
-2189,Pointe-Noire,78
-2190,Sikkim,15
-2191,Babil,47
-2192,Karbala,47
-2193,Dhi Qar,47
-2194,An-Najaf,47
-2195,Concepción,71
-2196,Quintana Roo,66
-2197,Ragusa,50
-2198,Hải Phòng,179
-2199,Guyane,1
-2200,Amapá,21
-2201,Abu Dhabi,187
-2202,Nakhon Ratchasima,109
-2203,Al-Fayyum,79
-2204,Elbasan,190
-2205,Hải Dương,179
-2206,Aiwo,202
-2207,Thanh Hoá,179
-2208,Capital Territory,106
-2209,Sirdaryo,125
-2210,Kiribati,224
-2211,Kütahya,110
-2212,Meneng,202
-2213,Yazd,45
-2214,Rajshahi,197
-2215,Ash-Shamaliyah,188
-2216,Otjozondjupa,151
-2217,Naama,114
-2218,Malé,200
-2219,Kilimanjaro,174
-2220,Chuuk,221
-2221,Ogooué-Ivindo,132
-2222,Chaharmahal-o-Bakhtiyari,45
-2223,Tombouctou,148
-2224,Tambacounda,160
-2225,Surat Thani,109
-2226,Nueva Esparta,126
-2227,Žalec,104
-2228,Cañar,90
-2229,West Pokot,94
-2230,Diourbel,160
-2231,Lebap,11
-2232,Ghazza,213
-2233,Qashqadaryo,125
-2234,Navoiy,125
-2235,Qubadlı,193
-2236,Issyk-Kul,143
-2237,Gjirokastër,190
-2238,Taraclia,95
-2239,Kukës,190
-2240,Monte Plata,86
-2241,Yevlax Şəhər,193
-2242,Muğla,110
-2243,Tiaret,114
-2244,Shoa,130
-2245,Baja Verapaz,7
-2246,Lunda Sul,135
-2247,Bar,201
-2248,Valverde,86
-2249,Independencia,86
-2250,Zanjan,45
-2251,Zagorje ob Savi,104
-2252,Gostivar,182
-2253,Šmartno ob Paki,104
-2254,Al-Ahmadi,56
-2255,Cerklje na Gorenjskem,104
-2256,Mavrovo i Rostuša,182
-2257,Islas de la Bahía,141
-2258,Gracias a Dios,141
-2259,Thimphu,19
-2260,Tišina,104
-2261,Tarija,164
-2262,Janakpur,152
-2263,Ségou,148
-2264,Centre-Nord,75
-2265,Zomba,147
-2266,Vihiga,94
-2267,Namibe,135
-2268,Kəlbəcər,193
-2269,Vientiane,144
-2270,Santo Domingo de los Tsáchilas,90
-2271,Orkhon,96
-2272,Bayburt,110
-2273,Jizzax,125
-2274,Zamora-Chinchipe,90
-2275,Respublika Ingushetiya,103
-2276,Olancho,141
-2277,Apure,126
-2278,Irbid,52
-2279,Orhei,95
-2280,Tongatapu,175
-2281,Maloelap,225
+2189,Pointe-Noire,39
+2190,Sikkim,95
+2191,Babil,99
+2192,Karbala,99
+2193,Dhi Qar,99
+2194,An-Najaf,99
+2195,Concepción,158
+2196,Quintana Roo,133
+2197,Ragusa,103
+2198,Hải Phòng,221
+2199,Guyane,72
+2200,Amapá,30
+2201,Abu Dhabi,211
+2202,Nakhon Ratchasima,201
+2203,Al-Fayyum,62
+2204,Elbasan,3
+2205,Hải Dương,221
+2206,Aiwo,153
+2207,Thanh Hoá,221
+2208,Capital Territory,185
+2209,Sirdaryo,218
+2210,Kiribati,111
+2211,Kütahya,209
+2212,Meneng,153
+2213,Yazd,97
+2214,Rajshahi,17
+2215,Ash-Shamaliyah,31
+2216,Otjozondjupa,145
+2217,Naama,4
+2218,Malé,132
+2219,Kilimanjaro,198
+2220,Chuuk,74
+2221,Ogooué-Ivindo,75
+2222,Chaharmahal-o-Bakhtiyari,97
+2223,Tombouctou,137
+2224,Tambacounda,178
+2225,Surat Thani,201
+2226,Nueva Esparta,220
+2227,Žalec,183
+2228,Cañar,61
+2229,West Pokot,109
+2230,Diourbel,178
+2231,Lebap,203
+2232,Ghazza,161
+2233,Qashqadaryo,218
+2234,Navoiy,218
+2235,Qubadlı,15
+2236,Issyk-Kul,110
+2237,Gjirokastër,3
+2238,Taraclia,131
+2239,Kukës,3
+2240,Monte Plata,60
+2241,Yevlax Şəhər,15
+2242,Muğla,209
+2243,Tiaret,4
+2244,Shoa,68
+2245,Baja Verapaz,86
+2246,Lunda Sul,6
+2247,Bar,139
+2248,Valverde,60
+2249,Independencia,60
+2250,Zanjan,97
+2251,Zagorje ob Savi,183
+2252,Gostivar,136
+2253,Šmartno ob Paki,183
+2254,Al-Ahmadi,115
+2255,Cerklje na Gorenjskem,183
+2256,Mavrovo i Rostuša,136
+2257,Islas de la Bahía,92
+2258,Gracias a Dios,92
+2259,Thimphu,23
+2260,Tišina,183
+2261,Tarija,28
+2262,Janakpur,149
+2263,Ségou,137
+2264,Centre-Nord,34
+2265,Zomba,130
+2266,Vihiga,109
+2267,Namibe,6
+2268,Kəlbəcər,15
+2269,Vientiane,116
+2270,Santo Domingo de los Tsáchilas,61
+2271,Orkhon,134
+2272,Bayburt,209
+2273,Jizzax,218
+2274,Zamora-Chinchipe,61
+2275,Respublika Ingushetiya,173
+2276,Olancho,92
+2277,Apure,220
+2278,Irbid,106
+2279,Orhei,131
+2280,Tongatapu,200
+2281,Maloelap,135
 2282,Al-Batinah,155
-2283,Nukulaelae,226
-2284,Ahal,11
-2285,Eastern Equatoria,229
-2286,Gharb Darfur,118
-2287,Mulanje,147
-2288,Ariha,213
-2289,Thái Nguyên,179
-2290,Madriz,133
-2291,Grande Comore,209
-2292,Kosi,152
-2293,Kiambu,94
-2294,Ohangwena,151
-2295,Baucau,220
-2296,Tseka,146
-2297,Saint Peter,136
-2298,Gaborone,165
-2299,Slovenske Konjice,104
-2300,Dakunu,117
-2301,Chiang Rai,109
-2302,Saint Paul Charlestown,214
-2303,Hodoš,104
-2304,Gharb Kurdufan,118
-2305,Simal Ghazza,213
-2306,Sagarmatha,152
-2307,Quthing,146
-2308,Struga,182
-2309,Suðurnes,48
-2310,Sing Buri,109
-2311,Jwaneng,165
-2312,Bayt Lahm,213
-2313,Malaita,106
-2314,Bắc Ninh,179
-2315,Uturumeda,117
-2316,Narayani,152
-2317,Moka,65
-2318,New Taipei,44
-2319,Plateaux,177
-2320,Meta,25
+2283,Nukulaelae,210
+2284,Ahal,203
+2285,Eastern Equatoria,189
+2286,Gharb Darfur,191
+2287,Mulanje,130
+2288,Ariha,161
+2289,Thái Nguyên,221
+2290,Madriz,147
+2291,Grande Comore,48
+2292,Kosi,149
+2293,Kiambu,109
+2294,Ohangwena,145
+2295,Baucau,204
+2296,Tseka,122
+2297,Saint Peter,7
+2298,Gaborone,29
+2299,Slovenske Konjice,183
+2300,Dakunu,188
+2301,Chiang Rai,201
+2302,Saint Paul Charlestown,181
+2303,Hodoš,183
+2304,Gharb Kurdufan,191
+2305,Simal Ghazza,161
+2306,Sagarmatha,149
+2307,Quthing,122
+2308,Struga,136
+2309,Suðurnes,100
+2310,Sing Buri,201
+2311,Jwaneng,29
+2312,Bayt Lahm,161
+2313,Malaita,185
+2314,Bắc Ninh,221
+2315,Uturumeda,188
+2316,Narayani,149
+2317,Moka,142
+2318,New Taipei,206
+2319,Plateaux,205
+2320,Meta,47
 2321,Streymoy,247
-2322,Krško,104
-2323,Jammu and Kashmir,15
-2324,Gilgit-Baltistan,70
-2325,Drochia,95
-2326,Alborz,45
-2327,Ryanggang,100
-2328,Muramvya,208
-2329,Kandal,77
-2330,Atlantique,89
-2331,Napo,90
-2332,Ruyigi,208
-2333,Cibitoke,208
-2334,Tadjourah,195
-2335,Sédhiou,160
-2336,Haut-Ogooué,132
-2337,Tavush,36
-2338,Respublika Kalmykiya,103
-2339,Kigali,189
-2340,Dagana,19
-2341,Taizz,194
-2342,Dhamar,194
-2343,Brunei-Muara,198
-2344,Aïn Defla,114
-2345,Médéa,114
-2346,Mojkovac,201
-2347,Santa Elena,90
-2348,Pedernales,86
-2349,Woroba,81
-2350,Djibouti,195
-2351,Lampang,109
-2352,Dubăsari,95
-2353,Ħaż-Żebbuġ,97
-2354,Wasit,47
-2355,Cimișlia,95
-2356,Qazax,193
-2357,Fier,190
-2358,Saint Anne Sandy Point,214
-2359,Qusar,193
-2360,Nouakchott,205
-2361,Tozeur,122
-2362,Kebili,122
-2363,Abşeron,193
-2364,Nisporeni,95
+2322,Krško,183
+2323,Jammu and Kashmir,95
+2324,Gilgit-Baltistan,156
+2325,Drochia,131
+2326,Alborz,97
+2327,Ryanggang,166
+2328,Muramvya,19
+2329,Kandal,36
+2330,Atlantique,21
+2331,Napo,61
+2332,Ruyigi,19
+2333,Cibitoke,19
+2334,Tadjourah,58
+2335,Sédhiou,178
+2336,Haut-Ogooué,75
+2337,Tavush,10
+2338,Respublika Kalmykiya,173
+2339,Kigali,174
+2340,Dagana,23
+2341,Taizz,226
+2342,Dhamar,226
+2343,Brunei-Muara,32
+2344,Aïn Defla,4
+2345,Médéa,4
+2346,Mojkovac,139
+2347,Santa Elena,61
+2348,Pedernales,60
+2349,Woroba,43
+2350,Djibouti,58
+2351,Lampang,201
+2352,Dubăsari,131
+2353,Ħaż-Żebbuġ,138
+2354,Wasit,99
+2355,Cimișlia,131
+2356,Qazax,15
+2357,Fier,3
+2358,Saint Anne Sandy Point,181
+2359,Qusar,15
+2360,Nouakchott,143
+2361,Tozeur,208
+2362,Kebili,208
+2363,Abşeron,15
+2364,Nisporeni,131
 2365,Suðuroy,247
-2366,Centre-Ouest,75
-2367,Najran,55
-2368,Sa Kaeo,109
-2369,Kamphaeng Phet,109
-2370,Puerto Plata,86
-2371,La Altagracia,86
-2372,Tissemsilt,114
-2373,Souk Ahras,114
-2374,Wele-Nzas,211
-2375,Western Bahr el Ghazal,229
-2376,Bolu,110
-2377,Ocnița,95
-2378,Karaman,110
-2379,Siliana,122
-2380,Tumbes,72
-2381,Majuro,225
-2382,Şırnak,110
-2383,Afar,130
-2384,Mila,114
-2385,Stann Creek,163
-2386,Ruvuma,174
-2387,Est,189
-2388,Centro Sur,211
-2389,Khan Yunis,213
-2390,Nablus,213
-2391,Ngounié,132
-2392,Manihiki,83
-2393,Đà Nẵng,179
-2394,Western Highlands,166
-2395,Phuket,109
-2396,Yasothon,109
-2397,Funafuti,226
-2398,Sóc Trăng,179
-2399,Collines,89
-2400,Lubombo,172
-2401,Chalatenango,92
-2402,Vaisigano,168
-2403,Sharjah,187
-2404,Dosso,153
-2405,Tahoua,153
-2406,Qina,79
-2407,Shamal Sina,79
-2408,Lautém,220
-2409,Osmaniye,110
-2410,La Guajira,25
-2411,Omusati,151
-2412,Balqa,52
-2413,Saint Thomas,51
-2414,Rodrigues,65
-2415,Sangre Grande,121
-2416,Puno,72
-2417,Penama,178
-2418,Veles,182
-2419,Diana,62
+2366,Centre-Ouest,34
+2367,Najran,114
+2368,Sa Kaeo,201
+2369,Kamphaeng Phet,201
+2370,Puerto Plata,60
+2371,La Altagracia,60
+2372,Tissemsilt,4
+2373,Souk Ahras,4
+2374,Wele-Nzas,81
+2375,Western Bahr el Ghazal,189
+2376,Bolu,209
+2377,Ocnița,131
+2378,Karaman,209
+2379,Siliana,208
+2380,Tumbes,159
+2381,Majuro,135
+2382,Şırnak,209
+2383,Afar,68
+2384,Mila,4
+2385,Stann Creek,25
+2386,Ruvuma,198
+2387,Est,174
+2388,Centro Sur,81
+2389,Khan Yunis,161
+2390,Nablus,161
+2391,Ngounié,75
+2392,Manihiki,46
+2393,Đà Nẵng,221
+2394,Western Highlands,163
+2395,Phuket,201
+2396,Yasothon,201
+2397,Funafuti,210
+2398,Sóc Trăng,221
+2399,Collines,21
+2400,Lubombo,196
+2401,Chalatenango,65
+2402,Vaisigano,176
+2403,Sharjah,211
+2404,Dosso,151
+2405,Tahoua,151
+2406,Qina,62
+2407,Shamal Sina,62
+2408,Lautém,204
+2409,Osmaniye,209
+2410,La Guajira,47
+2411,Omusati,145
+2412,Balqa,106
+2413,Saint Thomas,105
+2414,Rodrigues,142
+2415,Sangre Grande,207
+2416,Puno,159
+2417,Penama,219
+2418,Veles,136
+2419,Diana,126
 2420,Kerkyra,
-2421,Carazo,133
-2422,Atlántico Sur,133
-2423,As-Suwayda,173
-2424,Cebu,73
-2425,British Virgin Islands,206
-2426,Dar-es-Salaam,174
-2427,Nahr An-Nil,118
-2428,Unity,229
-2429,Bouira,114
-2430,Nunavut,23
-2431,Ērgļu novads,57
-2432,Rožaje,201
-2433,Alto Paraguay,71
-2434,Ongo Niua,175
-2435,Ķekavas novads,57
-2436,Kandahar,161
-2437,Dibër,190
-2438,Formosa,16
-2439,Atakora,89
-2440,Trashiyangtse,19
-2441,Paro,19
-2442,Sucumbíos,90
-2443,Loja,90
-2444,Pastaza,90
-2445,Tailevu,131
-2446,Pohnpei,221
-2447,Orissa,15
-2448,Embu,94
-2449,Gjilan,227
-2450,Pahang,64
-2451,Kwajalein,225
-2452,Mili,225
-2453,Ħal Tarxien,97
-2454,Chin,150
-2455,Mozirje,104
-2456,Gash-Barka,219
-2457,Lamphun,109
-2458,Udon Thani,109
-2459,Ratchaburi,109
-2460,Ranong,109
-2461,Chumphon,109
-2462,Surxondaryo,125
-2463,Bắc Giang,179
-2464,Masvingo,113
-2465,Mashonaland Central,113
-2466,Khenchela,114
-2467,Şərur,193
-2468,Balakən,193
-2469,North Abaco,37
-2470,Mwaro,208
-2471,Rutana,208
-2472,Potosí,164
-2473,Kgatleng,165
-2474,Roraima,21
-2475,Tibet,24
-2476,Nord-Kivu,159
-2477,Lower Juba,215
+2421,Carazo,147
+2422,Atlántico Sur,147
+2423,As-Suwayda,197
+2424,Cebu,160
+2425,British Virgin Islands,104
+2426,Dar-es-Salaam,198
+2427,Nahr An-Nil,191
+2428,Unity,189
+2429,Bouira,4
+2430,Nunavut,37
+2431,Ērgļu novads,117
+2432,Rožaje,139
+2433,Alto Paraguay,158
+2434,Ongo Niua,200
+2435,Ķekavas novads,117
+2436,Kandahar,1
+2437,Dibër,3
+2438,Formosa,9
+2439,Atakora,21
+2440,Trashiyangtse,23
+2441,Paro,23
+2442,Sucumbíos,61
+2443,Loja,61
+2444,Pastaza,61
+2445,Tailevu,70
+2446,Pohnpei,74
+2447,Orissa,95
+2448,Embu,109
+2449,Gjilan,113
+2450,Pahang,129
+2451,Kwajalein,135
+2452,Mili,135
+2453,Ħal Tarxien,138
+2454,Chin,144
+2455,Mozirje,183
+2456,Gash-Barka,64
+2457,Lamphun,201
+2458,Udon Thani,201
+2459,Ratchaburi,201
+2460,Ranong,201
+2461,Chumphon,201
+2462,Surxondaryo,218
+2463,Bắc Giang,221
+2464,Masvingo,230
+2465,Mashonaland Central,230
+2466,Khenchela,4
+2467,Şərur,15
+2468,Balakən,15
+2469,North Abaco,16
+2470,Mwaro,19
+2471,Rutana,19
+2472,Potosí,28
+2473,Kgatleng,29
+2474,Roraima,30
+2475,Tibet,42
+2476,Nord-Kivu,45
+2477,Lower Juba,186
 2478,Århus,
-2479,El Oro,90
-2480,Cuscatlán,92
-2481,Naitasiri,131
-2482,Ra,131
-2483,North Bank,203
-2484,Jambi,12
-2485,Ilam,45
-2486,Al-Anbar,47
-2487,Al-Qadisiyyah,47
-2488,Matera,50
-2489,Naryn,143
-2490,Taita-Taveta,94
-2491,Ferizaj,227
-2492,Mafeteng,146
-2493,Leribe,146
-2494,Atsinanana,62
-2495,Perlis,64
-2496,Kayes,148
-2497,Imsida,97
-2498,Jinotega,133
-2499,Katsina,67
-2500,Alto Paraná,71
-2501,Davao del Norte,73
-2502,Sennar,118
-2503,Gorenja vas-Poljane,104
-2504,Ribnica,104
-2505,Wayamba,117
-2506,Central Equatoria,229
-2507,Pathum Thani,109
-2508,Nakhon Sawan,109
-2509,Manouba,122
-2510,Awdal,215
-2511,Bình Thuận,179
+2479,El Oro,61
+2480,Cuscatlán,65
+2481,Naitasiri,70
+2482,Ra,70
+2483,North Bank,76
+2484,Jambi,94
+2485,Ilam,97
+2486,Al-Anbar,99
+2487,Al-Qadisiyyah,99
+2488,Matera,103
+2489,Naryn,110
+2490,Taita-Taveta,109
+2491,Ferizaj,113
+2492,Mafeteng,122
+2493,Leribe,122
+2494,Atsinanana,126
+2495,Perlis,129
+2496,Kayes,137
+2497,Imsida,138
+2498,Jinotega,147
+2499,Katsina,150
+2500,Alto Paraná,158
+2501,Davao del Norte,160
+2502,Sennar,191
+2503,Gorenja vas-Poljane,183
+2504,Ribnica,183
+2505,Wayamba,188
+2506,Central Equatoria,189
+2507,Pathum Thani,201
+2508,Nakhon Sawan,201
+2509,Manouba,208
+2510,Awdal,186
+2511,Bình Thuận,221
 2512,Qeqertalik,234
-2513,Kilifi,94
-2514,Žabljak,201
-2515,Luče,104
-2516,Ljubno,104
-2517,Béchar,114
-2518,Gambela,130
-2519,Şəki,193
-2520,Füzuli,193
-2521,Pursat,77
-2522,Ñuble,43
-2523,Yamoussoukro,81
-2524,Denguélé,81
-2525,Kasaï oriental,159
-2526,Prijedor,39
-2527,Peravia,86
-2528,Hermanas Mirabal,86
-2529,Monseñor Nouel,86
-2530,Ganub Sina,79
-2531,Tabuk,55
-2532,Wasat Darfur,118
-2533,Namosi,131
+2513,Kilifi,109
+2514,Žabljak,139
+2515,Luče,183
+2516,Ljubno,183
+2517,Béchar,4
+2518,Gambela,68
+2519,Şəki,15
+2520,Füzuli,15
+2521,Pursat,36
+2522,Ñuble,41
+2523,Yamoussoukro,43
+2524,Denguélé,43
+2525,Kasaï oriental,45
+2526,Prijedor,24
+2527,Peravia,60
+2528,Hermanas Mirabal,60
+2529,Monseñor Nouel,60
+2530,Ganub Sina,62
+2531,Tabuk,114
+2532,Wasat Darfur,191
+2533,Namosi,70
 2534,Australes,231
-2535,Debubawi Kayih Bahri,219
-2536,Retalhuleu,7
-2537,Nord-Est,8
-2538,Banten,12
-2539,Bushehr,45
-2540,Khorasan Shomali,45
-2541,Qom,45
-2542,Montagnes,81
-2543,Caprivi,151
-2544,Kavango,151
-2545,Panamá Oeste,156
-2546,Ucayali,72
-2547,Davao del Sur,73
-2548,Ramallah and Al-Bireh,213
-2549,Komenda,104
-2550,Kalasin,109
-2551,Iğdır,110
-2552,Ağstafa,193
-2553,Sihanoukville,77
-2554,Vĩnh Long,179
+2535,Debubawi Kayih Bahri,64
+2536,Retalhuleu,86
+2537,Nord-Est,90
+2538,Banten,94
+2539,Bushehr,97
+2540,Khorasan Shomali,97
+2541,Qom,97
+2542,Montagnes,43
+2543,Caprivi,145
+2544,Kavango,145
+2545,Panamá Oeste,157
+2546,Ucayali,159
+2547,Davao del Sur,160
+2548,Ramallah and Al-Bireh,161
+2549,Komenda,183
+2550,Kalasin,201
+2551,Iğdır,209
+2552,Ağstafa,15
+2553,Sihanoukville,36
+2554,Vĩnh Long,221
