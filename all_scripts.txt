@@ -1,0 +1,388 @@
+import pandas as pd
+# 1. Cargar
+print("01_PAIS...")
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+
+# 2. Transformar
+df_pais = df_events[['Team', 'NOC']].dropna().drop_duplicates(subset=['NOC']).reset_index(drop=True)
+df_pais = df_pais.rename(columns={'Team': 'NOMBRE', 'NOC': 'NOC'})
+
+# 3. Generar ID y Exportar
+df_pais.insert(0, 'ID', range(1, len(df_pais) + 1))
+df_pais.to_csv('1_PAIS.csv', index=False)
+
+print(f"1_PAIS.csv generado con {len(df_pais)} registros.")import pandas as pd
+
+print("Procesando 02_DEPORTE...")
+
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+
+deportes_unicos = df_events['Sport'].dropna().unique()
+df_deporte = pd.DataFrame({'NOMBRE': deportes_unicos})
+
+df_deporte.insert(0, 'ID', range(1, len(df_deporte) + 1))
+df_deporte.to_csv('2_DEPORTE.csv', index=False)
+
+print("2_DEPORTE.csv generado con exito.")import pandas as pd
+
+print("Procesando 03_OLIMPIADA...")
+
+# 1. Leer archivo crudo
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+
+# 2. Extraer combinaciones únicas de Año y Temporada
+df_olimpiada = df_events[['Season', 'Year']].dropna().drop_duplicates().reset_index(drop=True)
+
+# 3. Renombrar columnas para que coincidan con la base de datos (y asegurar que el año sea entero)
+df_olimpiada = df_olimpiada.rename(columns={'Season': 'SEASON', 'Year': 'YEAR'})
+df_olimpiada['YEAR'] = df_olimpiada['YEAR'].astype(int)
+
+# 4. Generar ID y Exportar
+df_olimpiada.insert(0, 'ID', range(1, len(df_olimpiada) + 1))
+df_olimpiada.to_csv('3_OLIMPIADA.csv', index=False)
+
+print(f"3_OLIMPIADA.csv generado con {len(df_olimpiada)} registros.")import pandas as pd
+
+print("Procesando 04_MEDALLA...")
+
+# 1. Leer archivo crudo
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+
+# 2. Extraer medallas y cambiar los nulos por 'No medal'
+df_events['Medal'] = df_events['Medal'].fillna('No medal')
+medallas_unicas = df_events['Medal'].unique()
+
+df_medalla = pd.DataFrame({'NOMBRE': medallas_unicas})
+
+# 3. Generar ID y Exportar
+df_medalla.insert(0, 'ID', range(1, len(df_medalla) + 1))
+df_medalla.to_csv('4_MEDALLA.csv', index=False)
+
+print(f"✅ 4_MEDALLA.csv generado con {len(df_medalla)} registros.")import pandas as pd
+
+print("Procesando 05_REGION...")
+
+df_bios = pd.read_csv('bios_locs.csv', low_memory=False)
+df_pais_limpio = pd.read_csv('1_PAIS.csv')
+
+# 1. En lugar de extraer 'NOC', extraemos 'born_country' (que trae los codigos de 3 letras)
+df_region = df_bios[['born_region', 'born_country']].dropna(subset=['born_region']).drop_duplicates(subset=['born_region'])
+
+# 2. Hacemos el cruce de 'born_country' contra 'NOC'
+df_region = df_region.merge(df_pais_limpio[['ID', 'NOC']], left_on='born_country', right_on='NOC', how='left')
+
+# 3. Renombramos las columnas a tu estandar
+df_region = df_region.rename(columns={'ID': 'ID_PAIS', 'born_region': 'NOMBRE'})
+
+# 4. Limpiar nulos, generar ID y Exportar
+df_region['ID_PAIS'] = df_region['ID_PAIS'].astype('Int64')
+
+# Seleccionamos solo las columnas finales (descartando born_country y NOC)
+df_region = df_region[['NOMBRE', 'ID_PAIS']].reset_index(drop=True)
+df_region.insert(0, 'ID', range(1, len(df_region) + 1))
+
+df_region.to_csv('5_REGION.csv', index=False)
+print("5_REGION.csv generado con exito.")import pandas as pd
+import re
+
+print("Procesando 06_DISCIPLINA...")
+
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+df_deporte = pd.read_csv('2_DEPORTE.csv')
+
+def obtener_disciplina(fila):
+    sport = str(fila['Sport'])
+    event = str(fila['Event'])
+    # 1. Quitar el nombre del deporte del inicio
+    sin_deporte = re.sub(r'^' + re.escape(sport) + r'\s+', '', event)
+    # 2. Quitar el genero
+    disciplina_pura = re.sub(r"^(Men's\s+|Women's\s+|Mixed\s+)", "", sin_deporte)
+    return disciplina_pura.strip()
+
+df_base = df_events[['Sport', 'Event']].dropna().drop_duplicates()
+df_base['NOMBRE'] = df_base.apply(obtener_disciplina, axis=1)
+
+# Extraer disciplinas unicas asociadas a su deporte
+df_disciplina = df_base[['NOMBRE', 'Sport']].drop_duplicates().reset_index(drop=True)
+
+df_disciplina = df_disciplina.merge(df_deporte, left_on='Sport', right_on='NOMBRE', how='left', suffixes=('', '_dep'))
+df_disciplina = df_disciplina.rename(columns={'ID': 'ID_DEPORTE'})
+df_disciplina = df_disciplina[['NOMBRE', 'ID_DEPORTE']]
+
+df_disciplina.insert(0, 'ID', range(1, len(df_disciplina) + 1))
+df_disciplina.to_csv('6_DISCIPLINA.csv', index=False)
+
+print("6_DISCIPLINA.csv generado con exito.")import pandas as pd
+
+print("Procesando 07_POBLACION...")
+
+df_pop = pd.read_csv('populations.csv', low_memory=False)
+df_pais = pd.read_csv('1_PAIS.csv')
+
+anios = df_pop.columns[2:]
+df_pop_melt = pd.melt(
+    df_pop, 
+    id_vars=['Country Code'], 
+    value_vars=anios, 
+    var_name='YEAR', 
+    value_name='CANTIDAD'
+)
+
+df_pop_final = df_pop_melt.merge(df_pais[['ID', 'NOC']], left_on='Country Code', right_on='NOC', how='inner')
+df_pop_final = df_pop_final[['YEAR', 'CANTIDAD', 'ID']].rename(columns={'ID': 'ID_PAIS'})
+
+df_pop_final = df_pop_final.dropna(subset=['CANTIDAD']).reset_index(drop=True)
+df_pop_final['YEAR'] = df_pop_final['YEAR'].astype(int)
+
+df_pop_final.insert(0, 'ID', range(1, len(df_pop_final) + 1))
+df_pop_final.to_csv('7_POBLACION.csv', index=False)
+
+print("7_POBLACION.csv generado con exito.")import pandas as pd
+
+print("Procesando 08_CIUDAD...")
+
+df_bios = pd.read_csv('bios_locs.csv', low_memory=False)
+df_region = pd.read_csv('5_REGION.csv')
+
+df_ciudad = df_bios[['born_city', 'born_region', 'lat', 'long']].dropna(subset=['born_city']).drop_duplicates(subset=['born_city']).reset_index(drop=True)
+
+df_ciudad = df_ciudad.merge(df_region[['ID', 'NOMBRE']], left_on='born_region', right_on='NOMBRE', how='left', suffixes=('', '_reg'))
+df_ciudad = df_ciudad.rename(columns={'born_city': 'NOMBRE', 'ID': 'ID_REGION', 'lat': 'LAT', 'long': 'LONG'})
+
+df_ciudad['ID_REGION'] = df_ciudad['ID_REGION'].astype('Int64')
+df_ciudad = df_ciudad[['NOMBRE', 'LAT', 'LONG', 'ID_REGION']]
+
+df_ciudad.insert(0, 'ID', range(1, len(df_ciudad) + 1))
+df_ciudad.to_csv('8_CIUDAD.csv', index=False)
+
+print("8_CIUDAD.csv generado con exito.")import pandas as pd
+import re
+
+print("Procesando 09_EVENTO...")
+
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+df_disciplina = pd.read_csv('6_DISCIPLINA.csv')
+
+def obtener_evento(fila):
+    sport = str(fila['Sport'])
+    event = str(fila['Event'])
+    return re.sub(r'^' + re.escape(sport) + r'\s+', '', event).strip()
+
+def obtener_disciplina(fila):
+    evento_str = obtener_evento(fila)
+    return re.sub(r"^(Men's\s+|Women's\s+|Mixed\s+)", "", evento_str).strip()
+
+df_base = df_events[['Sport', 'Event']].dropna().drop_duplicates()
+df_base['NOMBRE'] = df_base.apply(obtener_evento, axis=1)
+df_base['NOMBRE_DISCIPLINA'] = df_base.apply(obtener_disciplina, axis=1)
+
+df_evento = df_base[['NOMBRE', 'NOMBRE_DISCIPLINA']].drop_duplicates().reset_index(drop=True)
+
+df_evento = df_evento.merge(df_disciplina, left_on='NOMBRE_DISCIPLINA', right_on='NOMBRE', how='left', suffixes=('', '_disc'))
+df_evento = df_evento.rename(columns={'ID': 'ID_DISCIPLINA'})
+df_evento = df_evento[['NOMBRE', 'ID_DISCIPLINA']]
+
+df_evento.insert(0, 'ID', range(1, len(df_evento) + 1))
+df_evento.to_csv('9_EVENTO.csv', index=False)
+
+print("9_EVENTO.csv generado con exito.")import pandas as pd
+
+print("Procesando 10_ATLETA...")
+
+df_bios = pd.read_csv('bios_locs.csv', low_memory=False)
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+df_ciudad = pd.read_csv('8_CIUDAD.csv').rename(columns={'ID': 'ID_CIUDAD'})
+
+df_sexo = df_events[['ID', 'Sex']].drop_duplicates(subset=['ID']).rename(columns={'ID': 'athlete_id'})
+df_atleta = df_bios.merge(df_sexo, on='athlete_id', how='left')
+
+# 1. Hacemos el cruce
+df_atleta = df_atleta.merge(df_ciudad[['ID_CIUDAD', 'NOMBRE']], left_on='born_city', right_on='NOMBRE', how='left')
+
+# Eliminamos la columna NOMBRE de la ciudad porque ya tenemos el ID_CIUDAD
+df_atleta = df_atleta.drop(columns=['NOMBRE'])
+
+# 3. Ahora si renombramos con tranquilidad
+df_atleta = df_atleta.rename(columns={
+    'athlete_id': 'ID', 
+    'name': 'NOMBRE', 
+    'born_date': 'BORN_DATE', 
+    'died_date': 'DIED_DATE', 
+    'height_cm': 'ALTURA', 
+    'weight_kg': 'PESO', 
+    'Sex': 'SEXO',
+    'ID_CIUDAD': 'ID_CITY_NACIMIENTO'
+})
+
+df_atleta['ID_CITY_NACIMIENTO'] = df_atleta['ID_CITY_NACIMIENTO'].astype('Int64')
+
+df_atleta = df_atleta[['ID', 'NOMBRE', 'BORN_DATE', 'DIED_DATE', 'ALTURA', 'PESO', 'SEXO', 'ID_CITY_NACIMIENTO']]
+
+df_atleta.to_csv('10_ATLETA.csv', index=False)
+
+print("10_ATLETA.csv generado con exito.")import pandas as pd
+
+print("Procesando 11_CIUDAD_OLIMPIADA...")
+
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+df_olimpiada = pd.read_csv('3_OLIMPIADA.csv').rename(columns={'ID': 'ID_OLIMPIADA'})
+df_ciudad = pd.read_csv('8_CIUDAD.csv').rename(columns={'ID': 'ID_CIUDAD'})
+
+df_host = df_events[['City', 'Season', 'Year']].drop_duplicates()
+
+# --- EL CAMBIO CLAVE AQUI ---
+# Aplicamos el mismo diccionario de traducción del script 8
+diccionario_sedes = {
+    'Mexico City': 'Ciudad de México (Mexico City)',
+    'Athina': 'Athens',
+    'Moskva': 'Moscow',
+    'Munich': 'München',
+    'Montreal': 'Montréal',
+    'Antwerpen': 'Antwerp',
+    'St. Louis': 'Saint Louis'
+}
+df_host['City'] = df_host['City'].replace(diccionario_sedes)
+# -----------------------------
+
+# Ahora los cruces serán perfectos
+df_host = df_host.merge(df_olimpiada, left_on=['Season', 'Year'], right_on=['SEASON', 'YEAR'], how='inner')
+df_host = df_host.merge(df_ciudad[['ID_CIUDAD', 'NOMBRE']], left_on='City', right_on='NOMBRE', how='left')
+
+df_host['ID_CIUDAD'] = df_host['ID_CIUDAD'].astype('Int64')
+
+df_ciudad_olim = df_host[['ID_OLIMPIADA', 'ID_CIUDAD']].drop_duplicates().reset_index(drop=True)
+
+df_ciudad_olim.to_csv('11_CIUDAD_OLIMPIADA.csv', index=False)
+
+print("11_CIUDAD_OLIMPIADA.csv generado con exito.")
+import pandas as pd
+import numpy as np
+import re
+
+print("Procesando 12_RESULTADO (Modo Preservacion Total v2)...")
+
+df_res = pd.read_csv('results(1).csv', low_memory=False)
+df_olimpiada = pd.read_csv('3_OLIMPIADA.csv')
+df_evento = pd.read_csv('9_EVENTO.csv')
+df_medalla = pd.read_csv('4_MEDALLA.csv')
+df_disciplina = pd.read_csv('6_DISCIPLINA.csv')
+
+# 1. Extraer Año y Temporada (Evitando que se vuelvan nulos si tienen nombres raros)
+df_res['YEAR'] = df_res['Games'].str.extract(r'(\d{4})').astype(float).fillna(0)
+df_res['SEASON'] = df_res['Games'].str.extract(r'(Summer|Winter)').fillna('Unknown')
+
+# --- INYECTOR AUTOMÁTICO DE OLIMPIADAS FALTANTES ---
+olimpiadas_cat = df_olimpiada[['SEASON', 'YEAR']].drop_duplicates()
+olimpiadas_res = df_res[['SEASON', 'YEAR']].drop_duplicates()
+
+faltantes_olim = olimpiadas_res.merge(olimpiadas_cat, on=['SEASON', 'YEAR'], how='left', indicator=True)
+faltantes_olim = faltantes_olim[faltantes_olim['_merge'] == 'left_only'][['SEASON', 'YEAR']]
+
+if not faltantes_olim.empty:
+    print(f"Detectadas {len(faltantes_olim)} Olimpiadas nuevas. Inyectándolas al catálogo 3_OLIMPIADA...")
+    max_id_olim = df_olimpiada['ID'].max() if not df_olimpiada.empty else 0
+    faltantes_olim['ID'] = range(max_id_olim + 1, max_id_olim + 1 + len(faltantes_olim))
+    faltantes_olim = faltantes_olim[['ID', 'SEASON', 'YEAR']] # Ordenar columnas
+    df_olimpiada = pd.concat([df_olimpiada, faltantes_olim], ignore_index=True)
+    df_olimpiada.to_csv('3_OLIMPIADA.csv', index=False)
+    print("Catálogo 3_OLIMPIADA.csv expandido exitosamente.")
+# ---------------------------------------------------
+
+# --- INYECTOR AUTOMÁTICO DE EVENTOS FALTANTES ---
+eventos_cat = set(df_evento['NOMBRE'].unique())
+eventos_res = df_res[['Event', 'Discipline']].dropna(subset=['Event']).drop_duplicates()
+
+faltantes_evt = eventos_res[~eventos_res['Event'].isin(eventos_cat)].copy()
+
+if not faltantes_evt.empty:
+    print(f"Detectados {len(faltantes_evt)} eventos nuevos. Inyectándolos al catálogo 9_EVENTO...")
+    faltantes_evt = faltantes_evt.merge(df_disciplina[['ID', 'NOMBRE']], left_on='Discipline', right_on='NOMBRE', how='left')
+    faltantes_evt['ID_DISCIPLINA'] = faltantes_evt['ID'].fillna(1).astype(int)
+    max_id_evt = df_evento['ID'].max() if not df_evento.empty else 0
+    faltantes_evt['ID_NUEVO'] = range(max_id_evt + 1, max_id_evt + 1 + len(faltantes_evt))
+    
+    df_nuevos_eventos = pd.DataFrame({
+        'ID': faltantes_evt['ID_NUEVO'],
+        'NOMBRE': faltantes_evt['Event'],
+        'ID_DISCIPLINA': faltantes_evt['ID_DISCIPLINA']
+    })
+    df_evento = pd.concat([df_evento, df_nuevos_eventos], ignore_index=True)
+    df_evento.to_csv('9_EVENTO.csv', index=False)
+    print("Catálogo 9_EVENTO.csv expandido exitosamente.")
+# ------------------------------------------------
+
+def limpiar_lugar(pos):
+    if pd.isna(pos): return np.nan
+    numeros = re.findall(r'\d+', str(pos))
+    return int(numeros[0]) if numeros else np.nan
+
+def obtener_estado(pos):
+    if pd.isna(pos): return 'COMPLETED'
+    pos_str = str(pos).upper()
+    if 'DNS' in pos_str: return 'DNS' 
+    if 'DNF' in pos_str: return 'DNF' 
+    if 'DQ' in pos_str: return 'DQ'   
+    return 'COMPLETED'
+
+df_res['PLACE'] = df_res['Pos'].apply(limpiar_lugar)
+df_res['STATE'] = df_res['Pos'].apply(obtener_estado)
+df_res['TIED'] = df_res['Pos'].astype(str).str.contains('=')
+
+# Cruzar con los catálogos que AHORA están 100% completos
+df_res = df_res.merge(df_olimpiada, on=['SEASON', 'YEAR'], how='left').rename(columns={'ID': 'ID_OLIMPIADA'})
+df_res = df_res.merge(df_evento[['ID', 'NOMBRE']], left_on='Event', right_on='NOMBRE', how='left').rename(columns={'ID': 'ID_EVENTO'})
+df_res['Medal'] = df_res['Medal'].fillna('No medal')
+df_res = df_res.merge(df_medalla[['ID', 'NOMBRE']], left_on='Medal', right_on='NOMBRE', how='left').rename(columns={'ID': 'ID_MEDALLA'})
+
+df_resultado = df_res[['TIED', 'PLACE', 'STATE', 'ID_MEDALLA', 'ID_OLIMPIADA', 'ID_EVENTO']].drop_duplicates().reset_index(drop=True)
+
+df_resultado['ID_MEDALLA'] = df_resultado['ID_MEDALLA'].astype('Int64')
+df_resultado['ID_OLIMPIADA'] = df_resultado['ID_OLIMPIADA'].astype('Int64')
+df_resultado['ID_EVENTO'] = df_resultado['ID_EVENTO'].astype('Int64')
+
+df_resultado.insert(0, 'ID', range(1, len(df_resultado) + 1))
+df_resultado.to_csv('12_RESULTADO.csv', index=False)
+
+print("12_RESULTADO.csv generado con el 100% de la información.")
+import pandas as pd
+
+print("Procesando 13_RESULTADO_ATLETA...")
+
+df_events = pd.read_csv('athlete_events.csv', low_memory=False)
+
+df_olimpiada = pd.read_csv('3_OLIMPIADA.csv')
+df_evento = pd.read_csv('9_EVENTO.csv')
+df_medalla = pd.read_csv('4_MEDALLA.csv')
+df_pais = pd.read_csv('1_PAIS.csv')
+df_resultado = pd.read_csv('12_RESULTADO.csv')
+
+df_res = df_events[['ID', 'Age', 'NOC', 'Season', 'Year', 'Event', 'Medal']].copy()
+df_res = df_res.rename(columns={'ID': 'ID_ATLETA', 'Age': 'EDAD'})
+df_res['Medal'] = df_res['Medal'].fillna('No medal')
+
+df_res = df_res.merge(df_olimpiada[['ID', 'SEASON', 'YEAR']].rename(columns={'ID': 'ID_OLIMPIADA'}), left_on=['Season', 'Year'], right_on=['SEASON', 'YEAR'], how='left')
+df_res = df_res.merge(df_evento[['ID', 'NOMBRE']].rename(columns={'ID': 'ID_EVENTO'}), left_on='Event', right_on='NOMBRE', how='left')
+df_res = df_res.merge(df_medalla[['ID', 'NOMBRE']].rename(columns={'ID': 'ID_MEDALLA'}), left_on='Medal', right_on='NOMBRE', how='left')
+df_res = df_res.merge(df_pais[['ID', 'NOC']].rename(columns={'ID': 'ID_PAIS_REPRESENTA'}), on='NOC', how='left')
+
+df_res['ID_MEDALLA'] = df_res['ID_MEDALLA'].fillna(1).astype(int)
+df_res['ID_OLIMPIADA'] = df_res['ID_OLIMPIADA'].fillna(1).astype(int)
+df_res['ID_EVENTO'] = df_res['ID_EVENTO'].fillna(1).astype(int)
+
+df_res = df_res.merge(
+    df_resultado[['ID', 'ID_MEDALLA', 'ID_OLIMPIADA', 'ID_EVENTO']].rename(columns={'ID': 'ID_RESULTADO'}),
+    on=['ID_MEDALLA', 'ID_OLIMPIADA', 'ID_EVENTO'],
+    how='left'
+)
+
+df_res['EDAD'] = df_res['EDAD'].fillna(0).astype(int)
+df_res['ID_PAIS_REPRESENTA'] = df_res['ID_PAIS_REPRESENTA'].fillna(1).astype(int)
+df_res['ID_RESULTADO'] = df_res['ID_RESULTADO'].fillna(1).astype(int)
+
+df_res_atl = df_res[['EDAD', 'ID_ATLETA', 'ID_RESULTADO', 'ID_PAIS_REPRESENTA']]
+
+df_res_atl = df_res_atl.drop_duplicates(subset=['ID_ATLETA', 'ID_RESULTADO']).reset_index(drop=True)
+
+df_res_atl.to_csv('13_RESULTADO_ATLETA.csv', index=False)
+
+print("13_RESULTADO_ATLETA.csv generado con exito.")
