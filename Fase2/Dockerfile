@@ -1,4 +1,4 @@
-FROM postgres:16-alpine
+FROM postgres:17-alpine
 
 # Crear directorio de respaldos con permisos para el usuario postgres
 RUN mkdir -p /backups && chown -R postgres:postgres /backups

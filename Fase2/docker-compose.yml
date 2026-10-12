@@ -16,6 +16,7 @@ services:
       - ./init:/docker-entrypoint-initdb.d:ro
       - ./backups:/backups
       - ./csv-limpios:/csv-limpios:ro
+      - ./cargas:/cargas:ro
     command: >
       postgres
       -c wal_level=replica
