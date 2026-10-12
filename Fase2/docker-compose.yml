@@ -1,0 +1,26 @@
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: postgres_fase2
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: olimpiadas_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ${POSTGRES_DATA_DIR:-pgdata}:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./backups:/backups
+      - ./csv-limpios:/csv-limpios:ro
+    command: >
+      postgres
+      -c wal_level=replica
+      -c max_wal_senders=10
+      -c checkpoint_completion_target=0.9
+
+volumes:
+  pgdata:

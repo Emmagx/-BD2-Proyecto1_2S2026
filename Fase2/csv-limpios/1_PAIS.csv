@@ -1,0 +1,248 @@
+ID,NOMBRE,NOC
+1,Afghanistan,AFG
+2,Netherlands Antilles,AHO
+3,Albania,ALB
+4,Algeria,ALG
+5,Andorra,AND
+6,Angola,ANG
+7,Antigua and Barbuda,ANT
+8,Australasia,ANZ
+9,Argentina,ARG
+10,Armenia,ARM
+11,Aruba,ARU
+12,American Samoa,ASA
+13,Australia,AUS
+14,Austria,AUT
+15,Azerbaijan,AZE
+16,The Bahamas,BAH
+17,Bangladesh,BAN
+18,Barbados,BAR
+19,Burundi,BDI
+20,Belgium,BEL
+21,Benin,BEN
+22,Bermuda,BER
+23,Bhutan,BHU
+24,Bosnia and Herzegovina,BIH
+25,Belize,BIZ
+26,Belarus,BLR
+27,Bohemia,BOH
+28,Bolivia,BOL
+29,Botswana,BOT
+30,Brazil,BRA
+31,Bahrain,BRN
+32,Brunei Darussalam,BRU
+33,Bulgaria,BUL
+34,Burkina Faso,BUR
+35,Central African Republic,CAF
+36,Cambodia,CAM
+37,Canada,CAN
+38,Cayman Islands,CAY
+39,Congo,CGO
+40,Chad,CHA
+41,Chile,CHI
+42,People's Republic of China,CHN
+43,Côte d'Ivoire,CIV
+44,Cameroon,CMR
+45,Democratic Republic of the Congo,COD
+46,Cook Islands,COK
+47,Colombia,COL
+48,Comoros,COM
+49,Korea Team,COR
+50,Cabo Verde,CPV
+51,Costa Rica,CRC
+52,Croatia,CRO
+53,Crete,CRT
+54,Cuba,CUB
+55,Cyprus,CYP
+56,Czechia,CZE
+57,Denmark,DEN
+58,Djibouti,DJI
+59,Dominica,DMA
+60,Dominican Republic,DOM
+61,Ecuador,ECU
+62,Egypt,EGY
+63,Refugee Olympic Team,EOR
+64,Eritrea,ERI
+65,El Salvador,ESA
+66,Spain,ESP
+67,Estonia,EST
+68,Ethiopia,ETH
+69,Unified Team,EUN
+70,Fiji,FIJ
+71,Finland,FIN
+72,France,FRA
+73,West Germany,FRG
+74,Federated States of Micronesia,FSM
+75,Gabon,GAB
+76,The Gambia,GAM
+77,Great Britain,GBR
+78,Guinea Bissau,GBS
+79,East Germany,GDR
+80,Georgia,GEO
+81,Equatorial Guinea,GEQ
+82,Germany,GER
+83,Ghana,GHA
+84,Greece,GRE
+85,Grenada,GRN
+86,Guatemala,GUA
+87,Guinea,GUI
+88,Guam,GUM
+89,Guyana,GUY
+90,Haiti,HAI
+91,"Hong Kong, China",HKG
+92,Honduras,HON
+93,Hungary,HUN
+94,Indonesia,INA
+95,India,IND
+96,Independent Olympic Athletes,IOA
+97,Islamic Republic of Iran,IRI
+98,Ireland,IRL
+99,Iraq,IRQ
+100,Iceland,ISL
+101,Israel,ISR
+102,United States Virgin Islands,ISV
+103,Italy,ITA
+104,British Virgin Islands,IVB
+105,Jamaica,JAM
+106,Jordan,JOR
+107,Japan,JPN
+108,Kazakhstan,KAZ
+109,Kenya,KEN
+110,Kyrgyzstan,KGZ
+111,Kiribati,KIR
+112,Republic of Korea,KOR
+113,Kosovo,KOS
+114,Kingdom of Saudi Arabia,KSA
+115,Kuwait,KUW
+116,Lao People's Democratic Republic,LAO
+117,Latvia,LAT
+118,Libya,LBA
+119,Lebanon,LBN
+120,Liberia,LBR
+121,Saint Lucia,LCA
+122,Lesotho,LES
+123,Liechtenstein,LIE
+124,Lithuania,LTU
+125,Luxembourg,LUX
+126,Madagascar,MAD
+127,Malaya,MAL
+128,Morocco,MAR
+129,Malaysia,MAS
+130,Malawi,MAW
+131,Republic of Moldova,MDA
+132,Maldives,MDV
+133,Mexico,MEX
+134,Mongolia,MGL
+135,Marshall Islands,MHL
+136,North Macedonia,MKD
+137,Mali,MLI
+138,Malta,MLT
+139,Montenegro,MNE
+140,Monaco,MON
+141,Mozambique,MOZ
+142,Mauritius,MRI
+143,Mauritania,MTN
+144,Myanmar,MYA
+145,Namibia,NAM
+146,North Borneo,NBO
+147,Nicaragua,NCA
+148,Netherlands,NED
+149,Nepal,NEP
+150,Nigeria,NGR
+151,Niger,NIG
+152,Norway,NOR
+153,Nauru,NRU
+154,New Zealand,NZL
+155,Oman,OMA
+156,Pakistan,PAK
+157,Panama,PAN
+158,Paraguay,PAR
+159,Peru,PER
+160,Philippines,PHI
+161,Palestine,PLE
+162,Palau,PLW
+163,Papua New Guinea,PNG
+164,Poland,POL
+165,Portugal,POR
+166,Democratic People's Republic of Korea,PRK
+167,Puerto Rico,PUR
+168,Qatar,QAT
+169,Rhodesia,RHO
+170,ROC,ROC
+171,Romania,ROU
+172,South Africa,RSA
+173,Russian Federation,RUS
+174,Rwanda,RWA
+175,Saar,SAA
+176,Samoa,SAM
+177,Serbia and Montenegro,SCG
+178,Senegal,SEN
+179,Seychelles,SEY
+180,Singapore,SGP
+181,Saint Kitts and Nevis,SKN
+182,Sierra Leone,SLE
+183,Slovenia,SLO
+184,San Marino,SMR
+185,Solomon Islands,SOL
+186,Somalia,SOM
+187,Serbia,SRB
+188,Sri Lanka,SRI
+189,South Sudan,SSD
+190,São Tomé and Príncipe,STP
+191,Sudan,SUD
+192,Switzerland,SUI
+193,Suriname,SUR
+194,Slovakia,SVK
+195,Sweden,SWE
+196,Eswatini,SWZ
+197,Syrian Arab Republic,SYR
+198,United Republic of Tanzania,TAN
+199,Czechoslovakia,TCH
+200,Tonga,TGA
+201,Thailand,THA
+202,Tajikistan,TJK
+203,Turkmenistan,TKM
+204,Timor-Leste,TLS
+205,Togo,TOG
+206,Chinese Taipei,TPE
+207,Trinidad and Tobago,TTO
+208,Tunisia,TUN
+209,Türkiye,TUR
+210,Tuvalu,TUV
+211,United Arab Emirates,UAE
+212,United Arab Republic,UAR
+213,Uganda,UGA
+214,Ukraine,UKR
+215,Soviet Union,URS
+216,Uruguay,URU
+217,United States,USA
+218,Uzbekistan,UZB
+219,Vanuatu,VAN
+220,Venezuela,VEN
+221,Vietnam,VIE
+222,Saint Vincent and the Grenadines,VIN
+223,South Vietnam,VNM
+224,Jamaica West Indies Federation,WIF
+225,North Yemen,YAR
+226,Yemen,YEM
+227,South Yemen,YMD
+228,Yugoslavia,YUG
+229,Zambia,ZAM
+230,Zimbabwe,ZIM
+231,FPN,FPN
+232,CUR,CUR
+233,JER,JER
+234,GRL,GRL
+235,MTS,MTS
+236,IOM,IOM
+237,FLI,FLI
+238,NCD,NCD
+239,GIB,GIB
+240,GUE,GUE
+241,NFI,NFI
+242,MRT,MRT
+243,MQE,MQE
+244,AGU,AGU
+245,SMT,SMT
+246,TKS,TKS
+247,FAR,FAR
