@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-DEPORTE = "Athletics"  # Ejemplos: "Athletics", "Basketball", "Archery"
+DEPORTE = "Archery" # Ejemplos: Tennis, Golf, Archery
 
 print(f"=== Filtrando 12_RESULTADO para el deporte: '{DEPORTE}' ===")
 
