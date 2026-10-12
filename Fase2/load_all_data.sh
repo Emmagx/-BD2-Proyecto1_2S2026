@@ -9,7 +9,7 @@ echo "=== Cargando datos completos en PostgreSQL ($CONTAINER_NAME) ==="
 
 docker exec -i $CONTAINER_NAME psql -U $DB_USER -d $DB_NAME << 'EOF'
 \copy "PAIS" FROM '/csv-limpios/1_PAIS.csv' WITH (FORMAT csv, HEADER true);
-\copy "DEPORTE" FROM '/csv-limpios/2_DEPORTE.csv' WITH (FORMAT csv, HEADER true) where "DEPORTE" like "Bascketball";
+\copy "DEPORTE" FROM '/csv-limpios/2_DEPORTE.csv' WITH (FORMAT csv, HEADER true);
 \copy "OLIMPIADA" FROM '/csv-limpios/3_OLIMPIADA.csv' WITH (FORMAT csv, HEADER true);
 \copy "MEDALLA" FROM '/csv-limpios/4_MEDALLA.csv' WITH (FORMAT csv, HEADER true);
 \copy "REGION" FROM '/csv-limpios/5_REGION.csv' WITH (FORMAT csv, HEADER true);

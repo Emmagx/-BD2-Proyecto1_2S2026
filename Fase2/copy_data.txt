@@ -1,0 +1,17 @@
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_archery.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_archery.csv' WITH (FORMAT csv, HEADER true);
+
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_golf.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_golf.csv' WITH (FORMAT csv, HEADER true);
+
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_handball.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_handball.csv' WITH (FORMAT csv, HEADER true);
+
+
+Para hacer los backups:
+time docker exec postgres_fase2 pg_basebackup -U postgres -D /backups/00_completo -Fp -Xs -v -P
+time docker exec postgres_fase2 pg_basebackup -U postgres -D /backups/01_incremental --incremental=/backups/00_completo/backup_manifest -Fp -Xs -v -P
+time docker exec postgres_fase2 pg_basebackup -U postgres -D /backups/02_incremental --incremental=/backups/01_incremental/backup_manifest -Fp -Xs -v -P
+
+truncate table "RESULTADO" CASCADE;
+truncate table "RESULTADO_ATLETA" CASCADE;
