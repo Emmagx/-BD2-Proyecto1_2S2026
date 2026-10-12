@@ -1,0 +1,45 @@
+# ============================================================
+# DATOS LOCALES — no subir al repositorio
+# ============================================================
+
+# Datos de PostgreSQL (generados al hacer docker compose up)
+pgdata/
+
+# Backups fisicos (cada quien genera los suyos localmente)
+# Se conserva backups/.gitkeep para que la carpeta exista al clonar
+backups/00_completo/
+backups/01_incremental/
+backups/02_incremental/
+backups/restauracion/
+
+# pgdata: completamente ignorado (Docker lo recrea con docker compose up)
+pgdata/
+
+# Variables de entorno con credenciales
+.env
+
+# ============================================================
+# SISTEMAS OPERATIVOS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# EDITORES / IDEs
+# ============================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# PYTHON
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/

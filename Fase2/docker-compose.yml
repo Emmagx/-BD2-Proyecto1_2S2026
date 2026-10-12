@@ -12,7 +12,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ${POSTGRES_DATA_DIR:-pgdata}:/var/lib/postgresql/data
+      - ./pgdata:/var/lib/postgresql/data
       - ./init:/docker-entrypoint-initdb.d:ro
       - ./backups:/backups
       - ./csv-limpios:/csv-limpios:ro
@@ -22,6 +22,3 @@ services:
       -c wal_level=replica
       -c max_wal_senders=10
       -c checkpoint_completion_target=0.9
-
-volumes:
-  pgdata:
