@@ -15,6 +15,9 @@ backups/restauracion/
 # pgdata: completamente ignorado (Docker lo recrea con docker compose up)
 pgdata/
 
+
+# carpeta de restores
+/restore_combined
 # Variables de entorno con credenciales
 .env
 

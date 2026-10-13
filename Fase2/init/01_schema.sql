@@ -91,3 +91,8 @@ CREATE TABLE "RESULTADO_ATLETA" (
 	"ID_PAIS_REPRESENTA" integer,
 	CONSTRAINT "RESULTADO_ATLETA_ID_ATLETA_ID_RESULTADO_key" UNIQUE("ID_ATLETA","ID_RESULTADO")
 );
+
+
+--Agregar el wal Summarize para postgres 17
+ALTER SYSTEM SET summarize_wal = 'on';
+SELECT pg_reload_conf();

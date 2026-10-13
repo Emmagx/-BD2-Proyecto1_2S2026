@@ -15,3 +15,6 @@ time docker exec postgres_fase2 pg_basebackup -U postgres -D /backups/02_increme
 
 truncate table "RESULTADO" CASCADE;
 truncate table "RESULTADO_ATLETA" CASCADE;
+
+ALTER SYSTEM SET summarize_wal = 'on';
+SELECT pg_reload_conf();

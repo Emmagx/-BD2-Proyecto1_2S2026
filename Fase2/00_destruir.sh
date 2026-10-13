@@ -11,8 +11,6 @@ echo "Eliminando datos de PostgreSQL (pgdata) via Docker..."
 # Usamos un contenedor efimero con privilegios para borrarlos sin necesitar sudo en el host.
 docker run --rm -v "$(pwd)/pgdata:/target" alpine sh -c "rm -rf /target/* /target/.[!.]* 2>/dev/null || true"
 
-echo "Eliminando backups del host..."
-rm -rf ./backups/00_completo ./backups/01_incremental ./backups/02_incremental
 
 echo "Verificando limpieza..."
 

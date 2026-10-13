@@ -5,14 +5,14 @@ start=$(date +%s.%N)
 echo "=== RESTAURANDO: Backup Completo (00_completo) ==="
 echo
 
-echo "1. Creando volumen pgdata vacío..."
-docker volume create fase2_pgdata
+echo "1. Preparando directorio ./pgdata..."
+mkdir -p ./pgdata
 
-echo "2. Copiando el backup al volumen..."
+echo "2. Copiando el backup a ./pgdata..."
 docker run --rm \
-  -v fase2_pgdata:/var/lib/postgresql/data \
-  -v $(pwd)/backups/00_completo:/backup_source:ro \
-  alpine sh -c "cp -a /backup_source/. /var/lib/postgresql/data/ && chown -R 999:999 /var/lib/postgresql/data"
+  -v "$(pwd)/pgdata:/var/lib/postgresql/data" \
+  -v "$(pwd)/backups/00_completo:/backup_source:ro" \
+  alpine sh -c "cp -a /backup_source/. /var/lib/postgresql/data/ && chown -R 70:70 /var/lib/postgresql/data && chmod 700 /var/lib/postgresql/data"
 
 echo "3. Levantando el contenedor..."
 docker compose up -d
