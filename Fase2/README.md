@@ -1,6 +1,7 @@
 ## Como levantar la base de datos en su compu
 
 Para que cada quien trabaje en su maquina sin complicarse:
+0. en linux ejecutar setup.sh
 
 1. Levantar el contenedor:
    ```bash
