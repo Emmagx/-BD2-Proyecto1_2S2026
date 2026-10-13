@@ -1,14 +1,17 @@
 #!/bin/bash
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$PROJECT_ROOT"
+
 start=$(date +%s.%N)
 echo "=== RESTAURANDO: Backup Completo (00_completo) ==="
-echo
 
 echo "1. Preparando directorio ./pgdata..."
 mkdir -p ./pgdata
 
-echo "2. Copiando el backup a ./pgdata..."
+echo "2. Copiando el backup a ./pgdata..."--54
 docker run --rm \
   -v "$(pwd)/pgdata:/var/lib/postgresql/data" \
   -v "$(pwd)/backups/00_completo:/backup_source:ro" \

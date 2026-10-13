@@ -1,15 +1,18 @@
 #!/bin/bash
 set -e
 
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$PROJECT_ROOT"
+
 start=$(date +%s.%N)
-echo "=== RESTAURANDO: Full + Incrementales (00 + 01 + 02) ==="
-echo
+echo "=== RESTAURANDO: Full + Incrementales ==="
 
 echo "1. Preparando directorio ./pgdata..."
 mkdir -p ./pgdata
 
 echo "2. Combinando full + incrementales con pg_combinebackup..."
-rm -rf ./restore_combined
+sudo rm -rf ./restore_combined
 docker run --rm \
   -v "$(pwd)/backups:/backups" \
   -v "$(pwd)/restore_combined:/restore_combined" \
@@ -32,6 +35,9 @@ echo "5. Esperando a que PostgreSQL acepte conexiones..."
 until docker exec postgres_fase2 pg_isready -U postgres -q; do
     sleep 0.1
 done
+
+echo "6. Limpieza de archivos temporales..."
+sudo rm -rf ./restore_combined
 
 end=$(date +%s.%N)
 echo
