@@ -46,3 +46,17 @@ __pycache__/
 .Python
 venv/
 .venv/
+
+# ============================================================
+# CARGA 3 — PRUEBAS DE RESTAURACION MICHAEL PHELPS
+# ============================================================
+
+# Directorios fisicos utilizados durante las restauraciones
+/pgdata_antes_restauracion/
+/pgdata_prueba_*/
+/pgdata_tiempo_*/
+
+# Respaldos fisicos generados para Carga 3
+/backups/carga3_phelps/
+# Restauraciones temporales para defensa de Carga 3
+/pgdata_demo_carga3_*/
