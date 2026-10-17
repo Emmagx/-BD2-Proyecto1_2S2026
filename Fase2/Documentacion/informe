@@ -7,7 +7,7 @@
 **Curso:** Sistemas de Bases de Datos 2 - Segundo Semestre 2026  
 **Estudiantes:** 
 - Norma Elizabeth Canú Xico - *202300768*
-- [Nombre Compañero 1] ([Carnet 1]) - *Carga 2 (Por Deporte/Evento)*
+- Brayan Emanuel Garcia 202300848 - *Carga 2 (Por Deporte/Evento)*
 - [Nombre Compañero 2] ([Carnet 2]) - *Carga 3 (Por Deportista)*
 
 ---
@@ -93,8 +93,50 @@ Se realizaron tres fases de carga insertando la información histórica de forma
   ![Comprobación Inc 3](images/comprobacion_restauracion_incrementales3.png)
   ![Comprobación Inc 4](images/comprobacion_restauracion_incrementales4.png)
 
-### 5.2 Carga 2: Por Deporte / Evento ([Nombre Compañero 1])
-*[Espacio para detallar los comandos ejecutados, capturas de base de datos y consola correspondientes a la segunda agrupación]*
+### 5.2 Carga 2: Por Deporte / Evento (Brayan Emanuel Garcia)
+
+**A. Primera Carga, resultados de arqueria**
+```sql
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_archery.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_archery.csv' WITH (FORMAT csv, HEADER true);
+```
+![Comprobación carga](images/evidencia_carga_deporte1.png)
+- **Primer Backup con informacion de arqueria**
+```bash
+cp tools/04_backups.sh
+chmod +x 04_backups.sh
+./backups.sh 1
+```
+**B. Segunda Carga, resultado golf**
+```sql
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_golf.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_golf.csv' WITH (FORMAT csv, HEADER true);
+
+```
+- **Segundo Backup con informacion de golf**
+```bash
+cp tools/04_backups.sh
+chmod +x 04_backups.sh
+./backups.sh 2
+```
+
+
+**C. Tercera Carga, resultado handball**
+```sql
+\copy "RESULTADO" FROM '/cargas/12_RESULTADO_golf.csv' WITH (FORMAT csv, HEADER true);
+\copy "RESULTADO_ATLETA" FROM '/cargas/13_RESULTADO_ATLETA_golf.csv' WITH (FORMAT csv, HEADER true);
+
+```
+- **Segundo Backup con informacion de golf**
+```bash
+cp tools/04_backups.sh
+chmod +x 04_backups.sh 
+./backups.sh 3
+```
+
+#### Evidencia de tiempo por cada backup hecho:
+
+![tiempo hacer backups](images/evidencia_tiempo_make_backup.png)
 
 ### 5.3 Carga 3: Por Deportista ([Nombre Compañero 2])
 *[Espacio para detallar los comandos ejecutados, capturas de base de datos y consola correspondientes a la tercera agrupación]*
@@ -109,8 +151,8 @@ La siguiente tabla expone los tiempos métricos de restauración (RTO - Recovery
 | :--- | :--- | :--- |
 | **Full Backup** | Restauración única del catálogo base (Hasta 2012) | **0.86 segundos** |
 | **Full + Incrementales** | Reconstrucción total encadenando 3 etapas (Hasta 2020) | **3.73 segundos** |
-| *Full Backup (Carga 2)* | *[Datos de Carga 2]* | *[Tiempo s]* |
-| *Full + Inc. (Carga 2)* | *[Datos de Carga 2]* | *[Tiempo s]* |
+| *Full Backup (Carga 2)* | Deporte: Arqueria | 270 segundo |
+| *Full + Inc. (Carga 2)* | Deportes: Arqueria + golf + handball | 290 Segundos |
 | *Full Backup (Carga 3)* | *[Datos de Carga 3]* | *[Tiempo s]* |
 | *Full + Inc. (Carga 3)* | *[Datos de Carga 3]* | *[Tiempo s]* |
 
@@ -122,7 +164,7 @@ La recuperación desde un Full Backup es casi inmediata (0.86s) ya que el proces
 ## 7. Conclusiones
 1. **La estrategia incremental es estadísticamente óptima a largo plazo.** Aunque penaliza ligeramente el tiempo de recuperación (3.73s vs 0.86s en el Escenario 1), reduce drásticamente la carga de I/O en el servidor de producción y el consumo de almacenamiento durante las ventanas de respaldo diarias.
 2. La implementación de herramientas nativas como `pg_basebackup` garantiza una consistencia a nivel de bloque, evitando los cuellos de botella característicos de las reconstrucciones lógicas (`pg_restore` o inserciones SQL masivas).
-3. *[Conclusión basada en la Carga 2 del compañero 1]*
+3. Debido a que la carga y backup full tiene toda la informacion y solo simulamos que se crean nuevos resultados entre si, ej: resultados de handball con el fin de buscar un punto en el cual la base de datos tenga informacion "perdida", al momento de hacer el backup se tarda un poco mas que sino tuviera todos los datos faltando solo las relaciones entre si de resultado y resultado-atleta. AL momento de cargar los otros incrementales baja entre cada respaldo el tiempo.
 4. *[Conclusión basada en la Carga 3 del compañero 2]*
 
 ---
