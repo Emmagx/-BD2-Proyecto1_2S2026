@@ -19,7 +19,7 @@ elif [ "$1" = 2 ]; then
 elif [ "$1" = 3 ]; then
     docker exec postgres_fase2 pg_basebackup -U postgres -D /backups/02_incremental --incremental=/backups/01_incremental/backup_manifest -Fp -Xs -v -P
 else
-    echo "Uso: $0 {1|2|3}"
+    echo "Uso: $0 {1|2|3}"docker volume create carga3_simulacro_2012
     exit 1
 fi
 
