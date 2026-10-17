@@ -1,0 +1,150 @@
+# UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
+# FACULTAD DE INGENIERÍA
+# ESCUELA DE CIENCIAS Y SISTEMAS
+
+# Informe Técnico: Respaldo y Restauración de Bases de Datos
+
+**Curso:** Sistemas de Bases de Datos 2 - Segundo Semestre 2026  
+**Estudiantes:** 
+- Norma Elizabeth Canú Xico - *202300768*
+- [Nombre Compañero 1] ([Carnet 1]) - *Carga 2 (Por Deporte/Evento)*
+- [Nombre Compañero 2] ([Carnet 2]) - *Carga 3 (Por Deportista)*
+
+---
+
+## Índice
+1. [Descripción de la Metodología](#1-descripción-de-la-metodología)
+2. [Especificaciones Técnicas del Servidor](#2-especificaciones-técnicas-del-servidor)
+3. [Modelo Entidad-Relación](#3-modelo-entidad-relación)
+4. [Plan de Respaldo](#4-plan-de-respaldo)
+5. [Ejecución de Cargas y Respaldos Físicos](#5-ejecución-de-cargas-y-respaldos-físicos)
+6. [Análisis Comparativo de Resultados](#6-análisis-comparativo-de-resultados)
+7. [Conclusiones](#7-conclusiones)
+8. [Manual de Usuario](#8-manual-de-usuario)
+
+---
+
+## 1. Descripción de la Metodología
+El presente proyecto implementa una estrategia integral de copias de seguridad y recuperación (Disaster Recovery) para una base de datos relacional PostgreSQL contenerizada mediante Docker. Se abandonó el uso de herramientas de volcado lógico (dumps) en favor de respaldos físicos a nivel de sistema de archivos, garantizando la recuperación en un punto en el tiempo (PITR) y la consistencia transaccional. La metodología se divide en tres fases de carga diferenciadas para validar el comportamiento del motor ante el crecimiento transaccional.
+
+## 2. Especificaciones Técnicas del Servidor
+- **Sistema Operativo (Host):** Ubuntu Linux
+- **Motor de Base de Datos:** PostgreSQL 17 (Imagen `postgres:17-alpine`)
+- **Contenerización:** Docker Compose con volúmenes persistentes (`./pgdata` y `./backups`)
+- **Configuración del Motor:**
+  - `archive_mode = on` (Habilitado para permitir respaldos incrementales)
+  - `wal_level = replica`
+  - `summarize_wal = on`
+
+## 3. Modelo Entidad-Relación
+![Modelo](images/ModeloFinal.png)
+
+## 4. Plan de Respaldo
+La política de continuity operativa establece la ejecución de un **Full Backup** (Copia de Seguridad Completa) tras la estabilización de los catálogos iniciales. Posteriormente, se capturan las modificaciones transaccionales mediante **Backups Incrementales** físicos leyendo los manifiestos de respaldo (`backup_manifest`). Todos los archivos se almacenan físicamente en el volumen mapeado localmente en el directorio `/backups`.
+
+---
+
+## 5. Ejecución de Cargas y Respaldos Físicos
+
+### 5.1 Carga 1: Por Año (Norma Canú Xico - 202300768)
+Se realizaron tres fases de carga insertando la información histórica de forma progresiva.
+
+**A. Carga Inicial (Histórico hasta 2012)**
+- **Comando de respaldo ejecutado:**
+  ```bash
+  pg_basebackup -U postgres -D /backups/00_completo -Fp -Xs -v -P
+  ```
+- **Evidencias de Carga y Backup:**
+  ![Validación Carga 2012](images/01_Carga_2012_Validacion.png)
+  ![Directorio Full Backup](images/05_Backup_Full_Directorio.png)
+
+**B. Primera Carga Incremental (Año 2016)**
+- **Comando de respaldo diferencial ejecutado:**
+  ```bash
+  pg_basebackup -U postgres -D /backups/01_incremental --incremental=/backups/00_completo/backup_manifest -Fp -Xs -v -P
+  ```
+- **Evidencias de Carga y Backup:**
+  ![Validación Carga 2016](images/06_Carga_2016_Validacion.png)
+  ![Directorio Incremental 1](images/10_Backup_Inc1_Directorio.png)
+
+**C. Segunda Carga Incremental (Año 2020)**
+- **Comando de respaldo diferencial encadenado:**
+  ```bash
+  pg_basebackup -U postgres -D /backups/02_incremental --incremental=/backups/01_incremental/backup_manifest -Fp -Xs -v -P
+  ```
+- **Evidencias de Carga y Backup:**
+  ![Validación Carga 2020](images/11_Carga_2020_Validacion.png)
+  ![Directorio Incremental 2](images/12_Backup_Inc2_Directorio.png)
+
+**D. Pruebas de Restauración y Validación de Integridad**
+- **Restauración Full Backup (0.86s):**
+  ![Tiempo Restauración Full](images/restauracion.png)
+  *Comprobación de datos restaurados:*
+  ![Comprobación Full 1](images/comprobacion_restauracion1.png)
+  ![Comprobación Full 2](images/comprobacion_restauracion2.png)
+  ![Comprobación Full 3](images/comprobacion_restauracion3.png)
+  ![Comprobación Full 4](images/comprobacion_restauracion4.png)
+
+- **Restauración Full + Incrementales (3.73s):**
+  ![Tiempo Restauración Incrementales](images/Restauración%20FULL_INCREMENTALES.png)
+  *Comprobación de datos restaurados:*
+  ![Comprobación Inc 1](images/comprobacion_restauracion_incrementales1.png)
+  ![Comprobación Inc 2](images/comprobacion_restauracion_incrementales2.png)
+  ![Comprobación Inc 3](images/comprobacion_restauracion_incrementales3.png)
+  ![Comprobación Inc 4](images/comprobacion_restauracion_incrementales4.png)
+
+### 5.2 Carga 2: Por Deporte / Evento ([Nombre Compañero 1])
+*[Espacio para detallar los comandos ejecutados, capturas de base de datos y consola correspondientes a la segunda agrupación]*
+
+### 5.3 Carga 3: Por Deportista ([Nombre Compañero 2])
+*[Espacio para detallar los comandos ejecutados, capturas de base de datos y consola correspondientes a la tercera agrupación]*
+
+---
+
+## 6. Análisis Comparativo de Resultados
+
+La siguiente tabla expone los tiempos métricos de restauración (RTO - Recovery Time Objective) extraídos al destruir completamente el volumen de datos (`pgdata`) y reconstruirlo desde los respaldos físicos generados.
+
+| Estrategia de Respaldo | Escenario Evaluado | Tiempo de Restauración (RTO) |
+| :--- | :--- | :--- |
+| **Full Backup** | Restauración única del catálogo base (Hasta 2012) | **0.86 segundos** |
+| **Full + Incrementales** | Reconstrucción total encadenando 3 etapas (Hasta 2020) | **3.73 segundos** |
+| *Full Backup (Carga 2)* | *[Datos de Carga 2]* | *[Tiempo s]* |
+| *Full + Inc. (Carga 2)* | *[Datos de Carga 2]* | *[Tiempo s]* |
+| *Full Backup (Carga 3)* | *[Datos de Carga 3]* | *[Tiempo s]* |
+| *Full + Inc. (Carga 3)* | *[Datos de Carga 3]* | *[Tiempo s]* |
+
+**Análisis de Rendimiento (Carga 1):**
+La recuperación desde un Full Backup es casi inmediata (0.86s) ya que el proceso se limita a copiar la estructura de archivos intacta directamente al directorio persistente de PostgreSQL. La estrategia de restauración incremental tomó 3.73s, un tiempo superior justificado por el procesamiento interno de la utilidad `pg_combinebackup`, la cual requiere leer el manifiesto del *Full Backup* y procesar iterativamente los bloques de datos con los archivos WAL (Write-Ahead Logging) generados en 2016 y 2020 antes de iniciar el servicio.
+
+---
+
+## 7. Conclusiones
+1. **La estrategia incremental es estadísticamente óptima a largo plazo.** Aunque penaliza ligeramente el tiempo de recuperación (3.73s vs 0.86s en el Escenario 1), reduce drásticamente la carga de I/O en el servidor de producción y el consumo de almacenamiento durante las ventanas de respaldo diarias.
+2. La implementación de herramientas nativas como `pg_basebackup` garantiza una consistencia a nivel de bloque, evitando los cuellos de botella característicos de las reconstrucciones lógicas (`pg_restore` o inserciones SQL masivas).
+3. *[Conclusión basada en la Carga 2 del compañero 1]*
+4. *[Conclusión basada en la Carga 3 del compañero 2]*
+
+---
+
+## 8. Manual de Usuario (Procedimientos DBA)
+
+### 8.1 Ejecución de Respaldos
+Para ejecutar respaldos físicos, el contenedor de base de datos debe estar activo y con el modo de archivado habilitado.
+1. **Generar Respaldo Completo:**
+   ```bash
+   docker exec [nombre_contenedor] pg_basebackup -U postgres -D /ruta/local/full -Fp -Xs -v -P
+   ```
+2. **Generar Respaldo Incremental:**
+   ```bash
+   docker exec [nombre_contenedor] pg_basebackup -U postgres -D /ruta/local/inc1 --incremental=/ruta/local/full/backup_manifest -Fp -Xs -v -P
+   ```
+
+### 8.2 Proceso de Restauración
+1. Detenga el servicio y elimine completamente el directorio de datos actual (`pgdata`).
+2. Para restaurar **únicamente un Full Backup**, copie los archivos de la carpeta del respaldo hacia el directorio de datos de PostgreSQL y reinicie el servicio.
+3. Para restaurar una **cadena incremental**, combine los archivos utilizando `pg_combinebackup` en un contenedor temporal:
+   ```bash
+   docker run --rm -v [ruta_backups]:/backups -v [ruta_salida]:/restore_combined postgres:17-alpine pg_combinebackup -o /restore_combined /backups/full /backups/inc1 /backups/inc2
+   ```
+4. Copie los archivos combinados resultantes hacia el directorio principal de la base de datos, ajuste los permisos del propietario (`chown -R 70:70` para PostgreSQL en Alpine) y levante el servicio mediante Docker Compose.
